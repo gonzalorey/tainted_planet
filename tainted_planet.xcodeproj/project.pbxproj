@@ -154,11 +154,18 @@
 		0026A7AE14390BE000F2FF6B /* b2RevoluteJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7AD14390BE000F2FF6B /* b2RevoluteJoint.cpp */; };
 		0026A7B114390BE000F2FF6B /* b2WeldJoint.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7B014390BE000F2FF6B /* b2WeldJoint.cpp */; };
 		0026A7B714390BE000F2FF6B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7B614390BE000F2FF6B /* main.m */; };
-		0026A7BA14390BE000F2FF6B /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7B914390BE000F2FF6B /* AppDelegate.mm */; };
-		0026A7BD14390BE000F2FF6B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7BC14390BE000F2FF6B /* RootViewController.m */; };
-		0026A7C014390BE000F2FF6B /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7BF14390BE000F2FF6B /* HelloWorldLayer.mm */; };
-		0026A7C314390BE000F2FF6B /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7C214390BE000F2FF6B /* GLES-Render.mm */; };
 		0026A7C614390BE000F2FF6B /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7C514390BE000F2FF6B /* blocks.png */; };
+		0026A7D314390F9800F2FF6B /* Default_back.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7CC14390F9800F2FF6B /* Default_back.png */; };
+		0026A7D414390F9800F2FF6B /* myfirstbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7CE14390F9800F2FF6B /* myfirstbutton.png */; };
+		0026A7D514390F9900F2FF6B /* myfirstbutton_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7CF14390F9800F2FF6B /* myfirstbutton_selected.png */; };
+		0026A7D614390F9900F2FF6B /* mysecondbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7D014390F9800F2FF6B /* mysecondbutton.png */; };
+		0026A7D714390F9900F2FF6B /* mysecondbutton_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7D114390F9800F2FF6B /* mysecondbutton_selected.png */; };
+		0026A7D814390F9900F2FF6B /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7D214390F9800F2FF6B /* spaceship.png */; };
+		0026A7E71439105D00F2FF6B /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7DC1439105D00F2FF6B /* AppDelegate.mm */; };
+		0026A7E81439105D00F2FF6B /* GLES-Render.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7DF1439105D00F2FF6B /* GLES-Render.mm */; };
+		0026A7E91439105D00F2FF6B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7E11439105D00F2FF6B /* RootViewController.m */; };
+		0026A7EA1439105D00F2FF6B /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7E41439105D00F2FF6B /* HelloWorldLayer.mm */; };
+		0026A7EB1439105D00F2FF6B /* MainMenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7E61439105D00F2FF6B /* MainMenuLayer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -463,16 +470,24 @@
 		0026A7B314390BE000F2FF6B /* LICENSE_Box2D.txt */ = {isa = PBXFileReference; lastKnownFileType = text; name = LICENSE_Box2D.txt; path = libs/LICENSE_Box2D.txt; sourceTree = "<group>"; };
 		0026A7B514390BE000F2FF6B /* Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Prefix.pch; sourceTree = "<group>"; };
 		0026A7B614390BE000F2FF6B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		0026A7B814390BE000F2FF6B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		0026A7B914390BE000F2FF6B /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
-		0026A7BB14390BE000F2FF6B /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
-		0026A7BC14390BE000F2FF6B /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
-		0026A7BE14390BE000F2FF6B /* HelloWorldLayer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
-		0026A7BF14390BE000F2FF6B /* HelloWorldLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
-		0026A7C114390BE000F2FF6B /* GLES-Render.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
-		0026A7C214390BE000F2FF6B /* GLES-Render.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
-		0026A7C414390BE000F2FF6B /* GameConfig.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		0026A7C514390BE000F2FF6B /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = Resources/blocks.png; sourceTree = "<group>"; };
+		0026A7CC14390F9800F2FF6B /* Default_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default_back.png; path = Resources/Default_back.png; sourceTree = "<group>"; };
+		0026A7CE14390F9800F2FF6B /* myfirstbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myfirstbutton.png; sourceTree = "<group>"; };
+		0026A7CF14390F9800F2FF6B /* myfirstbutton_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = myfirstbutton_selected.png; sourceTree = "<group>"; };
+		0026A7D014390F9800F2FF6B /* mysecondbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mysecondbutton.png; sourceTree = "<group>"; };
+		0026A7D114390F9800F2FF6B /* mysecondbutton_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mysecondbutton_selected.png; sourceTree = "<group>"; };
+		0026A7D214390F9800F2FF6B /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spaceship.png; path = Resources/spaceship.png; sourceTree = "<group>"; };
+		0026A7DB1439105D00F2FF6B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0026A7DC1439105D00F2FF6B /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
+		0026A7DD1439105D00F2FF6B /* GameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
+		0026A7DE1439105D00F2FF6B /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
+		0026A7DF1439105D00F2FF6B /* GLES-Render.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
+		0026A7E01439105D00F2FF6B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		0026A7E11439105D00F2FF6B /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		0026A7E31439105D00F2FF6B /* HelloWorldLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HelloWorldLayer.h; sourceTree = "<group>"; };
+		0026A7E41439105D00F2FF6B /* HelloWorldLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
+		0026A7E51439105D00F2FF6B /* MainMenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuLayer.h; sourceTree = "<group>"; };
+		0026A7E61439105D00F2FF6B /* MainMenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuLayer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -529,15 +544,7 @@
 		0026A5F314390BD500F2FF6B /* tainted_planet */ = {
 			isa = PBXGroup;
 			children = (
-				0026A7B814390BE000F2FF6B /* AppDelegate.h */,
-				0026A7B914390BE000F2FF6B /* AppDelegate.mm */,
-				0026A7BB14390BE000F2FF6B /* RootViewController.h */,
-				0026A7BC14390BE000F2FF6B /* RootViewController.m */,
-				0026A7BE14390BE000F2FF6B /* HelloWorldLayer.h */,
-				0026A7BF14390BE000F2FF6B /* HelloWorldLayer.mm */,
-				0026A7C114390BE000F2FF6B /* GLES-Render.h */,
-				0026A7C214390BE000F2FF6B /* GLES-Render.mm */,
-				0026A7C414390BE000F2FF6B /* GameConfig.h */,
+				0026A7D91439105C00F2FF6B /* src */,
 				0026A5F414390BD500F2FF6B /* Resources */,
 				0026A60814390BD600F2FF6B /* libs */,
 				0026A7B414390BE000F2FF6B /* Supporting Files */,
@@ -548,7 +555,10 @@
 		0026A5F414390BD500F2FF6B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0026A7CD14390F9800F2FF6B /* menu */,
 				0026A5F514390BD500F2FF6B /* Default.png */,
+				0026A7CC14390F9800F2FF6B /* Default_back.png */,
+				0026A7D214390F9800F2FF6B /* spaceship.png */,
 				0026A5F714390BD500F2FF6B /* fps_images.png */,
 				0026A5F914390BD500F2FF6B /* Icon-72.png */,
 				0026A5FB14390BD600F2FF6B /* Icon-Small-50.png */,
@@ -1003,6 +1013,52 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		0026A7CD14390F9800F2FF6B /* menu */ = {
+			isa = PBXGroup;
+			children = (
+				0026A7CE14390F9800F2FF6B /* myfirstbutton.png */,
+				0026A7CF14390F9800F2FF6B /* myfirstbutton_selected.png */,
+				0026A7D014390F9800F2FF6B /* mysecondbutton.png */,
+				0026A7D114390F9800F2FF6B /* mysecondbutton_selected.png */,
+			);
+			name = menu;
+			path = Resources/menu;
+			sourceTree = "<group>";
+		};
+		0026A7D91439105C00F2FF6B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				0026A7DA1439105D00F2FF6B /* app */,
+				0026A7E21439105D00F2FF6B /* layers */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		0026A7DA1439105D00F2FF6B /* app */ = {
+			isa = PBXGroup;
+			children = (
+				0026A7DB1439105D00F2FF6B /* AppDelegate.h */,
+				0026A7DC1439105D00F2FF6B /* AppDelegate.mm */,
+				0026A7DD1439105D00F2FF6B /* GameConfig.h */,
+				0026A7DE1439105D00F2FF6B /* GLES-Render.h */,
+				0026A7DF1439105D00F2FF6B /* GLES-Render.mm */,
+				0026A7E01439105D00F2FF6B /* RootViewController.h */,
+				0026A7E11439105D00F2FF6B /* RootViewController.m */,
+			);
+			path = app;
+			sourceTree = "<group>";
+		};
+		0026A7E21439105D00F2FF6B /* layers */ = {
+			isa = PBXGroup;
+			children = (
+				0026A7E31439105D00F2FF6B /* HelloWorldLayer.h */,
+				0026A7E41439105D00F2FF6B /* HelloWorldLayer.mm */,
+				0026A7E51439105D00F2FF6B /* MainMenuLayer.h */,
+				0026A7E61439105D00F2FF6B /* MainMenuLayer.m */,
+			);
+			path = layers;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -1063,6 +1119,12 @@
 				0026A60414390BD600F2FF6B /* Icon@2x.png in Resources */,
 				0026A60714390BD600F2FF6B /* iTunesArtwork in Resources */,
 				0026A7C614390BE000F2FF6B /* blocks.png in Resources */,
+				0026A7D314390F9800F2FF6B /* Default_back.png in Resources */,
+				0026A7D414390F9800F2FF6B /* myfirstbutton.png in Resources */,
+				0026A7D514390F9900F2FF6B /* myfirstbutton_selected.png in Resources */,
+				0026A7D614390F9900F2FF6B /* mysecondbutton.png in Resources */,
+				0026A7D714390F9900F2FF6B /* mysecondbutton_selected.png in Resources */,
+				0026A7D814390F9900F2FF6B /* spaceship.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1203,10 +1265,11 @@
 				0026A7AE14390BE000F2FF6B /* b2RevoluteJoint.cpp in Sources */,
 				0026A7B114390BE000F2FF6B /* b2WeldJoint.cpp in Sources */,
 				0026A7B714390BE000F2FF6B /* main.m in Sources */,
-				0026A7BA14390BE000F2FF6B /* AppDelegate.mm in Sources */,
-				0026A7BD14390BE000F2FF6B /* RootViewController.m in Sources */,
-				0026A7C014390BE000F2FF6B /* HelloWorldLayer.mm in Sources */,
-				0026A7C314390BE000F2FF6B /* GLES-Render.mm in Sources */,
+				0026A7E71439105D00F2FF6B /* AppDelegate.mm in Sources */,
+				0026A7E81439105D00F2FF6B /* GLES-Render.mm in Sources */,
+				0026A7E91439105D00F2FF6B /* RootViewController.m in Sources */,
+				0026A7EA1439105D00F2FF6B /* HelloWorldLayer.mm in Sources */,
+				0026A7EB1439105D00F2FF6B /* MainMenuLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
