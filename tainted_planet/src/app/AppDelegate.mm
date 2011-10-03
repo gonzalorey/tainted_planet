@@ -10,9 +10,9 @@
 
 #import "AppDelegate.h"
 #import "GameConfig.h"
-#import "MainMenuLayer.h"
-#import "HelloWorldLayer.h"
 #import "RootViewController.h"
+#import "GameManager.h"
+#import "Constants.h"
 
 @implementation AppDelegate
 
@@ -112,7 +112,7 @@
 	[self removeStartupFlicker];
 	
 	// Run the intro Scene
-	[[CCDirector sharedDirector] runWithScene: [MainMenuLayer scene]];
+    [[GameManager sharedGameManager] runSceneWithID:kMainMenuScene];
 }
 
 

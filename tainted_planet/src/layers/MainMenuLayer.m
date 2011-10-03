@@ -8,68 +8,72 @@
 
 #import "MainMenuLayer.h"
 
+@interface MainMenuLayer()
+-(void)displayMainMenu;
+-(void)displayLvl1;
+@end
+
 @implementation MainMenuLayer
 
-// method that creates the scene to hold the menu
-+(CCScene *) scene
-{
-	// 'scene' is an autorelease object.
-	CCScene *scene = [CCScene node];
-	
-	// 'layer' is an autorelease object.
-	MainMenuLayer *layer = [MainMenuLayer node];
-	
-	// add layer as a child to scene
-	[scene addChild: layer];
-	
-	// return the scene
-	return scene;
-}
-
-// set up the Menus
--(void) setUpMenus
-{
-    // Create some menu items
-    CCMenuItemImage * menuItem1 = [CCMenuItemImage itemFromNormalImage:@"myfirstbutton.png"
-                                                         selectedImage: @"myfirstbutton_selected.png"
-                                                                target:self
-                                                              selector:@selector(doSomethingOne:)];
-    
-    CCMenuItemImage * menuItem2 = [CCMenuItemImage itemFromNormalImage:@"mysecondbutton.png"
-                                                         selectedImage: @"mysecondbutton_selected.png"
-                                                                target:self
-                                                              selector:@selector(doSomethingTwo:)];
-    
-    // Create a menu and add your menu items to it
-    CCMenu * myMenu = [CCMenu menuWithItems:menuItem1, menuItem2, nil];
-    
-    // Arrange the menu items vertically
-	[myMenu alignItemsVertically];
-    
-    // add the menu to your scene
-    [self addChild:myMenu];
-}
-
--(id) init
-{
-	// always call "super" init
-	// Apple recommends to re-assign "self" with the "super" return value
-	if( (self=[super init])) {
-        [self setUpMenus];
+-(void)playScene:(CCMenuItemFont*)itemPassedIn {
+    if ([itemPassedIn tag] == 1) {
+        CCLOG(@"Tag 1 found, Scene 1");
+        [[GameManager sharedGameManager] runSceneWithID:kGameLevel1];
+    } else {
+        CCLOG(@"Tag was: %d", [itemPassedIn tag]);
+        CCLOG(@"Placeholder for next chapters");
     }
+}
+
+-(void)displayMainMenu {
+    CGSize screenSize = [CCDirector sharedDirector].winSize;
     
+    // Main Menu
+    CCMenuItemImage *playGameButton = [CCMenuItemImage
+                                       itemFromNormalImage:@"PlayGameButtonNormal.png"
+                                       selectedImage:@"PlayGameButtonSelected.png"
+                                       disabledImage:nil
+                                       target:self
+                                       selector:@selector(displayLvl1)];
+    CCMenuItemImage *optionsButton = [CCMenuItemImage
+                                      itemFromNormalImage:@"OptionsButtonNormal.png"
+                                      selectedImage:@"OptionsButtonSelected.png"
+                                      disabledImage:nil
+                                      target:self
+                                      selector:@selector(showOptions)];
+    
+    mainMenu = [CCMenu menuWithItems:playGameButton, optionsButton, nil];
+    [mainMenu alignItemsVerticallyWithPadding:screenSize.height * 0.059f];
+    [mainMenu setPosition: ccp(screenSize.width * 2, screenSize.height / 2)];
+    
+    // selection animation
+    id moveAction = [CCMoveTo actionWithDuration:1.2f 
+                                        position:ccp(screenSize.width * 0.85f, 
+                                                     screenSize.height/2)];
+    id moveEffect = [CCEaseIn actionWithAction:moveAction rate:1.0f];
+    [mainMenu runAction:moveEffect];
+    
+    
+    [self addChild:mainMenu z:0 tag:kMainMenuTagValue];
+}
+
+-(id)init {
+
+    // always call "super" init
+	// Apple recommends to re-assign "self" with the "super" return value
+    self = [super init];
+    if (self != nil) {
+        [self displayMainMenu];
+    }
     return self;
 }
 
-// action to be performed after the first menu item is pressed
-- (void) doSomethingOne: (CCMenuItem  *) menuItem 
-{
-	NSLog(@"The first menu was called");
+-(void)displayLvl1 {
+ 	// Run the first level
+    [[GameManager sharedGameManager] runSceneWithID:kGameLevel1];
 }
 
-// action to be performed after the second menu item is pressed
-- (void) doSomethingTwo: (CCMenuItem  *) menuItem 
-{
-	NSLog(@"The second menu was called");
+-(void)showOptions {
+    // do something...
 }
 @end

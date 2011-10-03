@@ -166,6 +166,14 @@
 		0026A7E91439105D00F2FF6B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7E11439105D00F2FF6B /* RootViewController.m */; };
 		0026A7EA1439105D00F2FF6B /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7E41439105D00F2FF6B /* HelloWorldLayer.mm */; };
 		0026A7EB1439105D00F2FF6B /* MainMenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7E61439105D00F2FF6B /* MainMenuLayer.m */; };
+		0026A7F5143920F700F2FF6B /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7F4143920F700F2FF6B /* GameManager.m */; };
+		0026A7FC14392E0600F2FF6B /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7FB14392E0600F2FF6B /* MainMenuScene.m */; };
+		0026A80114394CBC00F2FF6B /* OptionsButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7FD14394CBC00F2FF6B /* OptionsButtonNormal.png */; };
+		0026A80214394CBC00F2FF6B /* OptionsButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7FE14394CBC00F2FF6B /* OptionsButtonSelected.png */; };
+		0026A80314394CBC00F2FF6B /* PlayGameButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7FF14394CBC00F2FF6B /* PlayGameButtonNormal.png */; };
+		0026A80414394CBC00F2FF6B /* PlayGameButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A80014394CBC00F2FF6B /* PlayGameButtonSelected.png */; };
+		0026A80714395EB500F2FF6B /* Lvl1Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A80614395EB500F2FF6B /* Lvl1Scene.m */; };
+		0026A80A143961FD00F2FF6B /* Lvl1Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A809143961FC00F2FF6B /* Lvl1Layer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -479,7 +487,6 @@
 		0026A7D214390F9800F2FF6B /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spaceship.png; path = Resources/spaceship.png; sourceTree = "<group>"; };
 		0026A7DB1439105D00F2FF6B /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		0026A7DC1439105D00F2FF6B /* AppDelegate.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = AppDelegate.mm; sourceTree = "<group>"; };
-		0026A7DD1439105D00F2FF6B /* GameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		0026A7DE1439105D00F2FF6B /* GLES-Render.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "GLES-Render.h"; sourceTree = "<group>"; };
 		0026A7DF1439105D00F2FF6B /* GLES-Render.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = "GLES-Render.mm"; sourceTree = "<group>"; };
 		0026A7E01439105D00F2FF6B /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
@@ -488,6 +495,20 @@
 		0026A7E41439105D00F2FF6B /* HelloWorldLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HelloWorldLayer.mm; sourceTree = "<group>"; };
 		0026A7E51439105D00F2FF6B /* MainMenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuLayer.h; sourceTree = "<group>"; };
 		0026A7E61439105D00F2FF6B /* MainMenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuLayer.m; sourceTree = "<group>"; };
+		0026A7F1143920F600F2FF6B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
+		0026A7F3143920F700F2FF6B /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		0026A7F4143920F700F2FF6B /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
+		0026A7F814392A4300F2FF6B /* GameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
+		0026A7FA14392E0600F2FF6B /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
+		0026A7FB14392E0600F2FF6B /* MainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
+		0026A7FD14394CBC00F2FF6B /* OptionsButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionsButtonNormal.png; sourceTree = "<group>"; };
+		0026A7FE14394CBC00F2FF6B /* OptionsButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionsButtonSelected.png; sourceTree = "<group>"; };
+		0026A7FF14394CBC00F2FF6B /* PlayGameButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayGameButtonNormal.png; sourceTree = "<group>"; };
+		0026A80014394CBC00F2FF6B /* PlayGameButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayGameButtonSelected.png; sourceTree = "<group>"; };
+		0026A80514395EB500F2FF6B /* Lvl1Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lvl1Scene.h; sourceTree = "<group>"; };
+		0026A80614395EB500F2FF6B /* Lvl1Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lvl1Scene.m; sourceTree = "<group>"; };
+		0026A808143961FC00F2FF6B /* Lvl1Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lvl1Layer.h; sourceTree = "<group>"; };
+		0026A809143961FC00F2FF6B /* Lvl1Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lvl1Layer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1016,6 +1037,10 @@
 		0026A7CD14390F9800F2FF6B /* menu */ = {
 			isa = PBXGroup;
 			children = (
+				0026A7FD14394CBC00F2FF6B /* OptionsButtonNormal.png */,
+				0026A7FE14394CBC00F2FF6B /* OptionsButtonSelected.png */,
+				0026A7FF14394CBC00F2FF6B /* PlayGameButtonNormal.png */,
+				0026A80014394CBC00F2FF6B /* PlayGameButtonSelected.png */,
 				0026A7CE14390F9800F2FF6B /* myfirstbutton.png */,
 				0026A7CF14390F9800F2FF6B /* myfirstbutton_selected.png */,
 				0026A7D014390F9800F2FF6B /* mysecondbutton.png */,
@@ -1029,7 +1054,10 @@
 			isa = PBXGroup;
 			children = (
 				0026A7DA1439105D00F2FF6B /* app */,
+				0026A7F914392DA000F2FF6B /* scenes */,
 				0026A7E21439105D00F2FF6B /* layers */,
+				0026A7F0143920F600F2FF6B /* config */,
+				0026A7F2143920F600F2FF6B /* managers */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -1039,7 +1067,6 @@
 			children = (
 				0026A7DB1439105D00F2FF6B /* AppDelegate.h */,
 				0026A7DC1439105D00F2FF6B /* AppDelegate.mm */,
-				0026A7DD1439105D00F2FF6B /* GameConfig.h */,
 				0026A7DE1439105D00F2FF6B /* GLES-Render.h */,
 				0026A7DF1439105D00F2FF6B /* GLES-Render.mm */,
 				0026A7E01439105D00F2FF6B /* RootViewController.h */,
@@ -1051,12 +1078,45 @@
 		0026A7E21439105D00F2FF6B /* layers */ = {
 			isa = PBXGroup;
 			children = (
-				0026A7E31439105D00F2FF6B /* HelloWorldLayer.h */,
-				0026A7E41439105D00F2FF6B /* HelloWorldLayer.mm */,
 				0026A7E51439105D00F2FF6B /* MainMenuLayer.h */,
 				0026A7E61439105D00F2FF6B /* MainMenuLayer.m */,
+				0026A808143961FC00F2FF6B /* Lvl1Layer.h */,
+				0026A809143961FC00F2FF6B /* Lvl1Layer.m */,
+				0026A7E31439105D00F2FF6B /* HelloWorldLayer.h */,
+				0026A7E41439105D00F2FF6B /* HelloWorldLayer.mm */,
 			);
 			path = layers;
+			sourceTree = "<group>";
+		};
+		0026A7F0143920F600F2FF6B /* config */ = {
+			isa = PBXGroup;
+			children = (
+				0026A7F814392A4300F2FF6B /* GameConfig.h */,
+				0026A7F1143920F600F2FF6B /* Constants.h */,
+			);
+			name = config;
+			path = app/config;
+			sourceTree = "<group>";
+		};
+		0026A7F2143920F600F2FF6B /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				0026A7F3143920F700F2FF6B /* GameManager.h */,
+				0026A7F4143920F700F2FF6B /* GameManager.m */,
+			);
+			name = managers;
+			path = app/managers;
+			sourceTree = "<group>";
+		};
+		0026A7F914392DA000F2FF6B /* scenes */ = {
+			isa = PBXGroup;
+			children = (
+				0026A7FA14392E0600F2FF6B /* MainMenuScene.h */,
+				0026A7FB14392E0600F2FF6B /* MainMenuScene.m */,
+				0026A80514395EB500F2FF6B /* Lvl1Scene.h */,
+				0026A80614395EB500F2FF6B /* Lvl1Scene.m */,
+			);
+			path = scenes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1125,6 +1185,10 @@
 				0026A7D614390F9900F2FF6B /* mysecondbutton.png in Resources */,
 				0026A7D714390F9900F2FF6B /* mysecondbutton_selected.png in Resources */,
 				0026A7D814390F9900F2FF6B /* spaceship.png in Resources */,
+				0026A80114394CBC00F2FF6B /* OptionsButtonNormal.png in Resources */,
+				0026A80214394CBC00F2FF6B /* OptionsButtonSelected.png in Resources */,
+				0026A80314394CBC00F2FF6B /* PlayGameButtonNormal.png in Resources */,
+				0026A80414394CBC00F2FF6B /* PlayGameButtonSelected.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1270,6 +1334,10 @@
 				0026A7E91439105D00F2FF6B /* RootViewController.m in Sources */,
 				0026A7EA1439105D00F2FF6B /* HelloWorldLayer.mm in Sources */,
 				0026A7EB1439105D00F2FF6B /* MainMenuLayer.m in Sources */,
+				0026A7F5143920F700F2FF6B /* GameManager.m in Sources */,
+				0026A7FC14392E0600F2FF6B /* MainMenuScene.m in Sources */,
+				0026A80714395EB500F2FF6B /* Lvl1Scene.m in Sources */,
+				0026A80A143961FD00F2FF6B /* Lvl1Layer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
