@@ -8,7 +8,7 @@
 
 #import "GameManager.h"
 #import "MainMenuLayer.h"
-#import "HelloWorldLayer.h"
+#import "Lvl1Layer.h"
 
 @implementation GameManager
 
@@ -17,7 +17,7 @@ static GameManager* _sharedGameManager = nil;
 
 +(GameManager*) sharedGameManager
 {
-    @synchronized([GameManager* _sharedGameManager])
+    @synchronized([GameManager class])
     {
         if(!_sharedGameManager)
             [[self alloc] init];
@@ -58,10 +58,10 @@ static GameManager* _sharedGameManager = nil;
     id sceneToRun = nil;
     switch (sceneID) {
         case kMainMenuScene:
-            sceneToRun = [MainMenuLayer scene];
+            sceneToRun = [MainMenuLayer node];
             break;
         case kGameLevel1:
-            sceneToRun = [HelloWorldLayer scene];
+            sceneToRun = [Lvl1Layer node];
             break;
         default:
             CCLOG(@"Unknown ID, cannot switch scenes");
