@@ -166,7 +166,6 @@
 		0026A7E91439105D00F2FF6B /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7E11439105D00F2FF6B /* RootViewController.m */; };
 		0026A7EA1439105D00F2FF6B /* HelloWorldLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7E41439105D00F2FF6B /* HelloWorldLayer.mm */; };
 		0026A7EB1439105D00F2FF6B /* MainMenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7E61439105D00F2FF6B /* MainMenuLayer.m */; };
-		0026A7F5143920F700F2FF6B /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7F4143920F700F2FF6B /* GameManager.m */; };
 		0026A7FC14392E0600F2FF6B /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A7FB14392E0600F2FF6B /* MainMenuScene.m */; };
 		0026A80114394CBC00F2FF6B /* OptionsButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7FD14394CBC00F2FF6B /* OptionsButtonNormal.png */; };
 		0026A80214394CBC00F2FF6B /* OptionsButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7FE14394CBC00F2FF6B /* OptionsButtonSelected.png */; };
@@ -174,6 +173,14 @@
 		0026A80414394CBC00F2FF6B /* PlayGameButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A80014394CBC00F2FF6B /* PlayGameButtonSelected.png */; };
 		0026A80714395EB500F2FF6B /* Lvl1Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A80614395EB500F2FF6B /* Lvl1Scene.m */; };
 		0026A80A143961FD00F2FF6B /* Lvl1Layer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0026A809143961FC00F2FF6B /* Lvl1Layer.m */; };
+		0099F9DC143F44E700C1F499 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0099F9D8143F44E700C1F499 /* background1.png */; };
+		0099F9DD143F44E700C1F499 /* planet.png in Resources */ = {isa = PBXBuildFile; fileRef = 0099F9DA143F44E700C1F499 /* planet.png */; };
+		0099F9EA143F452A00C1F499 /* BaseBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099F9E1143F452A00C1F499 /* BaseBackgroundLayer.m */; };
+		0099F9EB143F452A00C1F499 /* BasePlanetaryLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099F9E3143F452A00C1F499 /* BasePlanetaryLayer.m */; };
+		0099F9EC143F452A00C1F499 /* BaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099F9E5143F452A00C1F499 /* BaseScene.m */; };
+		0099F9ED143F452A00C1F499 /* BaseStarshipLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099F9E7143F452A00C1F499 /* BaseStarshipLayer.m */; };
+		0099F9EE143F452A00C1F499 /* BasePlanetSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099F9E9143F452A00C1F499 /* BasePlanetSprite.m */; };
+		0099F9F2143F45A800C1F499 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099F9F1143F45A800C1F499 /* GameManager.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -496,8 +503,6 @@
 		0026A7E51439105D00F2FF6B /* MainMenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuLayer.h; sourceTree = "<group>"; };
 		0026A7E61439105D00F2FF6B /* MainMenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuLayer.m; sourceTree = "<group>"; };
 		0026A7F1143920F600F2FF6B /* Constants.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Constants.h; sourceTree = "<group>"; };
-		0026A7F3143920F700F2FF6B /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
-		0026A7F4143920F700F2FF6B /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
 		0026A7F814392A4300F2FF6B /* GameConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameConfig.h; sourceTree = "<group>"; };
 		0026A7FA14392E0600F2FF6B /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
 		0026A7FB14392E0600F2FF6B /* MainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
@@ -509,6 +514,20 @@
 		0026A80614395EB500F2FF6B /* Lvl1Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lvl1Scene.m; sourceTree = "<group>"; };
 		0026A808143961FC00F2FF6B /* Lvl1Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lvl1Layer.h; sourceTree = "<group>"; };
 		0026A809143961FC00F2FF6B /* Lvl1Layer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lvl1Layer.m; sourceTree = "<group>"; };
+		0099F9D8143F44E700C1F499 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
+		0099F9DA143F44E700C1F499 /* planet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planet.png; sourceTree = "<group>"; };
+		0099F9E0143F452A00C1F499 /* BaseBackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBackgroundLayer.h; sourceTree = "<group>"; };
+		0099F9E1143F452A00C1F499 /* BaseBackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBackgroundLayer.m; sourceTree = "<group>"; };
+		0099F9E2143F452A00C1F499 /* BasePlanetaryLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlanetaryLayer.h; sourceTree = "<group>"; };
+		0099F9E3143F452A00C1F499 /* BasePlanetaryLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePlanetaryLayer.m; sourceTree = "<group>"; };
+		0099F9E4143F452A00C1F499 /* BaseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseScene.h; sourceTree = "<group>"; };
+		0099F9E5143F452A00C1F499 /* BaseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseScene.m; sourceTree = "<group>"; };
+		0099F9E6143F452A00C1F499 /* BaseStarshipLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStarshipLayer.h; sourceTree = "<group>"; };
+		0099F9E7143F452A00C1F499 /* BaseStarshipLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStarshipLayer.m; sourceTree = "<group>"; };
+		0099F9E8143F452A00C1F499 /* BasePlanetSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlanetSprite.h; sourceTree = "<group>"; };
+		0099F9E9143F452A00C1F499 /* BasePlanetSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePlanetSprite.m; sourceTree = "<group>"; };
+		0099F9F0143F45A800C1F499 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
+		0099F9F1143F45A800C1F499 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -576,6 +595,7 @@
 		0026A5F414390BD500F2FF6B /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				0099F9D6143F44E700C1F499 /* Graphics */,
 				0026A7CD14390F9800F2FF6B /* menu */,
 				0026A5F514390BD500F2FF6B /* Default.png */,
 				0026A7CC14390F9800F2FF6B /* Default_back.png */,
@@ -1056,8 +1076,8 @@
 				0026A7DA1439105D00F2FF6B /* app */,
 				0026A7F914392DA000F2FF6B /* scenes */,
 				0026A7E21439105D00F2FF6B /* layers */,
+				0099F9EF143F45A800C1F499 /* managers */,
 				0026A7F0143920F600F2FF6B /* config */,
-				0026A7F2143920F600F2FF6B /* managers */,
 			);
 			path = src;
 			sourceTree = "<group>";
@@ -1098,25 +1118,76 @@
 			path = app/config;
 			sourceTree = "<group>";
 		};
-		0026A7F2143920F600F2FF6B /* managers */ = {
-			isa = PBXGroup;
-			children = (
-				0026A7F3143920F700F2FF6B /* GameManager.h */,
-				0026A7F4143920F700F2FF6B /* GameManager.m */,
-			);
-			name = managers;
-			path = app/managers;
-			sourceTree = "<group>";
-		};
 		0026A7F914392DA000F2FF6B /* scenes */ = {
 			isa = PBXGroup;
 			children = (
+				0099F9DF143F452A00C1F499 /* base */,
+				0099F9E8143F452A00C1F499 /* BasePlanetSprite.h */,
+				0099F9E9143F452A00C1F499 /* BasePlanetSprite.m */,
 				0026A7FA14392E0600F2FF6B /* MainMenuScene.h */,
 				0026A7FB14392E0600F2FF6B /* MainMenuScene.m */,
 				0026A80514395EB500F2FF6B /* Lvl1Scene.h */,
 				0026A80614395EB500F2FF6B /* Lvl1Scene.m */,
 			);
 			path = scenes;
+			sourceTree = "<group>";
+		};
+		0099F9D6143F44E700C1F499 /* Graphics */ = {
+			isa = PBXGroup;
+			children = (
+				0099F9D7143F44E700C1F499 /* Backgrounds */,
+				0099F9D9143F44E700C1F499 /* Planets */,
+				0099F9DB143F44E700C1F499 /* Ships */,
+			);
+			name = Graphics;
+			path = Resources/Graphics;
+			sourceTree = "<group>";
+		};
+		0099F9D7143F44E700C1F499 /* Backgrounds */ = {
+			isa = PBXGroup;
+			children = (
+				0099F9D8143F44E700C1F499 /* background1.png */,
+			);
+			path = Backgrounds;
+			sourceTree = "<group>";
+		};
+		0099F9D9143F44E700C1F499 /* Planets */ = {
+			isa = PBXGroup;
+			children = (
+				0099F9DA143F44E700C1F499 /* planet.png */,
+			);
+			path = Planets;
+			sourceTree = "<group>";
+		};
+		0099F9DB143F44E700C1F499 /* Ships */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Ships;
+			sourceTree = "<group>";
+		};
+		0099F9DF143F452A00C1F499 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				0099F9E0143F452A00C1F499 /* BaseBackgroundLayer.h */,
+				0099F9E1143F452A00C1F499 /* BaseBackgroundLayer.m */,
+				0099F9E2143F452A00C1F499 /* BasePlanetaryLayer.h */,
+				0099F9E3143F452A00C1F499 /* BasePlanetaryLayer.m */,
+				0099F9E4143F452A00C1F499 /* BaseScene.h */,
+				0099F9E5143F452A00C1F499 /* BaseScene.m */,
+				0099F9E6143F452A00C1F499 /* BaseStarshipLayer.h */,
+				0099F9E7143F452A00C1F499 /* BaseStarshipLayer.m */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		0099F9EF143F45A800C1F499 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				0099F9F0143F45A800C1F499 /* GameManager.h */,
+				0099F9F1143F45A800C1F499 /* GameManager.m */,
+			);
+			path = managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1189,6 +1260,8 @@
 				0026A80214394CBC00F2FF6B /* OptionsButtonSelected.png in Resources */,
 				0026A80314394CBC00F2FF6B /* PlayGameButtonNormal.png in Resources */,
 				0026A80414394CBC00F2FF6B /* PlayGameButtonSelected.png in Resources */,
+				0099F9DC143F44E700C1F499 /* background1.png in Resources */,
+				0099F9DD143F44E700C1F499 /* planet.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1334,10 +1407,15 @@
 				0026A7E91439105D00F2FF6B /* RootViewController.m in Sources */,
 				0026A7EA1439105D00F2FF6B /* HelloWorldLayer.mm in Sources */,
 				0026A7EB1439105D00F2FF6B /* MainMenuLayer.m in Sources */,
-				0026A7F5143920F700F2FF6B /* GameManager.m in Sources */,
 				0026A7FC14392E0600F2FF6B /* MainMenuScene.m in Sources */,
 				0026A80714395EB500F2FF6B /* Lvl1Scene.m in Sources */,
 				0026A80A143961FD00F2FF6B /* Lvl1Layer.m in Sources */,
+				0099F9EA143F452A00C1F499 /* BaseBackgroundLayer.m in Sources */,
+				0099F9EB143F452A00C1F499 /* BasePlanetaryLayer.m in Sources */,
+				0099F9EC143F452A00C1F499 /* BaseScene.m in Sources */,
+				0099F9ED143F452A00C1F499 /* BaseStarshipLayer.m in Sources */,
+				0099F9EE143F452A00C1F499 /* BasePlanetSprite.m in Sources */,
+				0099F9F2143F45A800C1F499 /* GameManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1433,6 +1511,7 @@
 				0026A7CB14390BE000F2FF6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
