@@ -6,9 +6,9 @@
 //  Copyright 2011 OLX. All rights reserved.
 //
 
-#import "MainMenuScene.h"
+#import "MainMenuScene_old.h"
 
-@implementation MainMenuScene
+@implementation MainMenuScene_old
 
 - (id)init
 {

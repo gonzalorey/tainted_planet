@@ -13,6 +13,7 @@
 #import "RootViewController.h"
 #import "GameManager.h"
 #import "Constants.h"
+#import "MainMenuScene.h"
 
 @implementation AppDelegate
 

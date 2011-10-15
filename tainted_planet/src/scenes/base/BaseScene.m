@@ -10,7 +10,7 @@
 
 
 @implementation BaseScene
-@synthesize backgroundLayer, planetaryLayer;
+@synthesize backgroundLayer, planetaryLayer, hudLayer;
 
 -(id)init {
     self = [super init]; 
@@ -19,22 +19,36 @@
     
     self.backgroundLayer = [self getBackgroundLayer];
     self.planetaryLayer = [self getPlanetaryLayer];
+    self.hudLayer = [self getHUDLayer];
     
-    [self addChild:backgroundLayer z:0]; 
-
-    [self addChild:self.planetaryLayer z:5];
+    if(self.backgroundLayer)
+        [self addChild:backgroundLayer z:0]; 
+    if(self.planetaryLayer)
+        [self addChild:self.planetaryLayer z:5];
+    if(self.hudLayer)
+        [self addChild:self.hudLayer z:10];
     return self;
 } 
 
 
 -(BaseBackgroundLayer*)getBackgroundLayer
 {
-    BaseBackgroundLayer * layer = [BaseBackgroundLayer node]; 
-    return [layer autorelease];
+  /*  BaseBackgroundLayer * layer = [BaseBackgroundLayer node]; 
+    return [layer autorelease];*/
+    return nil;
 }
 -(BasePlanetaryLayer*)getPlanetaryLayer
 {
-    BasePlanetaryLayer* layer = [BasePlanetaryLayer  node];
+  /*  BasePlanetaryLayer* layer = [BasePlanetaryLayer  node];
+    return [layer autorelease];*/
+    return nil;
+}
+
+-(BaseHUDLayer*)getHUDLayer
+{
+  /*  BaseHUDLayer* layer = [BaseHUDLayer node];
     return [layer autorelease];
+   */
+    return nil;
 }
 @end
