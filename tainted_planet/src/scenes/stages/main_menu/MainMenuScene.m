@@ -8,8 +8,15 @@
 
 #import "MainMenuScene.h"
 #import "MainMenuLayer.h"
+#import "MainMenuBackgroundLayer.h"
 
 @implementation MainMenuScene
+
+-(BaseBackgroundLayer*)getBackgroundLayer
+{
+    MainMenuBackgroundLayer * layer = [MainMenuBackgroundLayer node]; 
+    return [layer autorelease];
+}
 
 -(BaseHUDLayer*)getHUDLayer
 {

@@ -10,31 +10,32 @@
 
 @implementation BaseHUDLayer
 
-@synthesize  menu;
+@synthesize  HUD;
 
 -(id)init{
     self = [super init];
     if(self != nil){
-        self.menu = [self allocMenu];
-        [self initMenu];
-        [self addChild:self.menu z:0 tag:-1];
+        self.HUD = [self allocHUD];
+        [self initHUD];
+        [self addChild:self.HUD z:0 tag:-1];
         
     }
     return self;
 }
 
--(void)initMenu
+-(void)initHUD
 {
     return;
 }
--(CCMenu*)allocMenu
+
+-(CCMenu*)allocHUD
 {
     return nil;
 }
 
 -(void)dealloc
 {
-    [self.menu release];
+    [self.HUD release];
     [super dealloc];
 }
 @end

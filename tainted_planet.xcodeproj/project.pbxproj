@@ -168,8 +168,14 @@
 		0026A80214394CBC00F2FF6B /* OptionsButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7FE14394CBC00F2FF6B /* OptionsButtonSelected.png */; };
 		0026A80314394CBC00F2FF6B /* PlayGameButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A7FF14394CBC00F2FF6B /* PlayGameButtonNormal.png */; };
 		0026A80414394CBC00F2FF6B /* PlayGameButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = 0026A80014394CBC00F2FF6B /* PlayGameButtonSelected.png */; };
+		008B7C94144A289900FDA8FE /* MainMenuBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C93144A289900FDA8FE /* MainMenuBackgroundLayer.m */; };
+		008B7C99144A2E0200FDA8FE /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B7C98144A2E0200FDA8FE /* background2.png */; };
+		008B7C9C144A309800FDA8FE /* Lvl1BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C9B144A309800FDA8FE /* Lvl1BackgroundLayer.m */; };
+		008B7C9F144A33B900FDA8FE /* Lvl1PlanetaryLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C9E144A33B900FDA8FE /* Lvl1PlanetaryLayer.m */; };
+		008B7CA1144A379600FDA8FE /* planet2.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B7CA0144A379600FDA8FE /* planet2.png */; };
+		008B7CA3144A39C200FDA8FE /* planet3.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B7CA2144A39C200FDA8FE /* planet3.png */; };
+		008B7CA6144A3AF100FDA8FE /* Lvl1HUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.m */; };
 		0099F9DC143F44E700C1F499 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0099F9D8143F44E700C1F499 /* background1.png */; };
-		0099F9DD143F44E700C1F499 /* planet.png in Resources */ = {isa = PBXBuildFile; fileRef = 0099F9DA143F44E700C1F499 /* planet.png */; };
 		0099F9F2143F45A800C1F499 /* GameManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 0099F9F1143F45A800C1F499 /* GameManager.m */; };
 		C05ADA4C1447ADA200B93C8D /* BaseBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA381447ADA200B93C8D /* BaseBackgroundLayer.m */; };
 		C05ADA4D1447ADA200B93C8D /* BasePlanetaryLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.m */; };
@@ -506,8 +512,18 @@
 		0026A7FE14394CBC00F2FF6B /* OptionsButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = OptionsButtonSelected.png; sourceTree = "<group>"; };
 		0026A7FF14394CBC00F2FF6B /* PlayGameButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayGameButtonNormal.png; sourceTree = "<group>"; };
 		0026A80014394CBC00F2FF6B /* PlayGameButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = PlayGameButtonSelected.png; sourceTree = "<group>"; };
+		008B7C92144A289900FDA8FE /* MainMenuBackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuBackgroundLayer.h; sourceTree = "<group>"; };
+		008B7C93144A289900FDA8FE /* MainMenuBackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuBackgroundLayer.m; sourceTree = "<group>"; };
+		008B7C98144A2E0200FDA8FE /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background2.png; sourceTree = "<group>"; };
+		008B7C9A144A309800FDA8FE /* Lvl1BackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lvl1BackgroundLayer.h; sourceTree = "<group>"; };
+		008B7C9B144A309800FDA8FE /* Lvl1BackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lvl1BackgroundLayer.m; sourceTree = "<group>"; };
+		008B7C9D144A33B900FDA8FE /* Lvl1PlanetaryLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lvl1PlanetaryLayer.h; sourceTree = "<group>"; };
+		008B7C9E144A33B900FDA8FE /* Lvl1PlanetaryLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lvl1PlanetaryLayer.m; sourceTree = "<group>"; };
+		008B7CA0144A379600FDA8FE /* planet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planet2.png; sourceTree = "<group>"; };
+		008B7CA2144A39C200FDA8FE /* planet3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planet3.png; sourceTree = "<group>"; };
+		008B7CA4144A3AEF00FDA8FE /* Lvl1HUDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lvl1HUDLayer.h; sourceTree = "<group>"; };
+		008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lvl1HUDLayer.m; sourceTree = "<group>"; };
 		0099F9D8143F44E700C1F499 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
-		0099F9DA143F44E700C1F499 /* planet.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planet.png; sourceTree = "<group>"; };
 		0099F9F0143F45A800C1F499 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
 		0099F9F1143F45A800C1F499 /* GameManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameManager.m; sourceTree = "<group>"; };
 		C05ADA371447ADA200B93C8D /* BaseBackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBackgroundLayer.h; sourceTree = "<group>"; };
@@ -1125,6 +1141,7 @@
 			isa = PBXGroup;
 			children = (
 				0099F9D8143F44E700C1F499 /* background1.png */,
+				008B7C98144A2E0200FDA8FE /* background2.png */,
 			);
 			path = Backgrounds;
 			sourceTree = "<group>";
@@ -1132,7 +1149,8 @@
 		0099F9D9143F44E700C1F499 /* Planets */ = {
 			isa = PBXGroup;
 			children = (
-				0099F9DA143F44E700C1F499 /* planet.png */,
+				008B7CA0144A379600FDA8FE /* planet2.png */,
+				008B7CA2144A39C200FDA8FE /* planet3.png */,
 			);
 			path = Planets;
 			sourceTree = "<group>";
@@ -1201,6 +1219,8 @@
 				C05ADA591447B14100B93C8D /* MainMenuScene.m */,
 				C05ADA5B1447B16C00B93C8D /* MainMenuLayer.h */,
 				C05ADA5C1447B16D00B93C8D /* MainMenuLayer.m */,
+				008B7C92144A289900FDA8FE /* MainMenuBackgroundLayer.h */,
+				008B7C93144A289900FDA8FE /* MainMenuBackgroundLayer.m */,
 			);
 			path = main_menu;
 			sourceTree = "<group>";
@@ -1212,6 +1232,12 @@
 				C05ADA491447ADA200B93C8D /* Lvl1Layer.m */,
 				C05ADA4A1447ADA200B93C8D /* Lvl1Scene.h */,
 				C05ADA4B1447ADA200B93C8D /* Lvl1Scene.m */,
+				008B7C9A144A309800FDA8FE /* Lvl1BackgroundLayer.h */,
+				008B7C9B144A309800FDA8FE /* Lvl1BackgroundLayer.m */,
+				008B7C9D144A33B900FDA8FE /* Lvl1PlanetaryLayer.h */,
+				008B7C9E144A33B900FDA8FE /* Lvl1PlanetaryLayer.m */,
+				008B7CA4144A3AEF00FDA8FE /* Lvl1HUDLayer.h */,
+				008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.m */,
 			);
 			path = stage1;
 			sourceTree = "<group>";
@@ -1287,7 +1313,9 @@
 				0026A80314394CBC00F2FF6B /* PlayGameButtonNormal.png in Resources */,
 				0026A80414394CBC00F2FF6B /* PlayGameButtonSelected.png in Resources */,
 				0099F9DC143F44E700C1F499 /* background1.png in Resources */,
-				0099F9DD143F44E700C1F499 /* planet.png in Resources */,
+				008B7C99144A2E0200FDA8FE /* background2.png in Resources */,
+				008B7CA1144A379600FDA8FE /* planet2.png in Resources */,
+				008B7CA3144A39C200FDA8FE /* planet3.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1444,6 +1472,10 @@
 				C05ADA571447AF6600B93C8D /* BaseHUDLayer.m in Sources */,
 				C05ADA5A1447B14200B93C8D /* MainMenuScene.m in Sources */,
 				C05ADA5D1447B16D00B93C8D /* MainMenuLayer.m in Sources */,
+				008B7C94144A289900FDA8FE /* MainMenuBackgroundLayer.m in Sources */,
+				008B7C9C144A309800FDA8FE /* Lvl1BackgroundLayer.m in Sources */,
+				008B7C9F144A33B900FDA8FE /* Lvl1PlanetaryLayer.m in Sources */,
+				008B7CA6144A3AF100FDA8FE /* Lvl1HUDLayer.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -1,17 +1,17 @@
 //
-//  HelloWorldScene.h
+//  Lvl1HUDLayer.h
 //  tainted_planet
 //
-//  Created by Gonzalo Rey on 10/3/11.
+//  Created by Gonzalo Rey on 10/15/11.
 //  Copyright 2011 OLX. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
-#import "BaseScene.h"
+#import "BaseHUDLayer.h"
 
-@interface Lvl1Scene : BaseScene {
-
+@interface Lvl1HUDLayer : BaseHUDLayer {
+    
 }
 
 @end

@@ -28,6 +28,7 @@
 
 -(NSString*)getBackgroundImageName
 {
-    return @"background1.png";
+  //  return @"background1.png";
+    return nil;
 }
 @end

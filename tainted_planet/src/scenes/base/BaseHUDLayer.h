@@ -13,14 +13,14 @@
 
 @interface BaseHUDLayer : CCLayer {
         
-    CCMenu* menu;
+    CCMenu* HUD;
 }
 
 
-@property (nonatomic, retain) CCMenu* menu;
+@property (nonatomic, retain) CCMenu* HUD;
 
--(void)initMenu;
--(CCMenu*)allocMenu;
+-(void)initHUD;
+-(CCMenu*)allocHUD;
 
 
 @end
