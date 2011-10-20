@@ -7,15 +7,16 @@
 //
 
 #import "MainMenuLayer.h"
+#import "GameManager.h"
 
 
 @implementation MainMenuLayer
 
--(CCMenu*)allocMenu
+-(CCMenu*)allocHUD
 {
 
     CCMenu* mymenu;
-    // Main Menu
+    
     CCMenuItemImage *playGameButton = [CCMenuItemImage
                                        itemFromNormalImage:@"PlayGameButtonNormal.png"
                                        selectedImage:@"PlayGameButtonSelected.png"
@@ -31,25 +32,24 @@
                                       selector:@selector(credits)];
     
     mymenu = [CCMenu menuWithItems:playGameButton,optionsButton, nil];
-    
     return [mymenu autorelease];
     
 
 }
 
--(void)initMenu
+-(void)initHUD
 {
     CGSize screenSize = [CCDirector sharedDirector].winSize;
 
-    [self.menu alignItemsVerticallyWithPadding:screenSize.height * 0.059f];
-    [self.menu setPosition: ccp(screenSize.width / 2, screenSize.height / 2)];
+    [self.HUD alignItemsVerticallyWithPadding:screenSize.height * 0.059f];
+    [self.HUD setPosition: ccp(screenSize.width / 2, screenSize.height / 2)];
     
     // selection animation
     id moveAction = [CCMoveTo actionWithDuration:1.2f 
                                         position:ccp(screenSize.width * 0.85f, 
                                                      screenSize.height/2)];
     id moveEffect = [CCEaseIn actionWithAction:moveAction rate:1.0f];
-    [self.menu runAction:moveEffect];
+    [self.HUD runAction:moveEffect];
     
     
 }
@@ -57,6 +57,9 @@
 
 -(void)startGame{
     NSLog(@"Start Game");
+    
+    // Load the Lvl1
+    [[GameManager sharedGameManager] runSceneWithID:kGameLevel1];
 }
 -(void)credits{
     NSLog(@"Credits");

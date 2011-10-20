@@ -8,7 +8,7 @@
 
 #import "GameManager.h"
 #import "MainMenuScene.h"
-#import "Lvl1Layer.h"
+#import "Lvl1Scene.h"
 
 
 @implementation GameManager
@@ -62,7 +62,7 @@ static GameManager* _sharedGameManager = nil;
             sceneToRun = [MainMenuScene node];
             break;
         case kGameLevel1:
-            sceneToRun = [Lvl1Layer node];
+            sceneToRun = [Lvl1Scene node];
             break;
         default:
             CCLOG(@"Unknown ID, cannot switch scenes");

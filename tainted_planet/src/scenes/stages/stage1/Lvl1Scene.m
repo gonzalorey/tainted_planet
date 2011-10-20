@@ -7,18 +7,28 @@
 //
 
 #import "Lvl1Scene.h"
+#import "Lvl1BackgroundLayer.h"
+#import "Lvl1PlanetaryLayer.h"
+#import "Lvl1HUDLayer.h"
 
 @implementation Lvl1Scene
 
-- (id)init
+-(BaseBackgroundLayer*)getBackgroundLayer
 {
-    self = [super init];
-    if (self) {
-        lvl1Layer = [Lvl1Layer node];
-        [self addChild:lvl1Layer];
-    }
-    
-    return self;
+    Lvl1BackgroundLayer* layer = [Lvl1BackgroundLayer node];
+    return [layer autorelease];
+}
+
+-(BasePlanetaryLayer*)getPlanetaryLayer
+{
+    Lvl1PlanetaryLayer* layer = [Lvl1PlanetaryLayer  node];
+    return [layer autorelease];
+}
+
+-(BaseHUDLayer *)getHUDLayer
+{
+    Lvl1HUDLayer* layer = [Lvl1HUDLayer node];
+    return [layer autorelease];
 }
 
 @end

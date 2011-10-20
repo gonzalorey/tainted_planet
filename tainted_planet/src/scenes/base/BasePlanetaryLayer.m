@@ -29,10 +29,11 @@
 
 -(NSMutableArray*)getPlanets
 { 
-    CGSize screenSize = [[CCDirector sharedDirector] winSize];
-    NSMutableArray* myplanets= [[NSMutableArray alloc]init];
-    [myplanets addObject:[[BasePlanetSprite alloc] initWithMass:10 Radius:0.5f pos: CGPointMake(screenSize.width/2.0f, screenSize.height/2)file:@"planet.png"]];
-
-     return [myplanets autorelease];
+//    CGSize screenSize = [[CCDirector sharedDirector] winSize];
+//    NSMutableArray* myplanets= [[NSMutableArray alloc]init];
+//    [myplanets addObject:[[BasePlanetSprite alloc] initWithMass:10 Radius:0.5f pos: CGPointMake(screenSize.width/2.0f, screenSize.height/2)file:@"planet.png"]];
+//
+//     return [myplanets autorelease];
+    return nil;
 }
 @end
