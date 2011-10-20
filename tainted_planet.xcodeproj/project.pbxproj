@@ -183,6 +183,7 @@
 		C05ADA571447AF6600B93C8D /* BaseHUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA561447AF6500B93C8D /* BaseHUDLayer.m */; };
 		C05ADA5A1447B14200B93C8D /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA591447B14100B93C8D /* MainMenuScene.m */; };
 		C05ADA5D1447B16D00B93C8D /* MainMenuLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA5C1447B16D00B93C8D /* MainMenuLayer.m */; };
+		C08A08AB144A344A00978E5C /* BaseShip.m in Sources */ = {isa = PBXBuildFile; fileRef = C08A08AA144A344A00978E5C /* BaseShip.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -534,6 +535,8 @@
 		C05ADA591447B14100B93C8D /* MainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
 		C05ADA5B1447B16C00B93C8D /* MainMenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuLayer.h; sourceTree = "<group>"; };
 		C05ADA5C1447B16D00B93C8D /* MainMenuLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuLayer.m; sourceTree = "<group>"; };
+		C08A08A9144A344900978E5C /* BaseShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseShip.h; sourceTree = "<group>"; };
+		C08A08AA144A344A00978E5C /* BaseShip.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseShip.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -1177,6 +1180,8 @@
 				C05ADA401447ADA200B93C8D /* BaseStarshipLayer.m */,
 				C05ADA551447AF6500B93C8D /* BaseHUDLayer.h */,
 				C05ADA561447AF6500B93C8D /* BaseHUDLayer.m */,
+				C08A08A9144A344900978E5C /* BaseShip.h */,
+				C08A08AA144A344A00978E5C /* BaseShip.m */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -1444,6 +1449,7 @@
 				C05ADA571447AF6600B93C8D /* BaseHUDLayer.m in Sources */,
 				C05ADA5A1447B14200B93C8D /* MainMenuScene.m in Sources */,
 				C05ADA5D1447B16D00B93C8D /* MainMenuLayer.m in Sources */,
+				C08A08AB144A344A00978E5C /* BaseShip.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
