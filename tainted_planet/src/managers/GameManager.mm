@@ -97,6 +97,21 @@ static GameManager* _sharedGameManager = nil;
     } else {
         [[CCDirector sharedDirector] replaceScene:sceneToRun];
     }
+
 }
 
+-(BaseWorld*)getRunningWorld
+{
+    CCScene* currentscene = [[CCDirector sharedDirector] runningScene];
+    if([currentscene class] == [BaseWorld class])
+        return (BaseWorld*) currentscene;
+    else
+        return nil;
+}
+
+-(BaseScene*)getRunningScene
+{
+
+    return nil;
+}
 @end

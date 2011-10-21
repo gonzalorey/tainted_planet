@@ -8,7 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import "Constants.h"
-
+#import "BaseScene.h"
+#import "BaseWorld.h"
 
 @interface GameManager : NSObject {
         SceneTypes currentScene;
@@ -16,5 +17,7 @@
 
 +(GameManager*)sharedGameManager;
 -(void)runSceneWithID:(SceneTypes)sceneID;
+-(BaseWorld*)getRunningWorld;
+-(BaseScene*)getRunningScene;
 
 @end
