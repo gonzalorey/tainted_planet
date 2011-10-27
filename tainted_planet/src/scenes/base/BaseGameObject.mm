@@ -11,16 +11,21 @@
 
 
 @implementation BaseGameObject
-@synthesize mass, position, filename, body;
+@synthesize mass, filename, body;
 
--(id)initWithMass:(float)m pos:(CGPoint)p scale:(float)s file:(NSString *)afilename
+-(id)initWithMass:(float)m scale:(float)s pos:(CGPoint)p file:(NSString *)afilename
 {
     [super initWithFile:afilename];
     self.mass = m;
     self.scale = s;
     self.position =  p;
-    self = [self initPhysics];
+    //self = [self initPhysics];
     return self;
+}
+
+-(b2Shape*)getShape
+{
+    return nil;
 }
 
 -(id)initPhysics
@@ -29,6 +34,16 @@
     bodyDef.type = b2_kinematicBody;
     bodyDef.position.Set(100/PTM_RATIO, 100/PTM_RATIO);
     bodyDef.userData = self;
+    b2Shape* f = [self getShape];
+
+    // Create shape definition and add to body
+    b2FixtureDef shapeDef;
+    shapeDef.shape = f;
+    shapeDef.density = 1.0f;
+    shapeDef.friction = 0.f;
+    shapeDef.restitution = 1.0f;
+    //_ballFixture = ballBody->CreateFixture(&ballShapeDef);
+
 
    // b2Body * mybody = _world->CreateBody(&bodyDef);
     [[[GameManager sharedGameManager] getRunningWorld] _world]->CreateBody(&bodyDef);
@@ -50,5 +65,6 @@
     ballShapeDef.restitution = 1.0f;
     _ballFixture = ballBody->CreateFixture(&ballShapeDef);
     return self;*/
+    return self;
 }
 @end

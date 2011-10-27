@@ -14,7 +14,6 @@
 
 @interface BaseGameObject : CCSprite {
     float mass;
-
     NSString* filename;
     b2Body* body;
 }
@@ -23,6 +22,7 @@
 @property (nonatomic, retain) NSString* filename;
 @property (nonatomic, assign) b2Body* body;
 
--(id)initWithMass:(float)m pos:(CGPoint)p scale:(float) s file:(NSString *)afilename;
+-(id)initWithMass:(float)m scale:(float)s pos:(CGPoint)p file:(NSString *)afilename;
+-(b2Shape*)getShape;
 -(id)initPhysics;
 @end
