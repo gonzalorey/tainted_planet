@@ -11,7 +11,7 @@
 #import "BaseScene.h"
 #import "Box2D.h"
 
-
+#define PTM_RATIO 32
 
 @interface BaseWorld : BaseScene {
     b2World *_world;
@@ -19,5 +19,7 @@
 }
 
 @property (nonatomic, assign) b2World* _world;
+
+-(void)tick:(ccTime)dt;
 
 @end

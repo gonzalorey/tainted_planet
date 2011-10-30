@@ -8,9 +8,9 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
-#import "BaseScene.h"
+#import "BaseWorld.h"
 
-@interface Lvl1Scene : BaseScene {
+@interface Lvl1World : BaseWorld {
 
 }
 

@@ -16,13 +16,15 @@
     float mass;
     NSString* filename;
     b2Body* body;
+    b2Fixture* bodyFixture;
 }
 
 @property (nonatomic, assign) float mass;
 @property (nonatomic, retain) NSString* filename;
 @property (nonatomic, assign) b2Body* body;
+@property (nonatomic, assign) b2Fixture* bodyFixture;
 
 -(id)initWithMass:(float)m scale:(float)s pos:(CGPoint)p file:(NSString *)afilename;
--(b2Shape*)getShape;
 -(id)initPhysics;
+-(b2Shape*)getShape;
 @end

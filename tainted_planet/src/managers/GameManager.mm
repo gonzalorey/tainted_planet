@@ -8,7 +8,7 @@
 
 #import "GameManager.h"
 #import "MainMenuScene.h"
-#import "Lvl1Scene.h"
+#import "Lvl1World.h"
 
 
 @implementation GameManager
@@ -62,7 +62,7 @@ static GameManager* _sharedGameManager = nil;
             sceneToRun = [MainMenuScene node];
             break;
         case kGameLevel1:
-            sceneToRun = [Lvl1Scene node];
+            sceneToRun = [Lvl1World node];
             break;
         default:
             CCLOG(@"Unknown ID, cannot switch scenes");
@@ -102,16 +102,15 @@ static GameManager* _sharedGameManager = nil;
 
 -(BaseWorld*)getRunningWorld
 {
-    CCScene* currentscene = [[CCDirector sharedDirector] runningScene];
-    if([currentscene class] == [BaseWorld class])
-        return (BaseWorld*) currentscene;
+    CCScene* scene = [self getRunningScene];
+    if([scene class] == [BaseWorld class])
+        return (BaseWorld*) scene;
     else
         return nil;
 }
 
 -(BaseScene*)getRunningScene
 {
-
-    return nil;
+    return (BaseScene*)[[CCDirector sharedDirector] runningScene];
 }
 @end

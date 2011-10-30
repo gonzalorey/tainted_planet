@@ -185,7 +185,7 @@
 		C05ADA511447ADA200B93C8D /* MainMenuLayer_old.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA441447ADA200B93C8D /* MainMenuLayer_old.mm */; };
 		C05ADA521447ADA200B93C8D /* MainMenuScene_old.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA461447ADA200B93C8D /* MainMenuScene_old.m */; };
 		C05ADA531447ADA200B93C8D /* Lvl1Layer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA491447ADA200B93C8D /* Lvl1Layer.mm */; };
-		C05ADA541447ADA200B93C8D /* Lvl1Scene.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA4B1447ADA200B93C8D /* Lvl1Scene.m */; };
+		C05ADA541447ADA200B93C8D /* Lvl1World.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA4B1447ADA200B93C8D /* Lvl1World.mm */; };
 		C05ADA571447AF6600B93C8D /* BaseHUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA561447AF6500B93C8D /* BaseHUDLayer.m */; };
 		C05ADA5A1447B14200B93C8D /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA591447B14100B93C8D /* MainMenuScene.m */; };
 		C05ADA5D1447B16D00B93C8D /* MainMenuLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA5C1447B16D00B93C8D /* MainMenuLayer.mm */; };
@@ -546,8 +546,8 @@
 		C05ADA461447ADA200B93C8D /* MainMenuScene_old.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene_old.m; sourceTree = "<group>"; };
 		C05ADA481447ADA200B93C8D /* Lvl1Layer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lvl1Layer.h; sourceTree = "<group>"; };
 		C05ADA491447ADA200B93C8D /* Lvl1Layer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Lvl1Layer.mm; sourceTree = "<group>"; };
-		C05ADA4A1447ADA200B93C8D /* Lvl1Scene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lvl1Scene.h; sourceTree = "<group>"; };
-		C05ADA4B1447ADA200B93C8D /* Lvl1Scene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lvl1Scene.m; sourceTree = "<group>"; };
+		C05ADA4A1447ADA200B93C8D /* Lvl1World.h */ = {isa = PBXFileReference; fileEncoding = 4; path = Lvl1World.h; sourceTree = "<group>"; };
+		C05ADA4B1447ADA200B93C8D /* Lvl1World.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Lvl1World.mm; sourceTree = "<group>"; };
 		C05ADA551447AF6500B93C8D /* BaseHUDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseHUDLayer.h; sourceTree = "<group>"; };
 		C05ADA561447AF6500B93C8D /* BaseHUDLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseHUDLayer.m; sourceTree = "<group>"; };
 		C05ADA581447B14100B93C8D /* MainMenuScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene.h; sourceTree = "<group>"; };
@@ -1250,8 +1250,8 @@
 			children = (
 				C05ADA481447ADA200B93C8D /* Lvl1Layer.h */,
 				C05ADA491447ADA200B93C8D /* Lvl1Layer.mm */,
-				C05ADA4A1447ADA200B93C8D /* Lvl1Scene.h */,
-				C05ADA4B1447ADA200B93C8D /* Lvl1Scene.m */,
+				C05ADA4A1447ADA200B93C8D /* Lvl1World.h */,
+				C05ADA4B1447ADA200B93C8D /* Lvl1World.mm */,
 				008B7C9A144A309800FDA8FE /* Lvl1BackgroundLayer.h */,
 				008B7C9B144A309800FDA8FE /* Lvl1BackgroundLayer.m */,
 				008B7C9D144A33B900FDA8FE /* Lvl1PlanetaryLayer.h */,
@@ -1488,7 +1488,7 @@
 				C05ADA511447ADA200B93C8D /* MainMenuLayer_old.mm in Sources */,
 				C05ADA521447ADA200B93C8D /* MainMenuScene_old.m in Sources */,
 				C05ADA531447ADA200B93C8D /* Lvl1Layer.mm in Sources */,
-				C05ADA541447ADA200B93C8D /* Lvl1Scene.m in Sources */,
+				C05ADA541447ADA200B93C8D /* Lvl1World.mm in Sources */,
 				C05ADA571447AF6600B93C8D /* BaseHUDLayer.m in Sources */,
 				C05ADA5A1447B14200B93C8D /* MainMenuScene.m in Sources */,
 				C05ADA5D1447B16D00B93C8D /* MainMenuLayer.mm in Sources */,
@@ -1557,6 +1557,7 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = 1;
 				USER_HEADER_SEARCH_PATHS = "\"tainted_planet/libs\"";
+				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;

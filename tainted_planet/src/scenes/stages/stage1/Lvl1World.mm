@@ -6,12 +6,12 @@
 //  Copyright 2011 OLX. All rights reserved.
 //
 
-#import "Lvl1Scene.h"
+#import "Lvl1World.h"
 #import "Lvl1BackgroundLayer.h"
 #import "Lvl1PlanetaryLayer.h"
 #import "Lvl1HUDLayer.h"
 
-@implementation Lvl1Scene
+@implementation Lvl1World
 
 -(BaseBackgroundLayer*)getBackgroundLayer
 {
