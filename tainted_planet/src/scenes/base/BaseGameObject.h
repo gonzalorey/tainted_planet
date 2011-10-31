@@ -17,6 +17,7 @@
     NSString* filename;
     b2Body* body;
     b2Fixture* bodyFixture;
+    bool need_to_create;
 }
 
 @property (nonatomic, assign) float mass;
