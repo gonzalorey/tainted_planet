@@ -18,13 +18,12 @@
     }
     
     self.backgroundLayer = [self getBackgroundLayer];
-    self.planetaryLayer = [self getPlanetaryLayer];
+
     self.hudLayer = [self getHUDLayer];
     
     if(self.backgroundLayer)
         [self addChild:backgroundLayer z:0]; 
-    if(self.planetaryLayer)
-        [self addChild:self.planetaryLayer z:5];
+
     if(self.hudLayer)
         [self addChild:self.hudLayer z:10];
     return self;

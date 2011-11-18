@@ -15,11 +15,14 @@
 
 @interface BaseWorld : BaseScene {
     b2World *_world;
-
+    bool objectsInitialized;
 }
 
 @property (nonatomic, assign) b2World* _world;
+@property (nonatomic, assign) bool objectsInitialized;
 
+-(void)initGameObjects;
+-(void)start;
 -(void)tick:(ccTime)dt;
 
 @end

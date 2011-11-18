@@ -92,6 +92,7 @@ static GameManager* _sharedGameManager = nil;
         }
     }
     
+
     if ([[CCDirector sharedDirector] runningScene] == nil) {
         [[CCDirector sharedDirector] runWithScene:sceneToRun];
     } else {
@@ -103,7 +104,7 @@ static GameManager* _sharedGameManager = nil;
 -(BaseWorld*)getRunningWorld
 {
     CCScene* scene = [self getRunningScene];
-    if([scene class] == [BaseWorld class])
+    if([scene isKindOfClass:[BaseWorld class]])
         return (BaseWorld*) scene;
     else
         return nil;

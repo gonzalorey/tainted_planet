@@ -39,7 +39,7 @@
     bodyDef.userData = self;
     
     need_to_create = YES;
-    /*
+    
 //    bodyDef.userData = ball;
     b2World* world = [[[GameManager sharedGameManager] getRunningWorld] _world]; 
     body = world->CreateBody(&bodyDef);
@@ -59,7 +59,7 @@
 
     // Apply the force to the game object
     b2Vec2 force = b2Vec2(10, 10);
-    body->ApplyLinearImpulse(force, bodyDef.position);*/
+    body->ApplyLinearImpulse(force, bodyDef.position);
 
     return self;
 }
