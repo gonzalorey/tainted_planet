@@ -1,0 +1,33 @@
+
+
+----------------   TAINTED PLANET VISION ------------------------------
+
+A vision should have the following:
+
+-What the project should accomplish
+-Why the project deserves to exist
+-Success Criteria
+
+
+WHAT?
+
+Tainted Planet is a casual video game designed for the iphone. It is a both a fun and simple game
+that lets users play with gravity to navigate. 
+
+
+WHY? 
+
+Not do only we want to do it....but no such game exists anyways! It will be an interesting opportunity
+to implement XP.
+
+SUCCESS CRITERIA?
+
+Several Stages and on 2 Fronts ( XP and the Game Itself):
+
+1 Stage:
+
+	Game:
+		Upon game completion ( 10 levels minimum), both of us must beat the game :).
+	XP:
+		-The project must have every public object interface tested with TDD.
+		-A normal team velocity has been established.
