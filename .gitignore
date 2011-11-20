@@ -2,3 +2,4 @@
 *.DS_Store
 tainted_planet.xcodeproj/xcuserdata/*
 tainted_planet.xcodeproj/project.xcworkspace/xcuserdata/*
+build
