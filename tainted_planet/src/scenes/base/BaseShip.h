@@ -7,10 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "cocos2d.h"
+#import "BaseGameObject.h"
 
-@interface BaseShip : CCSprite {
-    
+@interface BaseShip : BaseGameObject {
+ 
+    BOOL launched;
 }
 
+@property (nonatomic, assign) BOOL launched;
+
+-(void)launch;
+-(BOOL)hasLaunched;
+-(CGPoint)getPosition;
+-(void)applyLinearImpulse:(CGPoint)impulse;
+-(CGPoint)getLinearVelocity;
 @end
