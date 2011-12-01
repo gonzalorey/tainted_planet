@@ -60,6 +60,31 @@
 		C05ADA571447AF6600B93C8D /* BaseHUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA561447AF6500B93C8D /* BaseHUDLayer.m */; };
 		C05ADA5A1447B14200B93C8D /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA591447B14100B93C8D /* MainMenuScene.m */; };
 		C05ADA5D1447B16D00B93C8D /* MainMenuLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA5C1447B16D00B93C8D /* MainMenuLayer.mm */; };
+		C07AD86714883CC600E28F42 /* GHUnitCocos2dBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C07AD86514883CC600E28F42 /* GHUnitCocos2dBase.m */; };
+		C07AD86A14883DA400E28F42 /* planet1.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD86814883DA300E28F42 /* planet1.png */; };
+		C07AD86B14883DA400E28F42 /* planet2.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD86914883DA300E28F42 /* planet2.png */; };
+		C07AD86E14883DB300E28F42 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD86C14883DB300E28F42 /* background2.png */; };
+		C07AD86F14883DB300E28F42 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD86D14883DB300E28F42 /* background1.png */; };
+		C07AD87814883DC100E28F42 /* PlayGameButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87014883DC100E28F42 /* PlayGameButtonSelected.png */; };
+		C07AD87914883DC100E28F42 /* PlayGameButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87114883DC100E28F42 /* PlayGameButtonNormal.png */; };
+		C07AD87A14883DC100E28F42 /* OptionsButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87214883DC100E28F42 /* OptionsButtonSelected.png */; };
+		C07AD87B14883DC100E28F42 /* OptionsButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87314883DC100E28F42 /* OptionsButtonNormal.png */; };
+		C07AD87C14883DC100E28F42 /* mysecondbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87414883DC100E28F42 /* mysecondbutton.png */; };
+		C07AD87D14883DC100E28F42 /* mysecondbutton_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87514883DC100E28F42 /* mysecondbutton_selected.png */; };
+		C07AD87E14883DC100E28F42 /* myfirstbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87614883DC100E28F42 /* myfirstbutton.png */; };
+		C07AD87F14883DC100E28F42 /* myfirstbutton_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87714883DC100E28F42 /* myfirstbutton_selected.png */; };
+		C07AD88C14883DDD00E28F42 /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88014883DDD00E28F42 /* spaceship.png */; };
+		C07AD88D14883DDD00E28F42 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88114883DDD00E28F42 /* iTunesArtwork */; };
+		C07AD88E14883DDD00E28F42 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88214883DDD00E28F42 /* Icon@2x.png */; };
+		C07AD88F14883DDD00E28F42 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88314883DDD00E28F42 /* Icon.png */; };
+		C07AD89014883DDD00E28F42 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88414883DDD00E28F42 /* Icon-Small@2x.png */; };
+		C07AD89114883DDD00E28F42 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88514883DDD00E28F42 /* Icon-Small.png */; };
+		C07AD89214883DDD00E28F42 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88614883DDD00E28F42 /* Icon-Small-50.png */; };
+		C07AD89314883DDD00E28F42 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88714883DDD00E28F42 /* Icon-72.png */; };
+		C07AD89414883DDD00E28F42 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88814883DDD00E28F42 /* fps_images.png */; };
+		C07AD89514883DDD00E28F42 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88914883DDD00E28F42 /* Default.png */; };
+		C07AD89614883DDD00E28F42 /* Default_back.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88A14883DDD00E28F42 /* Default_back.png */; };
+		C07AD89714883DDD00E28F42 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88B14883DDD00E28F42 /* blocks.png */; };
 		C08A08AB144A344A00978E5C /* BaseShip.mm in Sources */ = {isa = PBXBuildFile; fileRef = C08A08AA144A344A00978E5C /* BaseShip.mm */; };
 		C0A77ABF1450E18F0005C2B2 /* BaseWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0A77ABE1450E18F0005C2B2 /* BaseWorld.mm */; };
 		C0A77AC31450E4010005C2B2 /* BaseGameObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0A77AC21450E4010005C2B2 /* BaseGameObject.mm */; };
@@ -972,6 +997,32 @@
 		C05ADA591447B14100B93C8D /* MainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
 		C05ADA5B1447B16C00B93C8D /* MainMenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuLayer.h; sourceTree = "<group>"; };
 		C05ADA5C1447B16D00B93C8D /* MainMenuLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainMenuLayer.mm; sourceTree = "<group>"; };
+		C07AD86514883CC600E28F42 /* GHUnitCocos2dBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitCocos2dBase.m; sourceTree = "<group>"; };
+		C07AD86614883CC600E28F42 /* GHUnitCocos2dBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUnitCocos2dBase.h; sourceTree = "<group>"; };
+		C07AD86814883DA300E28F42 /* planet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = planet1.png; path = tainted_planet/Resources/Graphics/Planets/planet1.png; sourceTree = "<group>"; };
+		C07AD86914883DA300E28F42 /* planet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = planet2.png; path = tainted_planet/Resources/Graphics/Planets/planet2.png; sourceTree = "<group>"; };
+		C07AD86C14883DB300E28F42 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background2.png; path = tainted_planet/Resources/Graphics/Backgrounds/background2.png; sourceTree = "<group>"; };
+		C07AD86D14883DB300E28F42 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background1.png; path = tainted_planet/Resources/Graphics/Backgrounds/background1.png; sourceTree = "<group>"; };
+		C07AD87014883DC100E28F42 /* PlayGameButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlayGameButtonSelected.png; path = tainted_planet/Resources/menu/PlayGameButtonSelected.png; sourceTree = "<group>"; };
+		C07AD87114883DC100E28F42 /* PlayGameButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlayGameButtonNormal.png; path = tainted_planet/Resources/menu/PlayGameButtonNormal.png; sourceTree = "<group>"; };
+		C07AD87214883DC100E28F42 /* OptionsButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OptionsButtonSelected.png; path = tainted_planet/Resources/menu/OptionsButtonSelected.png; sourceTree = "<group>"; };
+		C07AD87314883DC100E28F42 /* OptionsButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OptionsButtonNormal.png; path = tainted_planet/Resources/menu/OptionsButtonNormal.png; sourceTree = "<group>"; };
+		C07AD87414883DC100E28F42 /* mysecondbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mysecondbutton.png; path = tainted_planet/Resources/menu/mysecondbutton.png; sourceTree = "<group>"; };
+		C07AD87514883DC100E28F42 /* mysecondbutton_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mysecondbutton_selected.png; path = tainted_planet/Resources/menu/mysecondbutton_selected.png; sourceTree = "<group>"; };
+		C07AD87614883DC100E28F42 /* myfirstbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myfirstbutton.png; path = tainted_planet/Resources/menu/myfirstbutton.png; sourceTree = "<group>"; };
+		C07AD87714883DC100E28F42 /* myfirstbutton_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myfirstbutton_selected.png; path = tainted_planet/Resources/menu/myfirstbutton_selected.png; sourceTree = "<group>"; };
+		C07AD88014883DDD00E28F42 /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spaceship.png; path = tainted_planet/Resources/spaceship.png; sourceTree = "<group>"; };
+		C07AD88114883DDD00E28F42 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = tainted_planet/Resources/iTunesArtwork; sourceTree = "<group>"; };
+		C07AD88214883DDD00E28F42 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "tainted_planet/Resources/Icon@2x.png"; sourceTree = "<group>"; };
+		C07AD88314883DDD00E28F42 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = tainted_planet/Resources/Icon.png; sourceTree = "<group>"; };
+		C07AD88414883DDD00E28F42 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "tainted_planet/Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
+		C07AD88514883DDD00E28F42 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "tainted_planet/Resources/Icon-Small.png"; sourceTree = "<group>"; };
+		C07AD88614883DDD00E28F42 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "tainted_planet/Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
+		C07AD88714883DDD00E28F42 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "tainted_planet/Resources/Icon-72.png"; sourceTree = "<group>"; };
+		C07AD88814883DDD00E28F42 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = tainted_planet/Resources/fps_images.png; sourceTree = "<group>"; };
+		C07AD88914883DDD00E28F42 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = tainted_planet/Resources/Default.png; sourceTree = "<group>"; };
+		C07AD88A14883DDD00E28F42 /* Default_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default_back.png; path = tainted_planet/Resources/Default_back.png; sourceTree = "<group>"; };
+		C07AD88B14883DDD00E28F42 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = tainted_planet/Resources/blocks.png; sourceTree = "<group>"; };
 		C08A08A9144A344900978E5C /* BaseShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseShip.h; sourceTree = "<group>"; };
 		C08A08AA144A344A00978E5C /* BaseShip.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseShip.mm; sourceTree = "<group>"; };
 		C0A77ABD1450E18F0005C2B2 /* BaseWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWorld.h; sourceTree = "<group>"; };
@@ -1048,6 +1099,30 @@
 			isa = PBXGroup;
 			children = (
 				C0DE111414840E8B0000A5F3 /* cocos2d-ios.xcodeproj */,
+				C07AD86814883DA300E28F42 /* planet1.png */,
+				C07AD86C14883DB300E28F42 /* background2.png */,
+				C07AD86D14883DB300E28F42 /* background1.png */,
+				C07AD86914883DA300E28F42 /* planet2.png */,
+				C07AD87014883DC100E28F42 /* PlayGameButtonSelected.png */,
+				C07AD87114883DC100E28F42 /* PlayGameButtonNormal.png */,
+				C07AD87214883DC100E28F42 /* OptionsButtonSelected.png */,
+				C07AD87314883DC100E28F42 /* OptionsButtonNormal.png */,
+				C07AD87414883DC100E28F42 /* mysecondbutton.png */,
+				C07AD87514883DC100E28F42 /* mysecondbutton_selected.png */,
+				C07AD87614883DC100E28F42 /* myfirstbutton.png */,
+				C07AD87714883DC100E28F42 /* myfirstbutton_selected.png */,
+				C07AD88014883DDD00E28F42 /* spaceship.png */,
+				C07AD88114883DDD00E28F42 /* iTunesArtwork */,
+				C07AD88214883DDD00E28F42 /* Icon@2x.png */,
+				C07AD88314883DDD00E28F42 /* Icon.png */,
+				C07AD88414883DDD00E28F42 /* Icon-Small@2x.png */,
+				C07AD88514883DDD00E28F42 /* Icon-Small.png */,
+				C07AD88614883DDD00E28F42 /* Icon-Small-50.png */,
+				C07AD88714883DDD00E28F42 /* Icon-72.png */,
+				C07AD88814883DDD00E28F42 /* fps_images.png */,
+				C07AD88914883DDD00E28F42 /* Default.png */,
+				C07AD88A14883DDD00E28F42 /* Default_back.png */,
+				C07AD88B14883DDD00E28F42 /* blocks.png */,
 				0026A5F314390BD500F2FF6B /* tainted_planet */,
 				C0DE140D1484288F0000A5F3 /* MainMenuScene.m */,
 				C0DE140E1484288F0000A5F3 /* MainMenuLayer.mm */,
@@ -1834,6 +1909,8 @@
 		C0DE1290148419410000A5F3 /* Tests */ = {
 			isa = PBXGroup;
 			children = (
+				C07AD86514883CC600E28F42 /* GHUnitCocos2dBase.m */,
+				C07AD86614883CC600E28F42 /* GHUnitCocos2dBase.h */,
 				C0DE143914842E510000A5F3 /* Spaceship */,
 				C0DE1291148419410000A5F3 /* Supporting Files */,
 				C0DE13AA14841BAF0000A5F3 /* FirstTest.mm */,
@@ -2443,6 +2520,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0DE1295148419410000A5F3 /* InfoPlist.strings in Resources */,
+				C07AD86A14883DA400E28F42 /* planet1.png in Resources */,
+				C07AD86E14883DB300E28F42 /* background2.png in Resources */,
+				C07AD86F14883DB300E28F42 /* background1.png in Resources */,
+				C07AD86B14883DA400E28F42 /* planet2.png in Resources */,
+				C07AD87814883DC100E28F42 /* PlayGameButtonSelected.png in Resources */,
+				C07AD87914883DC100E28F42 /* PlayGameButtonNormal.png in Resources */,
+				C07AD87A14883DC100E28F42 /* OptionsButtonSelected.png in Resources */,
+				C07AD87B14883DC100E28F42 /* OptionsButtonNormal.png in Resources */,
+				C07AD87C14883DC100E28F42 /* mysecondbutton.png in Resources */,
+				C07AD87D14883DC100E28F42 /* mysecondbutton_selected.png in Resources */,
+				C07AD87E14883DC100E28F42 /* myfirstbutton.png in Resources */,
+				C07AD87F14883DC100E28F42 /* myfirstbutton_selected.png in Resources */,
+				C07AD88C14883DDD00E28F42 /* spaceship.png in Resources */,
+				C07AD88D14883DDD00E28F42 /* iTunesArtwork in Resources */,
+				C07AD88E14883DDD00E28F42 /* Icon@2x.png in Resources */,
+				C07AD88F14883DDD00E28F42 /* Icon.png in Resources */,
+				C07AD89014883DDD00E28F42 /* Icon-Small@2x.png in Resources */,
+				C07AD89114883DDD00E28F42 /* Icon-Small.png in Resources */,
+				C07AD89214883DDD00E28F42 /* Icon-Small-50.png in Resources */,
+				C07AD89314883DDD00E28F42 /* Icon-72.png in Resources */,
+				C07AD89414883DDD00E28F42 /* fps_images.png in Resources */,
+				C07AD89514883DDD00E28F42 /* Default.png in Resources */,
+				C07AD89614883DDD00E28F42 /* Default_back.png in Resources */,
+				C07AD89714883DDD00E28F42 /* blocks.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2509,6 +2610,7 @@
 				C0DE144C148431CC0000A5F3 /* BasePlanetSprite.m in Sources */,
 				C0DE144D148431CC0000A5F3 /* BaseGameObject.mm in Sources */,
 				C0DE144E148431DC0000A5F3 /* GameManager.mm in Sources */,
+				C07AD86714883CC600E28F42 /* GHUnitCocos2dBase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

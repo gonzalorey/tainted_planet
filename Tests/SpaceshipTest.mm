@@ -8,9 +8,10 @@
 
 #import <GHUnitIOS/GHUnit.h> 
 #import "BaseShip.h"
+#import "GHUnitCocos2dBase.h"
 
 
-@interface SpaceshipTest : GHTestCase { 
+@interface SpaceshipTest : GHUnitCocos2dBase { 
     BaseShip* bs;
 }
 @end
@@ -20,11 +21,13 @@
 
 
 - (void)setUp {
-    bs = [[BaseShip alloc]init];
+    [super setUp];
+    bs = [[BaseShip alloc]initWithMass:1.0 scale:1.0 pos:CGPointMake(0,0) file:@"spaceship.png"];
 }
 
 - (void)tearDown {
     [bs release];
+    [super tearDown];
 }   
 
 
