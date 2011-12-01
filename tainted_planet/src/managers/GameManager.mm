@@ -9,7 +9,7 @@
 #import "GameManager.h"
 #import "MainMenuScene.h"
 #import "Lvl1World.h"
-
+#import "BaseTestWorld.h"
 
 @implementation GameManager
 
@@ -58,6 +58,9 @@ static GameManager* _sharedGameManager = nil;
     
     id sceneToRun = nil;
     switch (sceneID) {
+        case kBaseTestWorld:
+            sceneToRun = [BaseTestWorld node];
+            break;
         case kMainMenuScene:
             sceneToRun = [MainMenuScene node];
             break;
@@ -98,6 +101,7 @@ static GameManager* _sharedGameManager = nil;
     } else {
         [[CCDirector sharedDirector] replaceScene:sceneToRun];
     }
+    return;
 
 }
 

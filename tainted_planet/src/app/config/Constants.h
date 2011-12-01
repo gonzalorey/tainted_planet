@@ -10,6 +10,7 @@
 #define kSceneMenuTagValue 20
 
 typedef enum {
+    kBaseTestWorld=-1,
     kNoSceneUninitialized=0,
     kMainMenuScene=1,
     kGameLevel1=101,

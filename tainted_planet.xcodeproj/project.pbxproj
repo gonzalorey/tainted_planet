@@ -85,6 +85,8 @@
 		C07AD89514883DDD00E28F42 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88914883DDD00E28F42 /* Default.png */; };
 		C07AD89614883DDD00E28F42 /* Default_back.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88A14883DDD00E28F42 /* Default_back.png */; };
 		C07AD89714883DDD00E28F42 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88B14883DDD00E28F42 /* blocks.png */; };
+		C07AD89D148842CF00E28F42 /* BaseTestWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */; };
+		C07AD89E148842CF00E28F42 /* BaseTestWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */; };
 		C08A08AB144A344A00978E5C /* BaseShip.mm in Sources */ = {isa = PBXBuildFile; fileRef = C08A08AA144A344A00978E5C /* BaseShip.mm */; };
 		C0A77ABF1450E18F0005C2B2 /* BaseWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0A77ABE1450E18F0005C2B2 /* BaseWorld.mm */; };
 		C0A77AC31450E4010005C2B2 /* BaseGameObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0A77AC21450E4010005C2B2 /* BaseGameObject.mm */; };
@@ -1023,6 +1025,8 @@
 		C07AD88914883DDD00E28F42 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = tainted_planet/Resources/Default.png; sourceTree = "<group>"; };
 		C07AD88A14883DDD00E28F42 /* Default_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default_back.png; path = tainted_planet/Resources/Default_back.png; sourceTree = "<group>"; };
 		C07AD88B14883DDD00E28F42 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = tainted_planet/Resources/blocks.png; sourceTree = "<group>"; };
+		C07AD89B148842CD00E28F42 /* BaseTestWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTestWorld.h; sourceTree = "<group>"; };
+		C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseTestWorld.mm; sourceTree = "<group>"; };
 		C08A08A9144A344900978E5C /* BaseShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseShip.h; sourceTree = "<group>"; };
 		C08A08AA144A344A00978E5C /* BaseShip.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseShip.mm; sourceTree = "<group>"; };
 		C0A77ABD1450E18F0005C2B2 /* BaseWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWorld.h; sourceTree = "<group>"; };
@@ -1769,6 +1773,8 @@
 				C05ADA3C1447ADA200B93C8D /* BasePlanetSprite.m */,
 				C0A77AC11450E4010005C2B2 /* BaseGameObject.h */,
 				C0A77AC21450E4010005C2B2 /* BaseGameObject.mm */,
+				C07AD89B148842CD00E28F42 /* BaseTestWorld.h */,
+				C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -2579,6 +2585,7 @@
 				C0A77ABF1450E18F0005C2B2 /* BaseWorld.mm in Sources */,
 				C0A77AC31450E4010005C2B2 /* BaseGameObject.mm in Sources */,
 				C0B5F28D145A1059001695ED /* BasePlanetGameObject.mm in Sources */,
+				C07AD89D148842CF00E28F42 /* BaseTestWorld.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2611,6 +2618,7 @@
 				C0DE144D148431CC0000A5F3 /* BaseGameObject.mm in Sources */,
 				C0DE144E148431DC0000A5F3 /* GameManager.mm in Sources */,
 				C07AD86714883CC600E28F42 /* GHUnitCocos2dBase.m in Sources */,
+				C07AD89E148842CF00E28F42 /* BaseTestWorld.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
