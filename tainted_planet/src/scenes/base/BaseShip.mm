@@ -7,7 +7,7 @@
 //
 
 #import "BaseShip.h"
-
+#import "Box2D.h"
 
 @implementation BaseShip
 
@@ -23,19 +23,5 @@
     return launched;
 }
 
--(CGPoint)getPosition
-{
-    return CGPointMake(0, 0);
-}
 
-
--(void)applyLinearImpulse:(CGPoint)impulse
-{
-    
-}
--(CGPoint)getLinearVelocity
-{
-    b2Vec2 vel = body->GetLinearVelocity();
-    return CGPointMake(vel.x, vel.y);
-}
 @end

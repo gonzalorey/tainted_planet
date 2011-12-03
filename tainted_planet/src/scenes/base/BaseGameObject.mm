@@ -25,8 +25,7 @@
 
 -(id)initPhysics
 {
-    // NOTA: Traté de usar un CCSprite predefinido como en el ejemplo, por si la inicializacion
-    // con self es la que lo caga, pero tampoco sirve...
+   
     // Create sprite and add it to the layer
 //    CCSprite *ball = [CCSprite spriteWithFile:@"Ball.jpg" rect:CGRectMake(0, 0, 52, 52)];
 //    ball.position = ccp(100, 100);
@@ -57,9 +56,7 @@
     shapeDef.restitution = 1.0f;
     bodyFixture = body->CreateFixture(&shapeDef);
 
-    // Apply the force to the game object
-    b2Vec2 force = b2Vec2(10, 10);
-    body->ApplyLinearImpulse(force, bodyDef.position);
+
 
     return self;
 }
@@ -67,5 +64,25 @@
 -(b2Shape*)getShape
 {
     return nil;
+}
+
+
+-(CGPoint)getPosition
+{
+    return CGPointMake(0, 0);
+}
+
+
+-(void)applyLinearImpulse:(CGPoint)force
+{
+    // Apply the force to the game object
+    b2Vec2 vforce = b2Vec2(force.x, force.y);
+    self.body->ApplyLinearImpulse(vforce, body->GetPosition());
+    
+}
+-(CGPoint)getLinearVelocity
+{
+    b2Vec2 vel = body->GetLinearVelocity();
+    return CGPointMake(vel.x, vel.y);
 }
 @end

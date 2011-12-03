@@ -11,13 +11,17 @@
 #import "BaseScene.h"
 #import "BaseWorld.h"
 
+
 @interface GameManager : NSObject {
-        SceneTypes currentScene;
+    SceneTypes currentScene;
+    bool testing;
+    BaseWorld* testWorld;
 }
 
 +(GameManager*)sharedGameManager;
 -(void)runSceneWithID:(SceneTypes)sceneID;
 -(BaseWorld*)getRunningWorld;
 -(BaseScene*)getRunningScene;
+-(void)startTesting;
 
 @end

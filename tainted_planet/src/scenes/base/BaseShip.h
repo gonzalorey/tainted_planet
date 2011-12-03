@@ -18,7 +18,5 @@
 
 -(void)launch;
 -(BOOL)hasLaunched;
--(CGPoint)getPosition;
--(void)applyLinearImpulse:(CGPoint)impulse;
--(CGPoint)getLinearVelocity;
+
 @end

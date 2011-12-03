@@ -28,4 +28,9 @@
 -(id)initWithMass:(float)m scale:(float)s pos:(CGPoint)p file:(NSString *)afilename;
 -(id)initPhysics;
 -(b2Shape*)getShape;
+
+-(CGPoint)getPosition;
+-(void)applyLinearImpulse:(CGPoint)force;
+-(CGPoint)getLinearVelocity;
+
 @end
