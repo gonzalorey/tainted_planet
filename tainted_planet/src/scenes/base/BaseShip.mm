@@ -23,5 +23,17 @@
     return launched;
 }
 
+-(void)takePlanetPosition: (BasePlanetGameObject*)planet
+{
+    [self setPosition: [planet getPosition]];
+}
+
+-(void)layOnSurface: (BasePlanetGameObject*)planet
+{
+    CGPoint planetPosition = [planet getPosition];
+    
+    // initialy, we set just the x distance to the center
+    [self setPosition: CGPointMake(planetPosition.x + [planet getRadius], planetPosition.y)];
+}
 
 @end

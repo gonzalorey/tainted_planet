@@ -8,6 +8,7 @@
 
 #import <Foundation/Foundation.h>
 #import "BaseGameObject.h"
+#import "BasePlanetGameObject.h"
 
 @interface BaseShip : BaseGameObject {
  
@@ -18,5 +19,7 @@
 
 -(void)launch;
 -(BOOL)hasLaunched;
+-(void)takePlanetPosition: (BasePlanetGameObject*)planet;
+-(void)layOnSurface: (BasePlanetGameObject*)planet;
 
 @end

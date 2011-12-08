@@ -14,5 +14,6 @@
     
 }
 
+-(float)getRadius;
 
 @end

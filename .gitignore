@@ -2,4 +2,6 @@
 *.DS_Store
 tainted_planet.xcodeproj/xcuserdata/*
 tainted_planet.xcodeproj/project.xcworkspace/xcuserdata/*
+tainted_planet.xcodeproj/project.xcworkspace/xcshareddata/*
+tainted_planet.xcodeproj/xcshareddata/xcschemes/tainted_planet.xcscheme
 build

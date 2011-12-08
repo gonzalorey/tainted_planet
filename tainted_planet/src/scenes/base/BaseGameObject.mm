@@ -69,7 +69,7 @@
 
 -(CGPoint)getPosition
 {
-    return CGPointMake(0, 0);
+    return self.position;
 }
 
 

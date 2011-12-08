@@ -21,4 +21,9 @@
     return circle;    
 }
 
+-(float)getRadius
+{  
+    return 2.0f;
+}
+
 @end
