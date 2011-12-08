@@ -8,7 +8,7 @@
 
 #import "BaseGameObject.h"
 #import "GameManager.h"
-
+#import "b2Shape.h"
 
 @implementation BaseGameObject
 @synthesize mass, filename, body, bodyFixture;
@@ -44,15 +44,16 @@
     body = world->CreateBody(&bodyDef);
     
     // Set the body shape
-    b2CircleShape shape;
-    shape.m_radius = 26.0/PTM_RATIO;
-//    b2Shape* shape = [self getShape];
+    //b2CircleShape shape;
+    //shape.m_radius = 26.0/PTM_RATIO;
+
 
     // Create shape definition and add to body
     b2FixtureDef shapeDef;
-    shapeDef.shape = &shape;
+    [self setShape:&shapeDef];
+
     shapeDef.density = 1.0f;
-    shapeDef.friction = 0.f;
+    shapeDef.friction = 0.1f;
     shapeDef.restitution = 1.0f;
     bodyFixture = body->CreateFixture(&shapeDef);
 
@@ -61,9 +62,9 @@
     return self;
 }
 
--(b2Shape*)getShape
+-(void)setShape:(b2FixtureDef*)fixture
 {
-    return nil;
+    return;
 }
 
 

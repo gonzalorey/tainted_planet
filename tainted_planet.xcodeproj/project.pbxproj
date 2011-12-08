@@ -87,6 +87,8 @@
 		C07AD89714883DDD00E28F42 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88B14883DDD00E28F42 /* blocks.png */; };
 		C07AD89D148842CF00E28F42 /* BaseTestWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */; };
 		C07AD89E148842CF00E28F42 /* BaseTestWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */; };
+		C08039D4149172BE006C6CE4 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA591447B14100B93C8D /* MainMenuScene.m */; };
+		C08039D5149172F5006C6CE4 /* MainMenuLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA5C1447B16D00B93C8D /* MainMenuLayer.mm */; };
 		C08A08AB144A344A00978E5C /* BaseShip.mm in Sources */ = {isa = PBXBuildFile; fileRef = C08A08AA144A344A00978E5C /* BaseShip.mm */; };
 		C0A77ABF1450E18F0005C2B2 /* BaseWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0A77ABE1450E18F0005C2B2 /* BaseWorld.mm */; };
 		C0A77AC31450E4010005C2B2 /* BaseGameObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0A77AC21450E4010005C2B2 /* BaseGameObject.mm */; };
@@ -101,8 +103,6 @@
 		C0DE140A1484287D0000A5F3 /* Lvl1HUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE14051484287C0000A5F3 /* Lvl1HUDLayer.m */; };
 		C0DE140B1484287D0000A5F3 /* Lvl1BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE14061484287C0000A5F3 /* Lvl1BackgroundLayer.m */; };
 		C0DE140C1484287D0000A5F3 /* Lvl1Layer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DE14071484287D0000A5F3 /* Lvl1Layer.mm */; };
-		C0DE1412148428900000A5F3 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE140D1484288F0000A5F3 /* MainMenuScene.m */; };
-		C0DE1413148428900000A5F3 /* MainMenuLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DE140E1484288F0000A5F3 /* MainMenuLayer.mm */; };
 		C0DE1414148428900000A5F3 /* MainMenuBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE140F1484288F0000A5F3 /* MainMenuBackgroundLayer.m */; };
 		C0DE1415148428900000A5F3 /* MainMenuLayer_old.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DE14101484288F0000A5F3 /* MainMenuLayer_old.mm */; };
 		C0DE1416148428900000A5F3 /* MainMenuScene_old.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1411148428900000A5F3 /* MainMenuScene_old.m */; };
@@ -1023,8 +1023,6 @@
 		C0DE14051484287C0000A5F3 /* Lvl1HUDLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Lvl1HUDLayer.m; path = tainted_planet/src/scenes/stages/stage1/Lvl1HUDLayer.m; sourceTree = "<group>"; };
 		C0DE14061484287C0000A5F3 /* Lvl1BackgroundLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Lvl1BackgroundLayer.m; path = tainted_planet/src/scenes/stages/stage1/Lvl1BackgroundLayer.m; sourceTree = "<group>"; };
 		C0DE14071484287D0000A5F3 /* Lvl1Layer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Lvl1Layer.mm; path = tainted_planet/src/scenes/stages/stage1/Lvl1Layer.mm; sourceTree = "<group>"; };
-		C0DE140D1484288F0000A5F3 /* MainMenuScene.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainMenuScene.m; path = tainted_planet/src/scenes/stages/main_menu/MainMenuScene.m; sourceTree = "<group>"; };
-		C0DE140E1484288F0000A5F3 /* MainMenuLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MainMenuLayer.mm; path = tainted_planet/src/scenes/stages/main_menu/MainMenuLayer.mm; sourceTree = "<group>"; };
 		C0DE140F1484288F0000A5F3 /* MainMenuBackgroundLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainMenuBackgroundLayer.m; path = tainted_planet/src/scenes/stages/main_menu/MainMenuBackgroundLayer.m; sourceTree = "<group>"; };
 		C0DE14101484288F0000A5F3 /* MainMenuLayer_old.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MainMenuLayer_old.mm; path = tainted_planet/src/scenes/stages/main_menu/MainMenuLayer_old.mm; sourceTree = "<group>"; };
 		C0DE1411148428900000A5F3 /* MainMenuScene_old.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainMenuScene_old.m; path = tainted_planet/src/scenes/stages/main_menu/MainMenuScene_old.m; sourceTree = "<group>"; };
@@ -1100,8 +1098,6 @@
 				C07AD88A14883DDD00E28F42 /* Default_back.png */,
 				C07AD88B14883DDD00E28F42 /* blocks.png */,
 				0026A5F314390BD500F2FF6B /* tainted_planet */,
-				C0DE140D1484288F0000A5F3 /* MainMenuScene.m */,
-				C0DE140E1484288F0000A5F3 /* MainMenuLayer.mm */,
 				C0DE140F1484288F0000A5F3 /* MainMenuBackgroundLayer.m */,
 				C0DE14101484288F0000A5F3 /* MainMenuLayer_old.mm */,
 				C0DE1411148428900000A5F3 /* MainMenuScene_old.m */,
@@ -2564,8 +2560,7 @@
 				C0DE143D14842EA20000A5F3 /* SpaceshipTest.mm in Sources */,
 				C0DE1298148419410000A5F3 /* main.m in Sources */,
 				C0DE13AB14841BAF0000A5F3 /* FirstTest.mm in Sources */,
-				C0DE1412148428900000A5F3 /* MainMenuScene.m in Sources */,
-				C0DE1413148428900000A5F3 /* MainMenuLayer.mm in Sources */,
+				C08039D5149172F5006C6CE4 /* MainMenuLayer.mm in Sources */,
 				C0DE1414148428900000A5F3 /* MainMenuBackgroundLayer.m in Sources */,
 				C0DE1415148428900000A5F3 /* MainMenuLayer_old.mm in Sources */,
 				C0DE1416148428900000A5F3 /* MainMenuScene_old.m in Sources */,
@@ -2579,6 +2574,7 @@
 				C0DE1446148431CB0000A5F3 /* BaseScene.m in Sources */,
 				C0DE1447148431CB0000A5F3 /* BaseStarshipLayer.m in Sources */,
 				C0DE1448148431CB0000A5F3 /* BaseHUDLayer.m in Sources */,
+				C08039D4149172BE006C6CE4 /* MainMenuScene.m in Sources */,
 				C0DE1449148431CB0000A5F3 /* BaseShip.mm in Sources */,
 				C0DE144A148431CB0000A5F3 /* BaseWorld.mm in Sources */,
 				C0DE144B148431CB0000A5F3 /* BasePlanetGameObject.mm in Sources */,

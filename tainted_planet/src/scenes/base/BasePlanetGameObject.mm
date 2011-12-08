@@ -12,18 +12,27 @@
 @implementation BasePlanetGameObject
 
 
--(b2Shape*)getShape
+
+
+-(void)setShape:(b2FixtureDef*)fixture
 {
     // Create circle shape
-    b2CircleShape* circle;
-    circle->m_radius = 26.0/PTM_RATIO;
-    
-    return circle;    
-}
 
+    myshape = new b2CircleShape();
+    myshape->m_radius = 26.0/PTM_RATIO;
+    
+    fixture->shape = myshape;
+    return;
+}
 -(float)getRadius
 {  
     return 2.0f;
+}
+
+-(void)dealloc
+{
+    delete myshape;
+    [super dealloc];
 }
 
 @end

@@ -11,7 +11,7 @@
 #import "BaseGameObject.h"
 
 @interface BasePlanetGameObject : BaseGameObject {
-    
+    b2CircleShape* myshape;
 }
 
 -(float)getRadius;
