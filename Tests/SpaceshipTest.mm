@@ -3,7 +3,7 @@
 //  tainted_planet
 //
 //  Created by David Grandes on 11/28/11.
-//  Copyright 2011 OLX. All rights reserved.
+//  Copyright 2011 Big King. All rights reserved.
 //
 
 #import <GHUnitIOS/GHUnit.h> 

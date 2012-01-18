@@ -8,10 +8,14 @@
 
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
+#import "BaseShip.h"
 
 @interface BaseStarshipLayer : CCLayer {
-    
+    BaseShip * ship;
 }
+@property (nonatomic, retain)BaseShip* ship;
 
+-(id)init;
+-(BaseShip*)getShip;
 
 @end

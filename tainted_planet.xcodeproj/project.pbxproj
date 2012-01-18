@@ -52,7 +52,7 @@
 		C05ADA4D1447ADA200B93C8D /* BasePlanetaryLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.m */; };
 		C05ADA4E1447ADA200B93C8D /* BasePlanetSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3C1447ADA200B93C8D /* BasePlanetSprite.m */; };
 		C05ADA4F1447ADA200B93C8D /* BaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3E1447ADA200B93C8D /* BaseScene.m */; };
-		C05ADA501447ADA200B93C8D /* BaseStarshipLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA401447ADA200B93C8D /* BaseStarshipLayer.m */; };
+		C05ADA501447ADA200B93C8D /* BaseStarshipLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA401447ADA200B93C8D /* BaseStarshipLayer.mm */; };
 		C05ADA511447ADA200B93C8D /* MainMenuLayer_old.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA441447ADA200B93C8D /* MainMenuLayer_old.mm */; };
 		C05ADA521447ADA200B93C8D /* MainMenuScene_old.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA461447ADA200B93C8D /* MainMenuScene_old.m */; };
 		C05ADA531447ADA200B93C8D /* Lvl1Layer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA491447ADA200B93C8D /* Lvl1Layer.mm */; };
@@ -60,6 +60,9 @@
 		C05ADA571447AF6600B93C8D /* BaseHUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA561447AF6500B93C8D /* BaseHUDLayer.m */; };
 		C05ADA5A1447B14200B93C8D /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA591447B14100B93C8D /* MainMenuScene.m */; };
 		C05ADA5D1447B16D00B93C8D /* MainMenuLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA5C1447B16D00B93C8D /* MainMenuLayer.mm */; };
+		C05FB58E14C66067002DAEA1 /* StarshipLayerTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05FB58D14C66067002DAEA1 /* StarshipLayerTest.mm */; };
+		C05FB59114C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05FB59014C66211002DAEA1 /* Lvl1StarshipLayer.mm */; };
+		C05FB59214C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05FB59014C66211002DAEA1 /* Lvl1StarshipLayer.mm */; };
 		C07AD86714883CC600E28F42 /* GHUnitCocos2dBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C07AD86514883CC600E28F42 /* GHUnitCocos2dBase.m */; };
 		C07AD86A14883DA400E28F42 /* planet1.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD86814883DA300E28F42 /* planet1.png */; };
 		C07AD86B14883DA400E28F42 /* planet2.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD86914883DA300E28F42 /* planet2.png */; };
@@ -122,7 +125,7 @@
 		C0DE1444148431CB0000A5F3 /* BaseBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA381447ADA200B93C8D /* BaseBackgroundLayer.m */; };
 		C0DE1445148431CB0000A5F3 /* BasePlanetaryLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.m */; };
 		C0DE1446148431CB0000A5F3 /* BaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3E1447ADA200B93C8D /* BaseScene.m */; };
-		C0DE1447148431CB0000A5F3 /* BaseStarshipLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA401447ADA200B93C8D /* BaseStarshipLayer.m */; };
+		C0DE1447148431CB0000A5F3 /* BaseStarshipLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA401447ADA200B93C8D /* BaseStarshipLayer.mm */; };
 		C0DE1448148431CB0000A5F3 /* BaseHUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA561447AF6500B93C8D /* BaseHUDLayer.m */; };
 		C0DE1449148431CB0000A5F3 /* BaseShip.mm in Sources */ = {isa = PBXBuildFile; fileRef = C08A08AA144A344A00978E5C /* BaseShip.mm */; };
 		C0DE144A148431CB0000A5F3 /* BaseWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0A77ABE1450E18F0005C2B2 /* BaseWorld.mm */; };
@@ -956,7 +959,7 @@
 		C05ADA3D1447ADA200B93C8D /* BaseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseScene.h; sourceTree = "<group>"; };
 		C05ADA3E1447ADA200B93C8D /* BaseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseScene.m; sourceTree = "<group>"; };
 		C05ADA3F1447ADA200B93C8D /* BaseStarshipLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStarshipLayer.h; sourceTree = "<group>"; };
-		C05ADA401447ADA200B93C8D /* BaseStarshipLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseStarshipLayer.m; sourceTree = "<group>"; };
+		C05ADA401447ADA200B93C8D /* BaseStarshipLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseStarshipLayer.mm; sourceTree = "<group>"; };
 		C05ADA431447ADA200B93C8D /* MainMenuLayer_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuLayer_old.h; sourceTree = "<group>"; };
 		C05ADA441447ADA200B93C8D /* MainMenuLayer_old.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainMenuLayer_old.mm; sourceTree = "<group>"; };
 		C05ADA451447ADA200B93C8D /* MainMenuScene_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuScene_old.h; sourceTree = "<group>"; };
@@ -971,6 +974,9 @@
 		C05ADA591447B14100B93C8D /* MainMenuScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainMenuScene.m; sourceTree = "<group>"; };
 		C05ADA5B1447B16C00B93C8D /* MainMenuLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuLayer.h; sourceTree = "<group>"; };
 		C05ADA5C1447B16D00B93C8D /* MainMenuLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MainMenuLayer.mm; sourceTree = "<group>"; };
+		C05FB58D14C66067002DAEA1 /* StarshipLayerTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StarshipLayerTest.mm; sourceTree = "<group>"; };
+		C05FB58F14C66211002DAEA1 /* Lvl1StarshipLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lvl1StarshipLayer.h; sourceTree = "<group>"; };
+		C05FB59014C66211002DAEA1 /* Lvl1StarshipLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Lvl1StarshipLayer.mm; sourceTree = "<group>"; };
 		C07AD86514883CC600E28F42 /* GHUnitCocos2dBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitCocos2dBase.m; sourceTree = "<group>"; };
 		C07AD86614883CC600E28F42 /* GHUnitCocos2dBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUnitCocos2dBase.h; sourceTree = "<group>"; };
 		C07AD86814883DA300E28F42 /* planet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = planet1.png; path = tainted_planet/Resources/Graphics/Planets/planet1.png; sourceTree = "<group>"; };
@@ -1728,7 +1734,7 @@
 				C05ADA3D1447ADA200B93C8D /* BaseScene.h */,
 				C05ADA3E1447ADA200B93C8D /* BaseScene.m */,
 				C05ADA3F1447ADA200B93C8D /* BaseStarshipLayer.h */,
-				C05ADA401447ADA200B93C8D /* BaseStarshipLayer.m */,
+				C05ADA401447ADA200B93C8D /* BaseStarshipLayer.mm */,
 				C05ADA551447AF6500B93C8D /* BaseHUDLayer.h */,
 				C05ADA561447AF6500B93C8D /* BaseHUDLayer.m */,
 				C08A08A9144A344900978E5C /* BaseShip.h */,
@@ -1786,15 +1792,25 @@
 				008B7C9E144A33B900FDA8FE /* Lvl1PlanetaryLayer.mm */,
 				008B7CA4144A3AEF00FDA8FE /* Lvl1HUDLayer.h */,
 				008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.m */,
+				C05FB58F14C66211002DAEA1 /* Lvl1StarshipLayer.h */,
+				C05FB59014C66211002DAEA1 /* Lvl1StarshipLayer.mm */,
 			);
 			path = stage1;
+			sourceTree = "<group>";
+		};
+		C05FB58B14C66025002DAEA1 /* Layers */ = {
+			isa = PBXGroup;
+			children = (
+				C05FB58D14C66067002DAEA1 /* StarshipLayerTest.mm */,
+			);
+			name = Layers;
 			sourceTree = "<group>";
 		};
 		C0D92DE514C6444E00BAA888 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				C0D92E6614C6445100BAA888 /* libbuild all tests.a */,
-				C0D92E6814C6445100BAA888 /* libbox2d.a */,
+				C0D92E6814C6445100BAA888 /* lib/Users/dgrandes/Documents/iOS/build.a */,
 				C0D92E6A14C6445100BAA888 /* libChipmunk.a */,
 				C0D92E6C14C6445100BAA888 /* libcocos2d.a */,
 				C0D92E6E14C6445100BAA888 /* libcocos2d-documentation.a */,
@@ -1885,6 +1901,7 @@
 			children = (
 				C07AD86514883CC600E28F42 /* GHUnitCocos2dBase.m */,
 				C07AD86614883CC600E28F42 /* GHUnitCocos2dBase.h */,
+				C05FB58B14C66025002DAEA1 /* Layers */,
 				C0DE143914842E510000A5F3 /* Spaceship */,
 				C0DE1291148419410000A5F3 /* Supporting Files */,
 				C0DE13AA14841BAF0000A5F3 /* FirstTest.mm */,
@@ -1955,6 +1972,7 @@
 		0026A5D614390BD500F2FF6B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "Big King";
 			};
 			buildConfigurationList = 0026A5D914390BD500F2FF6B /* Build configuration list for PBXProject "tainted_planet" */;
@@ -1989,10 +2007,10 @@
 			remoteRef = C0D92E6514C6445100BAA888 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C0D92E6814C6445100BAA888 /* libbox2d.a */ = {
+		C0D92E6814C6445100BAA888 /* lib/Users/dgrandes/Documents/iOS/build.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libbox2d.a;
+			path = lib/Users/dgrandes/Documents/iOS/build.a;
 			remoteRef = C0D92E6714C6445100BAA888 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -2533,7 +2551,7 @@
 				C05ADA4D1447ADA200B93C8D /* BasePlanetaryLayer.m in Sources */,
 				C05ADA4E1447ADA200B93C8D /* BasePlanetSprite.m in Sources */,
 				C05ADA4F1447ADA200B93C8D /* BaseScene.m in Sources */,
-				C05ADA501447ADA200B93C8D /* BaseStarshipLayer.m in Sources */,
+				C05ADA501447ADA200B93C8D /* BaseStarshipLayer.mm in Sources */,
 				C05ADA511447ADA200B93C8D /* MainMenuLayer_old.mm in Sources */,
 				C05ADA521447ADA200B93C8D /* MainMenuScene_old.m in Sources */,
 				C05ADA531447ADA200B93C8D /* Lvl1Layer.mm in Sources */,
@@ -2550,6 +2568,7 @@
 				C0A77AC31450E4010005C2B2 /* BaseGameObject.mm in Sources */,
 				C0B5F28D145A1059001695ED /* BasePlanetGameObject.mm in Sources */,
 				C07AD89D148842CF00E28F42 /* BaseTestWorld.mm in Sources */,
+				C05FB59114C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2572,7 +2591,7 @@
 				C0DE1444148431CB0000A5F3 /* BaseBackgroundLayer.m in Sources */,
 				C0DE1445148431CB0000A5F3 /* BasePlanetaryLayer.m in Sources */,
 				C0DE1446148431CB0000A5F3 /* BaseScene.m in Sources */,
-				C0DE1447148431CB0000A5F3 /* BaseStarshipLayer.m in Sources */,
+				C0DE1447148431CB0000A5F3 /* BaseStarshipLayer.mm in Sources */,
 				C0DE1448148431CB0000A5F3 /* BaseHUDLayer.m in Sources */,
 				C08039D4149172BE006C6CE4 /* MainMenuScene.m in Sources */,
 				C0DE1449148431CB0000A5F3 /* BaseShip.mm in Sources */,
@@ -2583,6 +2602,8 @@
 				C0DE144E148431DC0000A5F3 /* GameManager.mm in Sources */,
 				C07AD86714883CC600E28F42 /* GHUnitCocos2dBase.m in Sources */,
 				C07AD89E148842CF00E28F42 /* BaseTestWorld.mm in Sources */,
+				C05FB58E14C66067002DAEA1 /* StarshipLayerTest.mm in Sources */,
+				C05FB59214C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2656,6 +2677,7 @@
 				GCC_PREFIX_HEADER = tainted_planet/Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = tainted_planet/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
@@ -2681,6 +2703,7 @@
 				GCC_PREFIX_HEADER = tainted_planet/Prefix.pch;
 				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
 				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = tainted_planet/Resources/Info.plist;
 				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
 				LIBRARY_SEARCH_PATHS = (
@@ -2712,6 +2735,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
 				GCC_PREPROCESSOR_DEFINITIONS = DEBUG;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",
@@ -2743,6 +2767,7 @@
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tests/Tests-Prefix.pch";
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				INFOPLIST_FILE = "Tests/Tests-Info.plist";
 				LIBRARY_SEARCH_PATHS = (
 					"$(inherited)",

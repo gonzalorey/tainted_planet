@@ -10,6 +10,7 @@
 #import <GHUnitIOS/GHUnit.h>
 #import "cocos2d.h"
 
-@interface GHUnitCocos2dBase : GHTestCase
+@interface GHUnitCocos2dBase : GHTestCase{
     UIWindow* window;
+}
 @end
