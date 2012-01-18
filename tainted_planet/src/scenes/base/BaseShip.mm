@@ -36,4 +36,15 @@
     [self setPosition: CGPointMake(planetPosition.x + [planet getRadius], planetPosition.y)];
 }
 
+-(void)setShape:(b2FixtureDef*)fixture
+{
+    // Create circle shape
+    
+    myshape = new b2CircleShape();
+    myshape->m_radius = 26.0/PTM_RATIO;
+    
+    fixture->shape = myshape;
+    return;
+}
+
 @end

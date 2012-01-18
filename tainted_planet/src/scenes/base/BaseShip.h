@@ -12,6 +12,7 @@
 
 @interface BaseShip : BaseGameObject {
  
+    b2CircleShape* myshape;
     BOOL launched;
 }
 
