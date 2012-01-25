@@ -19,6 +19,7 @@
 }
 
 +(GameManager*)sharedGameManager;
++(void)releaseSharedGameManager;
 -(void)runSceneWithID:(SceneTypes)sceneID;
 -(BaseWorld*)getRunningWorld;
 -(BaseScene*)getRunningScene;

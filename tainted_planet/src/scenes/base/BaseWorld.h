@@ -16,15 +16,16 @@
 @interface BaseWorld : BaseScene {
     b2World *_world;
     bool objectsInitialized;
+    BasePlanetaryLayer* planetaryLayer;
 }
 
 @property (nonatomic, assign) b2World* _world;
 @property (nonatomic, assign) bool objectsInitialized;
+@property (nonatomic, retain ) BasePlanetaryLayer* planetaryLayer;
 
 -(void)initGameObjects;
 -(void)start;
 -(void)tick:(ccTime)dt;
-
-
+-(BasePlanetaryLayer*)getPlanetaryLayer;
 
 @end

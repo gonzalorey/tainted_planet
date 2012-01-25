@@ -16,14 +16,12 @@
 @interface BaseScene : CCScene {
  
     BaseBackgroundLayer* backgroundLayer;
-    BasePlanetaryLayer* planetaryLayer;
     BaseHUDLayer* hudLayer;
 }
 
-@property (nonatomic, retain ) BasePlanetaryLayer* planetaryLayer;
 @property (nonatomic, retain) BaseBackgroundLayer* backgroundLayer;
 @property (nonatomic, retain) BaseHUDLayer* hudLayer;
+
 -(BaseBackgroundLayer*)getBackgroundLayer;
--(BasePlanetaryLayer*)getPlanetaryLayer;
 -(BaseHUDLayer*)getHUDLayer;
 @end

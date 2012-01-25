@@ -39,6 +39,20 @@ static GameManager* _sharedGameManager = nil;
     return nil;
 }
 
+-(void)dealloc
+{
+    [testWorld release];
+}
+
++(void)releaseSharedGameManager
+{
+    @synchronized ([GameManager class])
+    {
+        [_sharedGameManager release];
+        _sharedGameManager = nil;
+    }
+}
+
 -(id) init
 {
     self = [super init];

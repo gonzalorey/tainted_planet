@@ -10,7 +10,7 @@
 
 
 @implementation BaseWorld
-@synthesize _world, objectsInitialized;
+@synthesize _world, objectsInitialized, planetaryLayer;
 
 -(id)init {
     self = [super init]; 
@@ -26,6 +26,13 @@
     }
     return self;
 
+}
+
+-(BasePlanetaryLayer*)getPlanetaryLayer
+{
+    /*  BasePlanetaryLayer* layer = [BasePlanetaryLayer  node];
+     return [layer autorelease];*/
+    return nil;
 }
 
 -(void)initGameObjects

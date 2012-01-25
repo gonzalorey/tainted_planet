@@ -1810,7 +1810,7 @@
 			isa = PBXGroup;
 			children = (
 				C0D92E6614C6445100BAA888 /* libbuild all tests.a */,
-				C0D92E6814C6445100BAA888 /* lib/Users/dgrandes/Documents/iOS/build.a */,
+				C0D92E6814C6445100BAA888 /* libbox2d.a */,
 				C0D92E6A14C6445100BAA888 /* libChipmunk.a */,
 				C0D92E6C14C6445100BAA888 /* libcocos2d.a */,
 				C0D92E6E14C6445100BAA888 /* libcocos2d-documentation.a */,
@@ -2007,10 +2007,10 @@
 			remoteRef = C0D92E6514C6445100BAA888 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C0D92E6814C6445100BAA888 /* lib/Users/dgrandes/Documents/iOS/build.a */ = {
+		C0D92E6814C6445100BAA888 /* libbox2d.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = lib/Users/dgrandes/Documents/iOS/build.a;
+			path = libbox2d.a;
 			remoteRef = C0D92E6714C6445100BAA888 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -2749,6 +2749,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.0;
 				USER_HEADER_SEARCH_PATHS = "$(COCOS2D_SRC)/**";
 				WRAPPER_EXTENSION = app;
 			};
@@ -2781,6 +2782,7 @@
 					"-all_load",
 				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos5.0;
 				USER_HEADER_SEARCH_PATHS = "$(COCOS2D_SRC)/**";
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;

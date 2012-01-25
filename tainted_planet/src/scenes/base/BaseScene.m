@@ -10,7 +10,7 @@
 
 
 @implementation BaseScene
-@synthesize backgroundLayer, planetaryLayer, hudLayer;
+@synthesize backgroundLayer, hudLayer;
 
 -(id)init {
     self = [super init]; 
@@ -33,12 +33,6 @@
 -(BaseBackgroundLayer*)getBackgroundLayer
 {
   /*  BaseBackgroundLayer * layer = [BaseBackgroundLayer node]; 
-    return [layer autorelease];*/
-    return nil;
-}
--(BasePlanetaryLayer*)getPlanetaryLayer
-{
-  /*  BasePlanetaryLayer* layer = [BasePlanetaryLayer  node];
     return [layer autorelease];*/
     return nil;
 }
