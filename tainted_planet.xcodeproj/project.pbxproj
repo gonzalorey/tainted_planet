@@ -64,30 +64,6 @@
 		C05FB59114C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05FB59014C66211002DAEA1 /* Lvl1StarshipLayer.mm */; };
 		C05FB59214C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05FB59014C66211002DAEA1 /* Lvl1StarshipLayer.mm */; };
 		C07AD86714883CC600E28F42 /* GHUnitCocos2dBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C07AD86514883CC600E28F42 /* GHUnitCocos2dBase.m */; };
-		C07AD86A14883DA400E28F42 /* planet1.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD86814883DA300E28F42 /* planet1.png */; };
-		C07AD86B14883DA400E28F42 /* planet2.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD86914883DA300E28F42 /* planet2.png */; };
-		C07AD86E14883DB300E28F42 /* background2.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD86C14883DB300E28F42 /* background2.png */; };
-		C07AD86F14883DB300E28F42 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD86D14883DB300E28F42 /* background1.png */; };
-		C07AD87814883DC100E28F42 /* PlayGameButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87014883DC100E28F42 /* PlayGameButtonSelected.png */; };
-		C07AD87914883DC100E28F42 /* PlayGameButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87114883DC100E28F42 /* PlayGameButtonNormal.png */; };
-		C07AD87A14883DC100E28F42 /* OptionsButtonSelected.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87214883DC100E28F42 /* OptionsButtonSelected.png */; };
-		C07AD87B14883DC100E28F42 /* OptionsButtonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87314883DC100E28F42 /* OptionsButtonNormal.png */; };
-		C07AD87C14883DC100E28F42 /* mysecondbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87414883DC100E28F42 /* mysecondbutton.png */; };
-		C07AD87D14883DC100E28F42 /* mysecondbutton_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87514883DC100E28F42 /* mysecondbutton_selected.png */; };
-		C07AD87E14883DC100E28F42 /* myfirstbutton.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87614883DC100E28F42 /* myfirstbutton.png */; };
-		C07AD87F14883DC100E28F42 /* myfirstbutton_selected.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD87714883DC100E28F42 /* myfirstbutton_selected.png */; };
-		C07AD88C14883DDD00E28F42 /* spaceship.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88014883DDD00E28F42 /* spaceship.png */; };
-		C07AD88D14883DDD00E28F42 /* iTunesArtwork in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88114883DDD00E28F42 /* iTunesArtwork */; };
-		C07AD88E14883DDD00E28F42 /* Icon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88214883DDD00E28F42 /* Icon@2x.png */; };
-		C07AD88F14883DDD00E28F42 /* Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88314883DDD00E28F42 /* Icon.png */; };
-		C07AD89014883DDD00E28F42 /* Icon-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88414883DDD00E28F42 /* Icon-Small@2x.png */; };
-		C07AD89114883DDD00E28F42 /* Icon-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88514883DDD00E28F42 /* Icon-Small.png */; };
-		C07AD89214883DDD00E28F42 /* Icon-Small-50.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88614883DDD00E28F42 /* Icon-Small-50.png */; };
-		C07AD89314883DDD00E28F42 /* Icon-72.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88714883DDD00E28F42 /* Icon-72.png */; };
-		C07AD89414883DDD00E28F42 /* fps_images.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88814883DDD00E28F42 /* fps_images.png */; };
-		C07AD89514883DDD00E28F42 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88914883DDD00E28F42 /* Default.png */; };
-		C07AD89614883DDD00E28F42 /* Default_back.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88A14883DDD00E28F42 /* Default_back.png */; };
-		C07AD89714883DDD00E28F42 /* blocks.png in Resources */ = {isa = PBXBuildFile; fileRef = C07AD88B14883DDD00E28F42 /* blocks.png */; };
 		C07AD89D148842CF00E28F42 /* BaseTestWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */; };
 		C07AD89E148842CF00E28F42 /* BaseTestWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */; };
 		C08039D4149172BE006C6CE4 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA591447B14100B93C8D /* MainMenuScene.m */; };
@@ -95,6 +71,11 @@
 		C08A08AB144A344A00978E5C /* BaseShip.mm in Sources */ = {isa = PBXBuildFile; fileRef = C08A08AA144A344A00978E5C /* BaseShip.mm */; };
 		C0A77ABF1450E18F0005C2B2 /* BaseWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0A77ABE1450E18F0005C2B2 /* BaseWorld.mm */; };
 		C0A77AC31450E4010005C2B2 /* BaseGameObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0A77AC21450E4010005C2B2 /* BaseGameObject.mm */; };
+		C0AEC38114D0C4420083F472 /* MainMenuBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C93144A289900FDA8FE /* MainMenuBackgroundLayer.m */; };
+		C0AEC38214D0C4590083F472 /* Lvl1World.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA4B1447ADA200B93C8D /* Lvl1World.mm */; };
+		C0AEC38314D0C46D0083F472 /* Lvl1HUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.m */; };
+		C0AEC38414D0C4700083F472 /* Lvl1BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C9B144A309800FDA8FE /* Lvl1BackgroundLayer.m */; };
+		C0AEC38514D0C4780083F472 /* Lvl1PlanetaryLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C9E144A33B900FDA8FE /* Lvl1PlanetaryLayer.mm */; };
 		C0B5F28D145A1059001695ED /* BasePlanetGameObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0B5F28C145A1058001695ED /* BasePlanetGameObject.mm */; };
 		C0D92EEE14C64A4A00BAA888 /* libbox2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D92EED14C64A4A00BAA888 /* libbox2d.a */; };
 		C0D92EEF14C64A4A00BAA888 /* libbox2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D92EED14C64A4A00BAA888 /* libbox2d.a */; };
@@ -103,14 +84,6 @@
 		C0DE1295148419410000A5F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0DE1293148419410000A5F3 /* InfoPlist.strings */; };
 		C0DE1298148419410000A5F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1297148419410000A5F3 /* main.m */; };
 		C0DE13AB14841BAF0000A5F3 /* FirstTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DE13AA14841BAF0000A5F3 /* FirstTest.mm */; };
-		C0DE14081484287D0000A5F3 /* Lvl1World.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DE14031484287C0000A5F3 /* Lvl1World.mm */; };
-		C0DE14091484287D0000A5F3 /* Lvl1PlanetaryLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DE14041484287C0000A5F3 /* Lvl1PlanetaryLayer.mm */; };
-		C0DE140A1484287D0000A5F3 /* Lvl1HUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE14051484287C0000A5F3 /* Lvl1HUDLayer.m */; };
-		C0DE140B1484287D0000A5F3 /* Lvl1BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE14061484287C0000A5F3 /* Lvl1BackgroundLayer.m */; };
-		C0DE140C1484287D0000A5F3 /* Lvl1Layer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DE14071484287D0000A5F3 /* Lvl1Layer.mm */; };
-		C0DE1414148428900000A5F3 /* MainMenuBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE140F1484288F0000A5F3 /* MainMenuBackgroundLayer.m */; };
-		C0DE1415148428900000A5F3 /* MainMenuLayer_old.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DE14101484288F0000A5F3 /* MainMenuLayer_old.mm */; };
-		C0DE1416148428900000A5F3 /* MainMenuScene_old.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1411148428900000A5F3 /* MainMenuScene_old.m */; };
 		C0DE142E14842A5F0000A5F3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DE13C414841EFA0000A5F3 /* libz.dylib */; };
 		C0DE143014842A5F0000A5F3 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C012D1761479A95D007EBA69 /* GHUnitIOS.framework */; };
 		C0DE143114842A5F0000A5F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0026A5E314390BD500F2FF6B /* QuartzCore.framework */; };
@@ -979,30 +952,6 @@
 		C05FB59014C66211002DAEA1 /* Lvl1StarshipLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Lvl1StarshipLayer.mm; sourceTree = "<group>"; };
 		C07AD86514883CC600E28F42 /* GHUnitCocos2dBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitCocos2dBase.m; sourceTree = "<group>"; };
 		C07AD86614883CC600E28F42 /* GHUnitCocos2dBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUnitCocos2dBase.h; sourceTree = "<group>"; };
-		C07AD86814883DA300E28F42 /* planet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = planet1.png; path = tainted_planet/Resources/Graphics/Planets/planet1.png; sourceTree = "<group>"; };
-		C07AD86914883DA300E28F42 /* planet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = planet2.png; path = tainted_planet/Resources/Graphics/Planets/planet2.png; sourceTree = "<group>"; };
-		C07AD86C14883DB300E28F42 /* background2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background2.png; path = tainted_planet/Resources/Graphics/Backgrounds/background2.png; sourceTree = "<group>"; };
-		C07AD86D14883DB300E28F42 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = background1.png; path = tainted_planet/Resources/Graphics/Backgrounds/background1.png; sourceTree = "<group>"; };
-		C07AD87014883DC100E28F42 /* PlayGameButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlayGameButtonSelected.png; path = tainted_planet/Resources/menu/PlayGameButtonSelected.png; sourceTree = "<group>"; };
-		C07AD87114883DC100E28F42 /* PlayGameButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = PlayGameButtonNormal.png; path = tainted_planet/Resources/menu/PlayGameButtonNormal.png; sourceTree = "<group>"; };
-		C07AD87214883DC100E28F42 /* OptionsButtonSelected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OptionsButtonSelected.png; path = tainted_planet/Resources/menu/OptionsButtonSelected.png; sourceTree = "<group>"; };
-		C07AD87314883DC100E28F42 /* OptionsButtonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = OptionsButtonNormal.png; path = tainted_planet/Resources/menu/OptionsButtonNormal.png; sourceTree = "<group>"; };
-		C07AD87414883DC100E28F42 /* mysecondbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mysecondbutton.png; path = tainted_planet/Resources/menu/mysecondbutton.png; sourceTree = "<group>"; };
-		C07AD87514883DC100E28F42 /* mysecondbutton_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = mysecondbutton_selected.png; path = tainted_planet/Resources/menu/mysecondbutton_selected.png; sourceTree = "<group>"; };
-		C07AD87614883DC100E28F42 /* myfirstbutton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myfirstbutton.png; path = tainted_planet/Resources/menu/myfirstbutton.png; sourceTree = "<group>"; };
-		C07AD87714883DC100E28F42 /* myfirstbutton_selected.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = myfirstbutton_selected.png; path = tainted_planet/Resources/menu/myfirstbutton_selected.png; sourceTree = "<group>"; };
-		C07AD88014883DDD00E28F42 /* spaceship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spaceship.png; path = tainted_planet/Resources/spaceship.png; sourceTree = "<group>"; };
-		C07AD88114883DDD00E28F42 /* iTunesArtwork */ = {isa = PBXFileReference; lastKnownFileType = file; name = iTunesArtwork; path = tainted_planet/Resources/iTunesArtwork; sourceTree = "<group>"; };
-		C07AD88214883DDD00E28F42 /* Icon@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon@2x.png"; path = "tainted_planet/Resources/Icon@2x.png"; sourceTree = "<group>"; };
-		C07AD88314883DDD00E28F42 /* Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Icon.png; path = tainted_planet/Resources/Icon.png; sourceTree = "<group>"; };
-		C07AD88414883DDD00E28F42 /* Icon-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small@2x.png"; path = "tainted_planet/Resources/Icon-Small@2x.png"; sourceTree = "<group>"; };
-		C07AD88514883DDD00E28F42 /* Icon-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small.png"; path = "tainted_planet/Resources/Icon-Small.png"; sourceTree = "<group>"; };
-		C07AD88614883DDD00E28F42 /* Icon-Small-50.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-Small-50.png"; path = "tainted_planet/Resources/Icon-Small-50.png"; sourceTree = "<group>"; };
-		C07AD88714883DDD00E28F42 /* Icon-72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Icon-72.png"; path = "tainted_planet/Resources/Icon-72.png"; sourceTree = "<group>"; };
-		C07AD88814883DDD00E28F42 /* fps_images.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = fps_images.png; path = tainted_planet/Resources/fps_images.png; sourceTree = "<group>"; };
-		C07AD88914883DDD00E28F42 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default.png; path = tainted_planet/Resources/Default.png; sourceTree = "<group>"; };
-		C07AD88A14883DDD00E28F42 /* Default_back.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = Default_back.png; path = tainted_planet/Resources/Default_back.png; sourceTree = "<group>"; };
-		C07AD88B14883DDD00E28F42 /* blocks.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = blocks.png; path = tainted_planet/Resources/blocks.png; sourceTree = "<group>"; };
 		C07AD89B148842CD00E28F42 /* BaseTestWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTestWorld.h; sourceTree = "<group>"; };
 		C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseTestWorld.mm; sourceTree = "<group>"; };
 		C08A08A9144A344900978E5C /* BaseShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseShip.h; sourceTree = "<group>"; };
@@ -1024,14 +973,6 @@
 		C0DE1297148419410000A5F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		C0DE13AA14841BAF0000A5F3 /* FirstTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FirstTest.mm; sourceTree = "<group>"; };
 		C0DE13C414841EFA0000A5F3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
-		C0DE14031484287C0000A5F3 /* Lvl1World.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Lvl1World.mm; path = tainted_planet/src/scenes/stages/stage1/Lvl1World.mm; sourceTree = "<group>"; };
-		C0DE14041484287C0000A5F3 /* Lvl1PlanetaryLayer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Lvl1PlanetaryLayer.mm; path = tainted_planet/src/scenes/stages/stage1/Lvl1PlanetaryLayer.mm; sourceTree = "<group>"; };
-		C0DE14051484287C0000A5F3 /* Lvl1HUDLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Lvl1HUDLayer.m; path = tainted_planet/src/scenes/stages/stage1/Lvl1HUDLayer.m; sourceTree = "<group>"; };
-		C0DE14061484287C0000A5F3 /* Lvl1BackgroundLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = Lvl1BackgroundLayer.m; path = tainted_planet/src/scenes/stages/stage1/Lvl1BackgroundLayer.m; sourceTree = "<group>"; };
-		C0DE14071484287D0000A5F3 /* Lvl1Layer.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = Lvl1Layer.mm; path = tainted_planet/src/scenes/stages/stage1/Lvl1Layer.mm; sourceTree = "<group>"; };
-		C0DE140F1484288F0000A5F3 /* MainMenuBackgroundLayer.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainMenuBackgroundLayer.m; path = tainted_planet/src/scenes/stages/main_menu/MainMenuBackgroundLayer.m; sourceTree = "<group>"; };
-		C0DE14101484288F0000A5F3 /* MainMenuLayer_old.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = MainMenuLayer_old.mm; path = tainted_planet/src/scenes/stages/main_menu/MainMenuLayer_old.mm; sourceTree = "<group>"; };
-		C0DE1411148428900000A5F3 /* MainMenuScene_old.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = MainMenuScene_old.m; path = tainted_planet/src/scenes/stages/main_menu/MainMenuScene_old.m; sourceTree = "<group>"; };
 		C0DE143B14842E810000A5F3 /* SpaceshipTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SpaceshipTest.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -1079,39 +1020,7 @@
 			isa = PBXGroup;
 			children = (
 				C0D92DE414C6444E00BAA888 /* cocos2d-ios.xcodeproj */,
-				C07AD86814883DA300E28F42 /* planet1.png */,
-				C07AD86C14883DB300E28F42 /* background2.png */,
-				C07AD86D14883DB300E28F42 /* background1.png */,
-				C07AD86914883DA300E28F42 /* planet2.png */,
-				C07AD87014883DC100E28F42 /* PlayGameButtonSelected.png */,
-				C07AD87114883DC100E28F42 /* PlayGameButtonNormal.png */,
-				C07AD87214883DC100E28F42 /* OptionsButtonSelected.png */,
-				C07AD87314883DC100E28F42 /* OptionsButtonNormal.png */,
-				C07AD87414883DC100E28F42 /* mysecondbutton.png */,
-				C07AD87514883DC100E28F42 /* mysecondbutton_selected.png */,
-				C07AD87614883DC100E28F42 /* myfirstbutton.png */,
-				C07AD87714883DC100E28F42 /* myfirstbutton_selected.png */,
-				C07AD88014883DDD00E28F42 /* spaceship.png */,
-				C07AD88114883DDD00E28F42 /* iTunesArtwork */,
-				C07AD88214883DDD00E28F42 /* Icon@2x.png */,
-				C07AD88314883DDD00E28F42 /* Icon.png */,
-				C07AD88414883DDD00E28F42 /* Icon-Small@2x.png */,
-				C07AD88514883DDD00E28F42 /* Icon-Small.png */,
-				C07AD88614883DDD00E28F42 /* Icon-Small-50.png */,
-				C07AD88714883DDD00E28F42 /* Icon-72.png */,
-				C07AD88814883DDD00E28F42 /* fps_images.png */,
-				C07AD88914883DDD00E28F42 /* Default.png */,
-				C07AD88A14883DDD00E28F42 /* Default_back.png */,
-				C07AD88B14883DDD00E28F42 /* blocks.png */,
 				0026A5F314390BD500F2FF6B /* tainted_planet */,
-				C0DE140F1484288F0000A5F3 /* MainMenuBackgroundLayer.m */,
-				C0DE14101484288F0000A5F3 /* MainMenuLayer_old.mm */,
-				C0DE1411148428900000A5F3 /* MainMenuScene_old.m */,
-				C0DE14031484287C0000A5F3 /* Lvl1World.mm */,
-				C0DE14041484287C0000A5F3 /* Lvl1PlanetaryLayer.mm */,
-				C0DE14051484287C0000A5F3 /* Lvl1HUDLayer.m */,
-				C0DE14061484287C0000A5F3 /* Lvl1BackgroundLayer.m */,
-				C0DE14071484287D0000A5F3 /* Lvl1Layer.mm */,
 				C0DE125B148414D50000A5F3 /* cocos2d */,
 				C0DE1290148419410000A5F3 /* Tests */,
 				0026A5E214390BD500F2FF6B /* Frameworks */,
@@ -1810,7 +1719,7 @@
 			isa = PBXGroup;
 			children = (
 				C0D92E6614C6445100BAA888 /* libbuild all tests.a */,
-				C0D92E6814C6445100BAA888 /* libbox2d.a */,
+				C0D92E6814C6445100BAA888 /* lib/Users/dgrandes/Documents/iOS/build.a */,
 				C0D92E6A14C6445100BAA888 /* libChipmunk.a */,
 				C0D92E6C14C6445100BAA888 /* libcocos2d.a */,
 				C0D92E6E14C6445100BAA888 /* libcocos2d-documentation.a */,
@@ -2007,10 +1916,10 @@
 			remoteRef = C0D92E6514C6445100BAA888 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C0D92E6814C6445100BAA888 /* libbox2d.a */ = {
+		C0D92E6814C6445100BAA888 /* lib/Users/dgrandes/Documents/iOS/build.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libbox2d.a;
+			path = lib/Users/dgrandes/Documents/iOS/build.a;
 			remoteRef = C0D92E6714C6445100BAA888 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -2508,30 +2417,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0DE1295148419410000A5F3 /* InfoPlist.strings in Resources */,
-				C07AD86A14883DA400E28F42 /* planet1.png in Resources */,
-				C07AD86E14883DB300E28F42 /* background2.png in Resources */,
-				C07AD86F14883DB300E28F42 /* background1.png in Resources */,
-				C07AD86B14883DA400E28F42 /* planet2.png in Resources */,
-				C07AD87814883DC100E28F42 /* PlayGameButtonSelected.png in Resources */,
-				C07AD87914883DC100E28F42 /* PlayGameButtonNormal.png in Resources */,
-				C07AD87A14883DC100E28F42 /* OptionsButtonSelected.png in Resources */,
-				C07AD87B14883DC100E28F42 /* OptionsButtonNormal.png in Resources */,
-				C07AD87C14883DC100E28F42 /* mysecondbutton.png in Resources */,
-				C07AD87D14883DC100E28F42 /* mysecondbutton_selected.png in Resources */,
-				C07AD87E14883DC100E28F42 /* myfirstbutton.png in Resources */,
-				C07AD87F14883DC100E28F42 /* myfirstbutton_selected.png in Resources */,
-				C07AD88C14883DDD00E28F42 /* spaceship.png in Resources */,
-				C07AD88D14883DDD00E28F42 /* iTunesArtwork in Resources */,
-				C07AD88E14883DDD00E28F42 /* Icon@2x.png in Resources */,
-				C07AD88F14883DDD00E28F42 /* Icon.png in Resources */,
-				C07AD89014883DDD00E28F42 /* Icon-Small@2x.png in Resources */,
-				C07AD89114883DDD00E28F42 /* Icon-Small.png in Resources */,
-				C07AD89214883DDD00E28F42 /* Icon-Small-50.png in Resources */,
-				C07AD89314883DDD00E28F42 /* Icon-72.png in Resources */,
-				C07AD89414883DDD00E28F42 /* fps_images.png in Resources */,
-				C07AD89514883DDD00E28F42 /* Default.png in Resources */,
-				C07AD89614883DDD00E28F42 /* Default_back.png in Resources */,
-				C07AD89714883DDD00E28F42 /* blocks.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2580,14 +2465,6 @@
 				C0DE1298148419410000A5F3 /* main.m in Sources */,
 				C0DE13AB14841BAF0000A5F3 /* FirstTest.mm in Sources */,
 				C08039D5149172F5006C6CE4 /* MainMenuLayer.mm in Sources */,
-				C0DE1414148428900000A5F3 /* MainMenuBackgroundLayer.m in Sources */,
-				C0DE1415148428900000A5F3 /* MainMenuLayer_old.mm in Sources */,
-				C0DE1416148428900000A5F3 /* MainMenuScene_old.m in Sources */,
-				C0DE14081484287D0000A5F3 /* Lvl1World.mm in Sources */,
-				C0DE14091484287D0000A5F3 /* Lvl1PlanetaryLayer.mm in Sources */,
-				C0DE140A1484287D0000A5F3 /* Lvl1HUDLayer.m in Sources */,
-				C0DE140B1484287D0000A5F3 /* Lvl1BackgroundLayer.m in Sources */,
-				C0DE140C1484287D0000A5F3 /* Lvl1Layer.mm in Sources */,
 				C0DE1444148431CB0000A5F3 /* BaseBackgroundLayer.m in Sources */,
 				C0DE1445148431CB0000A5F3 /* BasePlanetaryLayer.m in Sources */,
 				C0DE1446148431CB0000A5F3 /* BaseScene.m in Sources */,
@@ -2602,7 +2479,12 @@
 				C0DE144E148431DC0000A5F3 /* GameManager.mm in Sources */,
 				C07AD86714883CC600E28F42 /* GHUnitCocos2dBase.m in Sources */,
 				C07AD89E148842CF00E28F42 /* BaseTestWorld.mm in Sources */,
+				C0AEC38114D0C4420083F472 /* MainMenuBackgroundLayer.m in Sources */,
+				C0AEC38314D0C46D0083F472 /* Lvl1HUDLayer.m in Sources */,
 				C05FB58E14C66067002DAEA1 /* StarshipLayerTest.mm in Sources */,
+				C0AEC38414D0C4700083F472 /* Lvl1BackgroundLayer.m in Sources */,
+				C0AEC38514D0C4780083F472 /* Lvl1PlanetaryLayer.mm in Sources */,
+				C0AEC38214D0C4590083F472 /* Lvl1World.mm in Sources */,
 				C05FB59214C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -2645,7 +2527,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(COCOS2D_SRC)/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
@@ -2661,7 +2543,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				HEADER_SEARCH_PATHS = "$(COCOS2D_SRC)/**";
-				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
 			};
