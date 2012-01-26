@@ -45,13 +45,12 @@
 		008B7C9F144A33B900FDA8FE /* Lvl1PlanetaryLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C9E144A33B900FDA8FE /* Lvl1PlanetaryLayer.mm */; };
 		008B7CA1144A379600FDA8FE /* planet2.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B7CA0144A379600FDA8FE /* planet2.png */; };
 		008B7CA3144A39C200FDA8FE /* planet1.png in Resources */ = {isa = PBXBuildFile; fileRef = 008B7CA2144A39C200FDA8FE /* planet1.png */; };
-		008B7CA6144A3AF100FDA8FE /* Lvl1HUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.m */; };
+		008B7CA6144A3AF100FDA8FE /* Lvl1HUDLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.mm */; };
 		0099F9DC143F44E700C1F499 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0099F9D8143F44E700C1F499 /* background1.png */; };
 		0099F9F2143F45A800C1F499 /* GameManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0099F9F1143F45A800C1F499 /* GameManager.mm */; };
 		C05ADA4C1447ADA200B93C8D /* BaseBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA381447ADA200B93C8D /* BaseBackgroundLayer.m */; };
 		C05ADA4D1447ADA200B93C8D /* BasePlanetaryLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.m */; };
 		C05ADA4E1447ADA200B93C8D /* BasePlanetSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3C1447ADA200B93C8D /* BasePlanetSprite.m */; };
-		C05ADA4F1447ADA200B93C8D /* BaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3E1447ADA200B93C8D /* BaseScene.m */; };
 		C05ADA501447ADA200B93C8D /* BaseStarshipLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA401447ADA200B93C8D /* BaseStarshipLayer.mm */; };
 		C05ADA511447ADA200B93C8D /* MainMenuLayer_old.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA441447ADA200B93C8D /* MainMenuLayer_old.mm */; };
 		C05ADA521447ADA200B93C8D /* MainMenuScene_old.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA461447ADA200B93C8D /* MainMenuScene_old.m */; };
@@ -63,6 +62,9 @@
 		C05FB58E14C66067002DAEA1 /* StarshipLayerTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05FB58D14C66067002DAEA1 /* StarshipLayerTest.mm */; };
 		C05FB59114C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05FB59014C66211002DAEA1 /* Lvl1StarshipLayer.mm */; };
 		C05FB59214C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05FB59014C66211002DAEA1 /* Lvl1StarshipLayer.mm */; };
+		C0746A8514D0F1B200461441 /* HudLayerTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0746A8414D0F1B200461441 /* HudLayerTest.mm */; };
+		C0746A8714D0F62500461441 /* BaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C0746A8614D0F62400461441 /* BaseScene.m */; };
+		C0746A8814D0F62500461441 /* BaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C0746A8614D0F62400461441 /* BaseScene.m */; };
 		C07AD86714883CC600E28F42 /* GHUnitCocos2dBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C07AD86514883CC600E28F42 /* GHUnitCocos2dBase.m */; };
 		C07AD89D148842CF00E28F42 /* BaseTestWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */; };
 		C07AD89E148842CF00E28F42 /* BaseTestWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */; };
@@ -73,7 +75,7 @@
 		C0A77AC31450E4010005C2B2 /* BaseGameObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0A77AC21450E4010005C2B2 /* BaseGameObject.mm */; };
 		C0AEC38114D0C4420083F472 /* MainMenuBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C93144A289900FDA8FE /* MainMenuBackgroundLayer.m */; };
 		C0AEC38214D0C4590083F472 /* Lvl1World.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA4B1447ADA200B93C8D /* Lvl1World.mm */; };
-		C0AEC38314D0C46D0083F472 /* Lvl1HUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.m */; };
+		C0AEC38314D0C46D0083F472 /* Lvl1HUDLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.mm */; };
 		C0AEC38414D0C4700083F472 /* Lvl1BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C9B144A309800FDA8FE /* Lvl1BackgroundLayer.m */; };
 		C0AEC38514D0C4780083F472 /* Lvl1PlanetaryLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C9E144A33B900FDA8FE /* Lvl1PlanetaryLayer.mm */; };
 		C0AEC38914D0D2740083F472 /* WorldTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0AEC38814D0D2740083F472 /* WorldTest.mm */; };
@@ -97,7 +99,6 @@
 		C0DE143D14842EA20000A5F3 /* SpaceshipTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DE143B14842E810000A5F3 /* SpaceshipTest.mm */; };
 		C0DE1444148431CB0000A5F3 /* BaseBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA381447ADA200B93C8D /* BaseBackgroundLayer.m */; };
 		C0DE1445148431CB0000A5F3 /* BasePlanetaryLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.m */; };
-		C0DE1446148431CB0000A5F3 /* BaseScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3E1447ADA200B93C8D /* BaseScene.m */; };
 		C0DE1447148431CB0000A5F3 /* BaseStarshipLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA401447ADA200B93C8D /* BaseStarshipLayer.mm */; };
 		C0DE1448148431CB0000A5F3 /* BaseHUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA561447AF6500B93C8D /* BaseHUDLayer.m */; };
 		C0DE1449148431CB0000A5F3 /* BaseShip.mm in Sources */ = {isa = PBXBuildFile; fileRef = C08A08AA144A344A00978E5C /* BaseShip.mm */; };
@@ -918,7 +919,7 @@
 		008B7CA0144A379600FDA8FE /* planet2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planet2.png; sourceTree = "<group>"; };
 		008B7CA2144A39C200FDA8FE /* planet1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = planet1.png; sourceTree = "<group>"; };
 		008B7CA4144A3AEF00FDA8FE /* Lvl1HUDLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lvl1HUDLayer.h; sourceTree = "<group>"; };
-		008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Lvl1HUDLayer.m; sourceTree = "<group>"; };
+		008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Lvl1HUDLayer.mm; sourceTree = "<group>"; };
 		0099F9D8143F44E700C1F499 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
 		0099F9F0143F45A800C1F499 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
 		0099F9F1143F45A800C1F499 /* GameManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameManager.mm; sourceTree = "<group>"; };
@@ -930,7 +931,6 @@
 		C05ADA3B1447ADA200B93C8D /* BasePlanetSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlanetSprite.h; sourceTree = "<group>"; };
 		C05ADA3C1447ADA200B93C8D /* BasePlanetSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePlanetSprite.m; sourceTree = "<group>"; };
 		C05ADA3D1447ADA200B93C8D /* BaseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseScene.h; sourceTree = "<group>"; };
-		C05ADA3E1447ADA200B93C8D /* BaseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseScene.m; sourceTree = "<group>"; };
 		C05ADA3F1447ADA200B93C8D /* BaseStarshipLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseStarshipLayer.h; sourceTree = "<group>"; };
 		C05ADA401447ADA200B93C8D /* BaseStarshipLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseStarshipLayer.mm; sourceTree = "<group>"; };
 		C05ADA431447ADA200B93C8D /* MainMenuLayer_old.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainMenuLayer_old.h; sourceTree = "<group>"; };
@@ -950,6 +950,8 @@
 		C05FB58D14C66067002DAEA1 /* StarshipLayerTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = StarshipLayerTest.mm; sourceTree = "<group>"; };
 		C05FB58F14C66211002DAEA1 /* Lvl1StarshipLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Lvl1StarshipLayer.h; sourceTree = "<group>"; };
 		C05FB59014C66211002DAEA1 /* Lvl1StarshipLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Lvl1StarshipLayer.mm; sourceTree = "<group>"; };
+		C0746A8414D0F1B200461441 /* HudLayerTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = HudLayerTest.mm; sourceTree = "<group>"; };
+		C0746A8614D0F62400461441 /* BaseScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseScene.m; sourceTree = "<group>"; };
 		C07AD86514883CC600E28F42 /* GHUnitCocos2dBase.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHUnitCocos2dBase.m; sourceTree = "<group>"; };
 		C07AD86614883CC600E28F42 /* GHUnitCocos2dBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUnitCocos2dBase.h; sourceTree = "<group>"; };
 		C07AD89B148842CD00E28F42 /* BaseTestWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTestWorld.h; sourceTree = "<group>"; };
@@ -1641,7 +1643,7 @@
 				C05ADA391447ADA200B93C8D /* BasePlanetaryLayer.h */,
 				C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.m */,
 				C05ADA3D1447ADA200B93C8D /* BaseScene.h */,
-				C05ADA3E1447ADA200B93C8D /* BaseScene.m */,
+				C0746A8614D0F62400461441 /* BaseScene.m */,
 				C05ADA3F1447ADA200B93C8D /* BaseStarshipLayer.h */,
 				C05ADA401447ADA200B93C8D /* BaseStarshipLayer.mm */,
 				C05ADA551447AF6500B93C8D /* BaseHUDLayer.h */,
@@ -1700,7 +1702,7 @@
 				008B7C9D144A33B900FDA8FE /* Lvl1PlanetaryLayer.h */,
 				008B7C9E144A33B900FDA8FE /* Lvl1PlanetaryLayer.mm */,
 				008B7CA4144A3AEF00FDA8FE /* Lvl1HUDLayer.h */,
-				008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.m */,
+				008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.mm */,
 				C05FB58F14C66211002DAEA1 /* Lvl1StarshipLayer.h */,
 				C05FB59014C66211002DAEA1 /* Lvl1StarshipLayer.mm */,
 			);
@@ -1711,6 +1713,7 @@
 			isa = PBXGroup;
 			children = (
 				C05FB58D14C66067002DAEA1 /* StarshipLayerTest.mm */,
+				C0746A8414D0F1B200461441 /* HudLayerTest.mm */,
 			);
 			name = Layers;
 			sourceTree = "<group>";
@@ -2443,7 +2446,6 @@
 				C05ADA4C1447ADA200B93C8D /* BaseBackgroundLayer.m in Sources */,
 				C05ADA4D1447ADA200B93C8D /* BasePlanetaryLayer.m in Sources */,
 				C05ADA4E1447ADA200B93C8D /* BasePlanetSprite.m in Sources */,
-				C05ADA4F1447ADA200B93C8D /* BaseScene.m in Sources */,
 				C05ADA501447ADA200B93C8D /* BaseStarshipLayer.mm in Sources */,
 				C05ADA511447ADA200B93C8D /* MainMenuLayer_old.mm in Sources */,
 				C05ADA521447ADA200B93C8D /* MainMenuScene_old.m in Sources */,
@@ -2456,12 +2458,13 @@
 				008B7C94144A289900FDA8FE /* MainMenuBackgroundLayer.m in Sources */,
 				008B7C9C144A309800FDA8FE /* Lvl1BackgroundLayer.m in Sources */,
 				008B7C9F144A33B900FDA8FE /* Lvl1PlanetaryLayer.mm in Sources */,
-				008B7CA6144A3AF100FDA8FE /* Lvl1HUDLayer.m in Sources */,
+				008B7CA6144A3AF100FDA8FE /* Lvl1HUDLayer.mm in Sources */,
 				C0A77ABF1450E18F0005C2B2 /* BaseWorld.mm in Sources */,
 				C0A77AC31450E4010005C2B2 /* BaseGameObject.mm in Sources */,
 				C0B5F28D145A1059001695ED /* BasePlanetGameObject.mm in Sources */,
 				C07AD89D148842CF00E28F42 /* BaseTestWorld.mm in Sources */,
 				C05FB59114C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */,
+				C0746A8714D0F62500461441 /* BaseScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2474,7 +2477,6 @@
 				C08039D5149172F5006C6CE4 /* MainMenuLayer.mm in Sources */,
 				C0DE1444148431CB0000A5F3 /* BaseBackgroundLayer.m in Sources */,
 				C0DE1445148431CB0000A5F3 /* BasePlanetaryLayer.m in Sources */,
-				C0DE1446148431CB0000A5F3 /* BaseScene.m in Sources */,
 				C0DE1447148431CB0000A5F3 /* BaseStarshipLayer.mm in Sources */,
 				C0DE1448148431CB0000A5F3 /* BaseHUDLayer.m in Sources */,
 				C08039D4149172BE006C6CE4 /* MainMenuScene.m in Sources */,
@@ -2487,13 +2489,15 @@
 				C07AD86714883CC600E28F42 /* GHUnitCocos2dBase.m in Sources */,
 				C07AD89E148842CF00E28F42 /* BaseTestWorld.mm in Sources */,
 				C0AEC38114D0C4420083F472 /* MainMenuBackgroundLayer.m in Sources */,
-				C0AEC38314D0C46D0083F472 /* Lvl1HUDLayer.m in Sources */,
+				C0AEC38314D0C46D0083F472 /* Lvl1HUDLayer.mm in Sources */,
 				C05FB58E14C66067002DAEA1 /* StarshipLayerTest.mm in Sources */,
 				C0AEC38414D0C4700083F472 /* Lvl1BackgroundLayer.m in Sources */,
 				C0AEC38514D0C4780083F472 /* Lvl1PlanetaryLayer.mm in Sources */,
 				C0AEC38214D0C4590083F472 /* Lvl1World.mm in Sources */,
 				C05FB59214C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */,
 				C0AEC38914D0D2740083F472 /* WorldTest.mm in Sources */,
+				C0746A8514D0F1B200461441 /* HudLayerTest.mm in Sources */,
+				C0746A8814D0F62500461441 /* BaseScene.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -11,6 +11,7 @@
 #import "CCMenu.h"
 #import "CCMenuItem.h"
 
+
 @interface BaseHUDLayer : CCLayer {
         
     CCMenu* HUD;

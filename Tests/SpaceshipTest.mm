@@ -45,6 +45,15 @@
     GHAssertTrue([bs hasLaunched], @"The ship should have launched!", nil);
 }
 
+-(void)testShipMovesAfterLaunch{
+    CGPoint ini_vel = [bs getLinearVelocity];
+    [bs launch];
+    CGPoint vel = [bs getLinearVelocity];
+    GHAssertNotEquals(vel, ini_vel, @"Should not be the same as the initial velocity", nil);
+
+    
+}
+
 -(void) testShipMoves{
 
     CGPoint ini_vel = [bs getLinearVelocity];

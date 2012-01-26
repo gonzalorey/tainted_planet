@@ -8,7 +8,9 @@
 
 #import "BaseHUDLayer.h"
 
+
 @implementation BaseHUDLayer
+
 
 @synthesize  HUD;
 
@@ -32,6 +34,7 @@
 {
     return nil;
 }
+
 
 -(void)dealloc
 {

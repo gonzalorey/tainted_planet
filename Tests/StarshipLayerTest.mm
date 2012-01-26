@@ -16,7 +16,6 @@
 #import "Lvl1StarshipLayer.h"
 
 @interface StarshipLayerTest : GHUnitCocos2dBase { 
-    BaseShip* ship;
     Lvl1StarshipLayer* layer;
 }
 @end
@@ -32,11 +31,13 @@
 }
 
 - (void)testLayerNotNull {           
-   // GHAssertNotNULL(layer, nil);
+    GHAssertNotNULL(layer, nil);
 }
 
 -(void)testLayerGivesShip {
-   // GHAssertNotNULL([layer getShip], @"Layer should provide a Ship", nil);
+    BaseShip* ship = [layer getShip]; 
+    GHAssertNotNULL(ship, @"Layer should provide a Ship", nil);
+    GHAssertEquals([layer getShip], ship, @"There should only be one ship man!", nil);
 }
 
 

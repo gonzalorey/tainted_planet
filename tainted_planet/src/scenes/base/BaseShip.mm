@@ -16,6 +16,7 @@
 -(void)launch
 {
     launched = TRUE;
+    [self applyLinearImpulse:CGPointMake(5,5)];
 }
 
 -(BOOL)hasLaunched

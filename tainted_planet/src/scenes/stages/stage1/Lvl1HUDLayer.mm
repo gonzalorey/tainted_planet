@@ -7,7 +7,7 @@
 //
 
 #import "Lvl1HUDLayer.h"
-
+#import "GameManager.h"
 
 @implementation Lvl1HUDLayer
 
@@ -18,7 +18,7 @@
                                      selectedImage:@"PlayGameButtonSelected.png"
                                      disabledImage:nil 
                                      target:self 
-                                     selector:@selector(launch)];
+                                     selector:@selector(tellShipToLaunch)];
     
     CCMenu* myHUD;
     myHUD = [CCMenu menuWithItems:launchButton, nil];
@@ -34,6 +34,18 @@
 -(void)launch
 {
     NSLog(@"Launch Ship!");
+}
+
+-(BaseShip*)getShip
+{
+    BaseShip* ship = [[[[GameManager sharedGameManager]getRunningWorld]getStarshipLayer]getShip];
+    return ship;
+}
+
+-(void)tellShipToLaunch
+{
+    BaseShip* ship = [self getShip];
+    [ship launch];
 }
 
 @end

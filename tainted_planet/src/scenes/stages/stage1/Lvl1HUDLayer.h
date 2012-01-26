@@ -9,9 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "cocos2d.h"
 #import "BaseHUDLayer.h"
+#import "BaseShip.h"
 
 @interface Lvl1HUDLayer : BaseHUDLayer {
     
 }
 
+-(BaseShip*)getShip;
+-(void)tellShipToLaunch;
 @end
