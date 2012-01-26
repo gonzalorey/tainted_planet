@@ -35,7 +35,5 @@
 
 -(void)dealloc
 {
-    [self.HUD release];
-    [super dealloc];
 }
 @end

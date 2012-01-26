@@ -76,6 +76,7 @@
 		C0AEC38314D0C46D0083F472 /* Lvl1HUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.m */; };
 		C0AEC38414D0C4700083F472 /* Lvl1BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C9B144A309800FDA8FE /* Lvl1BackgroundLayer.m */; };
 		C0AEC38514D0C4780083F472 /* Lvl1PlanetaryLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C9E144A33B900FDA8FE /* Lvl1PlanetaryLayer.mm */; };
+		C0AEC38914D0D2740083F472 /* WorldTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0AEC38814D0D2740083F472 /* WorldTest.mm */; };
 		C0B5F28D145A1059001695ED /* BasePlanetGameObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0B5F28C145A1058001695ED /* BasePlanetGameObject.mm */; };
 		C0D92EEE14C64A4A00BAA888 /* libbox2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D92EED14C64A4A00BAA888 /* libbox2d.a */; };
 		C0D92EEF14C64A4A00BAA888 /* libbox2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D92EED14C64A4A00BAA888 /* libbox2d.a */; };
@@ -83,7 +84,6 @@
 		C0D92EF214C64A5900BAA888 /* libcocos2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D92EF014C64A5900BAA888 /* libcocos2d.a */; };
 		C0DE1295148419410000A5F3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = C0DE1293148419410000A5F3 /* InfoPlist.strings */; };
 		C0DE1298148419410000A5F3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C0DE1297148419410000A5F3 /* main.m */; };
-		C0DE13AB14841BAF0000A5F3 /* FirstTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DE13AA14841BAF0000A5F3 /* FirstTest.mm */; };
 		C0DE142E14842A5F0000A5F3 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = C0DE13C414841EFA0000A5F3 /* libz.dylib */; };
 		C0DE143014842A5F0000A5F3 /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C012D1761479A95D007EBA69 /* GHUnitIOS.framework */; };
 		C0DE143114842A5F0000A5F3 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0026A5E314390BD500F2FF6B /* QuartzCore.framework */; };
@@ -960,6 +960,7 @@
 		C0A77ABE1450E18F0005C2B2 /* BaseWorld.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseWorld.mm; sourceTree = "<group>"; };
 		C0A77AC11450E4010005C2B2 /* BaseGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGameObject.h; sourceTree = "<group>"; };
 		C0A77AC21450E4010005C2B2 /* BaseGameObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseGameObject.mm; sourceTree = "<group>"; };
+		C0AEC38814D0D2740083F472 /* WorldTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WorldTest.mm; sourceTree = "<group>"; };
 		C0B5F28B145A1058001695ED /* BasePlanetGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlanetGameObject.h; sourceTree = "<group>"; };
 		C0B5F28C145A1058001695ED /* BasePlanetGameObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BasePlanetGameObject.mm; sourceTree = "<group>"; };
 		C0D92DE414C6444E00BAA888 /* cocos2d-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "cocos2d-ios.xcodeproj"; path = "ProjectReferences/cocos2d-iphone-1.0.1/cocos2d-ios.xcodeproj"; sourceTree = "<group>"; };
@@ -971,7 +972,6 @@
 		C0DE1294148419410000A5F3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		C0DE1296148419410000A5F3 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		C0DE1297148419410000A5F3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		C0DE13AA14841BAF0000A5F3 /* FirstTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = FirstTest.mm; sourceTree = "<group>"; };
 		C0DE13C414841EFA0000A5F3 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		C0DE143B14842E810000A5F3 /* SpaceshipTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = SpaceshipTest.mm; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -1715,6 +1715,14 @@
 			name = Layers;
 			sourceTree = "<group>";
 		};
+		C0AEC38614D0D2570083F472 /* World */ = {
+			isa = PBXGroup;
+			children = (
+				C0AEC38814D0D2740083F472 /* WorldTest.mm */,
+			);
+			name = World;
+			sourceTree = "<group>";
+		};
 		C0D92DE514C6444E00BAA888 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -1810,10 +1818,10 @@
 			children = (
 				C07AD86514883CC600E28F42 /* GHUnitCocos2dBase.m */,
 				C07AD86614883CC600E28F42 /* GHUnitCocos2dBase.h */,
+				C0AEC38614D0D2570083F472 /* World */,
 				C05FB58B14C66025002DAEA1 /* Layers */,
 				C0DE143914842E510000A5F3 /* Spaceship */,
 				C0DE1291148419410000A5F3 /* Supporting Files */,
-				C0DE13AA14841BAF0000A5F3 /* FirstTest.mm */,
 			);
 			path = Tests;
 			sourceTree = "<group>";
@@ -2463,7 +2471,6 @@
 			files = (
 				C0DE143D14842EA20000A5F3 /* SpaceshipTest.mm in Sources */,
 				C0DE1298148419410000A5F3 /* main.m in Sources */,
-				C0DE13AB14841BAF0000A5F3 /* FirstTest.mm in Sources */,
 				C08039D5149172F5006C6CE4 /* MainMenuLayer.mm in Sources */,
 				C0DE1444148431CB0000A5F3 /* BaseBackgroundLayer.m in Sources */,
 				C0DE1445148431CB0000A5F3 /* BasePlanetaryLayer.m in Sources */,
@@ -2486,6 +2493,7 @@
 				C0AEC38514D0C4780083F472 /* Lvl1PlanetaryLayer.mm in Sources */,
 				C0AEC38214D0C4590083F472 /* Lvl1World.mm in Sources */,
 				C05FB59214C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */,
+				C0AEC38914D0D2740083F472 /* WorldTest.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

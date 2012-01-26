@@ -28,7 +28,7 @@
     BaseShip* ship = [[BaseShip alloc]initWithMass:1 scale:1 pos:CGPointMake(0, 0) file:@"spaceship.png"];
     [ship applyLinearImpulse:CGPointMake(0.1, 0.1)];
     [myplanets addObject:ship];
-    
+    [ship release];
     return [myplanets autorelease];
 }
 

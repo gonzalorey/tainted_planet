@@ -23,7 +23,9 @@
 
 
 - (void)setUp {
-    [[GameManager sharedGameManager] runSceneWithID:kBaseTestWorld];
+    
+    [[GameManager sharedGameManager] startTesting];
+    [[GameManager sharedGameManager] runSceneWithID:kGameLevel1];
     bs = [[BaseShip alloc]initWithMass:1.0 scale:1.0 pos:CGPointMake(0,0) file:@"spaceship.png"];
 }
 

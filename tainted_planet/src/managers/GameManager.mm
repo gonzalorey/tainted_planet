@@ -72,9 +72,6 @@ static GameManager* _sharedGameManager = nil;
     
     id sceneToRun = nil;
     switch (sceneID) {
-        case kBaseTestWorld:
-            [self startTesting];
-            break;
         case kMainMenuScene:
             sceneToRun = [MainMenuScene node];
             break;
@@ -88,7 +85,10 @@ static GameManager* _sharedGameManager = nil;
     }
     
     if(testing)
+    {
+        testWorld = sceneToRun;
         return;
+    }
     
     if (sceneToRun == nil) {
         // Revert back, since no new scene was found
@@ -126,8 +126,10 @@ static GameManager* _sharedGameManager = nil;
 -(BaseWorld*)getRunningWorld
 {
     if(testing)
+    {
         return testWorld;
-    
+    }
+
     CCScene* scene = [self getRunningScene];
     if([scene isKindOfClass:[BaseWorld class]])
         return (BaseWorld*) scene;
@@ -143,6 +145,6 @@ static GameManager* _sharedGameManager = nil;
 -(void)startTesting
 {
     testing = TRUE;
-    testWorld = [BaseTestWorld node];
 }
+
 @end

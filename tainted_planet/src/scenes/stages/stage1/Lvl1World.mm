@@ -10,6 +10,7 @@
 #import "Lvl1BackgroundLayer.h"
 #import "Lvl1PlanetaryLayer.h"
 #import "Lvl1HUDLayer.h"
+#import "Lvl1StarshipLayer.h"
 
 @implementation Lvl1World
 
@@ -21,8 +22,16 @@
 
 -(BasePlanetaryLayer*)getPlanetaryLayer
 {
-    Lvl1PlanetaryLayer* layer = [Lvl1PlanetaryLayer  node];
-    return [layer autorelease];
+    if(self.planetaryLayer == nil)
+        self.planetaryLayer = [Lvl1PlanetaryLayer  node];
+    return self.planetaryLayer;
+}
+
+-(BaseStarshipLayer*)getStarshipLayer
+{
+    if(self.starshipLayer == nil)
+        self.starshipLayer = [Lvl1StarshipLayer node];
+    return self.starshipLayer;
 }
 
 -(BaseHUDLayer *)getHUDLayer
@@ -31,4 +40,8 @@
     return [layer autorelease];
 }
 
+-(void)dealloc{
+    [self.planetaryLayer release];
+    [self.starshipLayer release];
+}
 @end

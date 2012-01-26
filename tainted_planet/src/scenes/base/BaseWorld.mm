@@ -10,7 +10,7 @@
 
 
 @implementation BaseWorld
-@synthesize _world, objectsInitialized, planetaryLayer;
+@synthesize _world, objectsInitialized, planetaryLayer, starshipLayer;
 
 -(id)init {
     self = [super init]; 
@@ -30,8 +30,11 @@
 
 -(BasePlanetaryLayer*)getPlanetaryLayer
 {
-    /*  BasePlanetaryLayer* layer = [BasePlanetaryLayer  node];
-     return [layer autorelease];*/
+    return nil;
+}
+
+-(BaseStarshipLayer*)getStarshipLayer
+{
     return nil;
 }
 
@@ -49,7 +52,7 @@
 - (void)dealloc {
     
     delete _world;
-    [super dealloc];
+    
 }
 
 -(void)tick:(ccTime)dt {

@@ -31,4 +31,8 @@
     return ship;
 }
 
+-(void)dealloc
+{
+    [ship release];
+}
 @end
