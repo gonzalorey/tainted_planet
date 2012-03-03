@@ -19,17 +19,19 @@
     bool objectsInitialized;
     BasePlanetaryLayer* planetaryLayer;
     BaseStarshipLayer* starshipLayer;
+    CGRect boundary;
 }
 
 @property (nonatomic, assign) b2World* _world;
 @property (nonatomic, assign) bool objectsInitialized;
 @property (nonatomic, retain) BasePlanetaryLayer* planetaryLayer;
 @property (nonatomic, retain) BaseStarshipLayer* starshipLayer;
-
+@property (nonatomic, assign) CGRect boundary;
 -(void)initGameObjects;
 -(void)start;
 -(void)tick:(ccTime)dt;
 -(BasePlanetaryLayer*)getPlanetaryLayer;
 -(BaseStarshipLayer*)getStarshipLayer;
-
+-(CGFloat)getLevelWidth;
+-(CGFloat)getLevelHeight;
 @end

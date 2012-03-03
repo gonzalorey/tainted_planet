@@ -34,7 +34,7 @@
     // Create the body
     b2BodyDef bodyDef;
     bodyDef.type = b2_dynamicBody;
-    bodyDef.position.Set(100/PTM_RATIO, 100/PTM_RATIO);
+    bodyDef.position.Set(self.position.x/PTM_RATIO, self.position.y/PTM_RATIO);
     bodyDef.userData = self;
     
     need_to_create = YES;

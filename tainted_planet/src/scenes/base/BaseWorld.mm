@@ -10,7 +10,7 @@
 
 
 @implementation BaseWorld
-@synthesize _world, objectsInitialized, planetaryLayer, starshipLayer;
+@synthesize _world, objectsInitialized, planetaryLayer, starshipLayer, boundary;
 
 -(id)init {
     self = [super init]; 
@@ -74,4 +74,16 @@
     }
     
 }
+
+
+-(CGFloat)getLevelWidth{
+    return boundary.size.width;
+}
+
+
+
+-(CGFloat)getLevelHeight{
+    return boundary.size.height;
+}
+
 @end

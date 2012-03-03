@@ -61,6 +61,13 @@
     GHAssertEquals(layer2, layer3, @"There should only be one layer", nil);
     GHAssertEquals(layer3, layer1, @"There should only be one layer", nil);
 }
+
+-(void)testSetLevelBoundaries
+{
+    [world setBoundary:CGRectMake(0, 0, 10, 10)];
+    GHAssertEquals([world getLevelWidth], 10.0f, @"World should be 10 wide", nil);
+    GHAssertEquals([world getLevelHeight], 10.0f, @"World should be 10 high", nil);
+}
 - (void)tearDown {
 
 }   
