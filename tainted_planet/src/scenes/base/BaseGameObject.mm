@@ -9,6 +9,7 @@
 #import "BaseGameObject.h"
 #import "GameManager.h"
 #import "b2Shape.h"
+#import "CoordManager.h"
 
 @implementation BaseGameObject
 @synthesize mass, filename, body, bodyFixture;
@@ -16,9 +17,10 @@
 -(id)initWithMass:(float)m scale:(float)s pos:(CGPoint)p file:(NSString *)afilename
 {
     [super initWithFile:afilename];
+    CoordManager* coord = [CoordManager getInstance];
     self.mass = m;
-    self.scale = s;
-    self.position =  p;
+    self.scale = [coord scale:self withScale:s];
+    self.position =  [coord position:self inPos:p];
     self = [self initPhysics];
     return self;
 }

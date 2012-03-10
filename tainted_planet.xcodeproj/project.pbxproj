@@ -79,6 +79,9 @@
 		C0AEC38414D0C4700083F472 /* Lvl1BackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C9B144A309800FDA8FE /* Lvl1BackgroundLayer.m */; };
 		C0AEC38514D0C4780083F472 /* Lvl1PlanetaryLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008B7C9E144A33B900FDA8FE /* Lvl1PlanetaryLayer.mm */; };
 		C0AEC38914D0D2740083F472 /* WorldTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0AEC38814D0D2740083F472 /* WorldTest.mm */; };
+		C0B52FFE150BC30F00CADF08 /* CoordManagerTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0B52FFD150BC30F00CADF08 /* CoordManagerTest.mm */; };
+		C0B53001150BC45D00CADF08 /* CoordManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0B53000150BC45D00CADF08 /* CoordManager.mm */; };
+		C0B53002150BC45D00CADF08 /* CoordManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0B53000150BC45D00CADF08 /* CoordManager.mm */; };
 		C0B5F28D145A1059001695ED /* BasePlanetGameObject.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0B5F28C145A1058001695ED /* BasePlanetGameObject.mm */; };
 		C0D92EEE14C64A4A00BAA888 /* libbox2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D92EED14C64A4A00BAA888 /* libbox2d.a */; };
 		C0D92EEF14C64A4A00BAA888 /* libbox2d.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C0D92EED14C64A4A00BAA888 /* libbox2d.a */; };
@@ -963,6 +966,9 @@
 		C0A77AC11450E4010005C2B2 /* BaseGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseGameObject.h; sourceTree = "<group>"; };
 		C0A77AC21450E4010005C2B2 /* BaseGameObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseGameObject.mm; sourceTree = "<group>"; };
 		C0AEC38814D0D2740083F472 /* WorldTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = WorldTest.mm; sourceTree = "<group>"; };
+		C0B52FFD150BC30F00CADF08 /* CoordManagerTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CoordManagerTest.mm; sourceTree = "<group>"; };
+		C0B52FFF150BC45D00CADF08 /* CoordManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CoordManager.h; sourceTree = "<group>"; };
+		C0B53000150BC45D00CADF08 /* CoordManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = CoordManager.mm; sourceTree = "<group>"; };
 		C0B5F28B145A1058001695ED /* BasePlanetGameObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlanetGameObject.h; sourceTree = "<group>"; };
 		C0B5F28C145A1058001695ED /* BasePlanetGameObject.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BasePlanetGameObject.mm; sourceTree = "<group>"; };
 		C0D92DE414C6444E00BAA888 /* cocos2d-ios.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = "cocos2d-ios.xcodeproj"; path = "ProjectReferences/cocos2d-iphone-1.0.1/cocos2d-ios.xcodeproj"; sourceTree = "<group>"; };
@@ -1660,6 +1666,8 @@
 				C0A77AC21450E4010005C2B2 /* BaseGameObject.mm */,
 				C07AD89B148842CD00E28F42 /* BaseTestWorld.h */,
 				C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */,
+				C0B52FFF150BC45D00CADF08 /* CoordManager.h */,
+				C0B53000150BC45D00CADF08 /* CoordManager.mm */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -1722,6 +1730,7 @@
 			isa = PBXGroup;
 			children = (
 				C0AEC38814D0D2740083F472 /* WorldTest.mm */,
+				C0B52FFD150BC30F00CADF08 /* CoordManagerTest.mm */,
 			);
 			name = World;
 			sourceTree = "<group>";
@@ -2465,6 +2474,7 @@
 				C07AD89D148842CF00E28F42 /* BaseTestWorld.mm in Sources */,
 				C05FB59114C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */,
 				C0746A8714D0F62500461441 /* BaseScene.m in Sources */,
+				C0B53001150BC45D00CADF08 /* CoordManager.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2498,6 +2508,8 @@
 				C0AEC38914D0D2740083F472 /* WorldTest.mm in Sources */,
 				C0746A8514D0F1B200461441 /* HudLayerTest.mm in Sources */,
 				C0746A8814D0F62500461441 /* BaseScene.m in Sources */,
+				C0B52FFE150BC30F00CADF08 /* CoordManagerTest.mm in Sources */,
+				C0B53002150BC45D00CADF08 /* CoordManager.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

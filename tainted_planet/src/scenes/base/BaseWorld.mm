@@ -22,6 +22,7 @@
         bool doSleep = true;
         self._world = new b2World(gravity, doSleep);
         self.objectsInitialized = NO;
+        boundary = [[UIScreen mainScreen]bounds];
         [self start];
     }
     return self;
