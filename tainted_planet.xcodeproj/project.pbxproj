@@ -48,6 +48,9 @@
 		008B7CA6144A3AF100FDA8FE /* Lvl1HUDLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.mm */; };
 		0099F9DC143F44E700C1F499 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0099F9D8143F44E700C1F499 /* background1.png */; };
 		0099F9F2143F45A800C1F499 /* GameManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0099F9F1143F45A800C1F499 /* GameManager.mm */; };
+		C0310DCD151E5473008BAD7B /* Gravity.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DCC151E5473008BAD7B /* Gravity.mm */; };
+		C0310DCE151E5473008BAD7B /* Gravity.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DCC151E5473008BAD7B /* Gravity.mm */; };
+		C0310DD1151E5498008BAD7B /* GravityTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DD0151E5498008BAD7B /* GravityTest.mm */; };
 		C05ADA4C1447ADA200B93C8D /* BaseBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA381447ADA200B93C8D /* BaseBackgroundLayer.m */; };
 		C05ADA4D1447ADA200B93C8D /* BasePlanetaryLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.m */; };
 		C05ADA4E1447ADA200B93C8D /* BasePlanetSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3C1447ADA200B93C8D /* BasePlanetSprite.m */; };
@@ -927,6 +930,9 @@
 		0099F9F0143F45A800C1F499 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
 		0099F9F1143F45A800C1F499 /* GameManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameManager.mm; sourceTree = "<group>"; };
 		C012D1761479A95D007EBA69 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = Frameworks/GHUnitIOS.framework; sourceTree = "<group>"; };
+		C0310DCB151E5473008BAD7B /* Gravity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gravity.h; sourceTree = "<group>"; };
+		C0310DCC151E5473008BAD7B /* Gravity.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Gravity.mm; sourceTree = "<group>"; };
+		C0310DD0151E5498008BAD7B /* GravityTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GravityTest.mm; sourceTree = "<group>"; };
 		C05ADA371447ADA200B93C8D /* BaseBackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBackgroundLayer.h; sourceTree = "<group>"; };
 		C05ADA381447ADA200B93C8D /* BaseBackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBackgroundLayer.m; sourceTree = "<group>"; };
 		C05ADA391447ADA200B93C8D /* BasePlanetaryLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlanetaryLayer.h; sourceTree = "<group>"; };
@@ -1668,6 +1674,8 @@
 				C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */,
 				C0B52FFF150BC45D00CADF08 /* CoordManager.h */,
 				C0B53000150BC45D00CADF08 /* CoordManager.mm */,
+				C0310DCB151E5473008BAD7B /* Gravity.h */,
+				C0310DCC151E5473008BAD7B /* Gravity.mm */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -1731,6 +1739,7 @@
 			children = (
 				C0AEC38814D0D2740083F472 /* WorldTest.mm */,
 				C0B52FFD150BC30F00CADF08 /* CoordManagerTest.mm */,
+				C0310DD0151E5498008BAD7B /* GravityTest.mm */,
 			);
 			name = World;
 			sourceTree = "<group>";
@@ -1939,7 +1948,7 @@
 		C0D92E6814C6445100BAA888 /* lib/Users/dgrandes/Documents/iOS/build.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = libbox2d.a;
+			path = lib/Users/dgrandes/Documents/iOS/build.a;
 			remoteRef = C0D92E6714C6445100BAA888 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -2475,6 +2484,7 @@
 				C05FB59114C66211002DAEA1 /* Lvl1StarshipLayer.mm in Sources */,
 				C0746A8714D0F62500461441 /* BaseScene.m in Sources */,
 				C0B53001150BC45D00CADF08 /* CoordManager.mm in Sources */,
+				C0310DCD151E5473008BAD7B /* Gravity.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2510,6 +2520,8 @@
 				C0746A8814D0F62500461441 /* BaseScene.m in Sources */,
 				C0B52FFE150BC30F00CADF08 /* CoordManagerTest.mm in Sources */,
 				C0B53002150BC45D00CADF08 /* CoordManager.mm in Sources */,
+				C0310DCE151E5473008BAD7B /* Gravity.mm in Sources */,
+				C0310DD1151E5498008BAD7B /* GravityTest.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

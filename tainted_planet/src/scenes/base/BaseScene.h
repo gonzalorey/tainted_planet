@@ -12,7 +12,7 @@
 #import "BasePlanetaryLayer.h"
 #import "BaseHUDLayer.h"
 
-#define DEBUG_MODE 1
+//#define DEBUG_MODE 1
 
 @interface BaseScene : CCScene {
  

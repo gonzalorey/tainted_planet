@@ -68,6 +68,7 @@
     GHAssertEquals([world getLevelWidth], 10.0f, @"World should be 10 wide", nil);
     GHAssertEquals([world getLevelHeight], 10.0f, @"World should be 10 high", nil);
 }
+
 - (void)tearDown {
 
 }   

@@ -17,7 +17,7 @@
     self = [super init];
     if(self != nil){
         
-        self.planets = [self getPlanets];
+        self.planets = [self createPlanets];
         for(BasePlanetSprite* planet in self.planets)
         {
             [self addChild:planet z:0  tag:0];
@@ -34,6 +34,11 @@
 }
 -(NSMutableArray*)getPlanets
 { 
+    return self.planets;
+}
+
+-(NSMutableArray*)createPlanets
+{
     return nil;
 }
 @end

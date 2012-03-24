@@ -77,13 +77,20 @@
 }
 
 
--(void)applyLinearImpulse:(CGPoint)force
+-(void)applyLinearImpulse:(CGPoint)impulse
 {
     // Apply the force to the game object
-    b2Vec2 vforce = b2Vec2(force.x, force.y);
+    b2Vec2 vforce = b2Vec2(impulse.x, impulse.y);
     self.body->ApplyLinearImpulse(vforce, body->GetPosition());
     
 }
+
+-(void)applyForce:(CGPoint)force{
+    // Apply the force to the game object
+    b2Vec2 vforce = b2Vec2(force.x, force.y);
+    self.body->ApplyForce(vforce, body->GetPosition());
+}
+
 -(CGPoint)getLinearVelocity
 {
     b2Vec2 vel = body->GetLinearVelocity();

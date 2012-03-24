@@ -31,7 +31,8 @@
 -(id)initPhysics;
 -(void)setShape:(b2FixtureDef*)fixture;
 -(CGPoint)getPosition;
--(void)applyLinearImpulse:(CGPoint)force;
+-(void)applyLinearImpulse:(CGPoint)impulse;
+-(void)applyForce:(CGPoint)force;
 -(CGPoint)getLinearVelocity;
 
 @end

@@ -15,6 +15,7 @@
 
 @property (nonatomic, retain) NSMutableArray* planets;
 
+-(NSMutableArray*)createPlanets;
 -(NSMutableArray*)getPlanets;
 
 @end

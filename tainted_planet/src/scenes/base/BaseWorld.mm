@@ -9,7 +9,10 @@
 #import "BaseWorld.h"
 
 @implementation BaseWorld
-@synthesize _world, objectsInitialized, planetaryLayer, starshipLayer, boundary, _debugDraw;
+@synthesize _world, objectsInitialized, planetaryLayer, starshipLayer, boundary;
+#ifdef DEBUG_MODE
+    @synthesize _debugDraw;
+#endif
 
 -(id)init {
     self = [super init]; 
@@ -17,13 +20,13 @@
         NSLog(@"Initializing world");
         
         // Create a world
-        b2Vec2 gravity = b2Vec2(0.0f, 0.0f);
+        b2Vec2 gravityVec = b2Vec2(0.0f, 0.0f);
         bool doSleep = true;
-        self._world = new b2World(gravity, doSleep);
+        self._world = new b2World(gravityVec, doSleep);
         self.objectsInitialized = NO;
         boundary = [[UIScreen mainScreen]bounds];
         
-        if(DEBUG_MODE){
+#ifdef DEBUG_MODE
             // Enable debug draw
             _debugDraw = new GLESDebugDraw( PTM_RATIO );
             _world->SetDebugDraw(_debugDraw);
@@ -31,8 +34,8 @@
             uint32 flags = 0;
             flags += b2DebugDraw::e_shapeBit;
             _debugDraw->SetFlags(flags);
-        }
-        
+#endif
+        gravity = [Gravity getInstance];
         [self start];
     }
     return self;
@@ -66,7 +69,9 @@
 - (void)dealloc {
     
     delete _world;
+#ifdef DEBUG_MODE
     delete _debugDraw;
+#endif
     [super dealloc];
 }
 
@@ -78,6 +83,7 @@
         self.objectsInitialized = YES;
         return;
     }
+    [self applyGravity];
     _world->Step(dt, 10, 10);    
     for(b2Body *b = _world->GetBodyList(); b; b=b->GetNext()) {    
         if (b->GetUserData() != NULL) {
@@ -91,6 +97,12 @@
 }
 
 
+-(void)applyGravity{
+    BaseGameObject * ship = [[self getStarshipLayer] getShip];
+    CGPoint force = [gravity gravBtwnLayer:[self getPlanetaryLayer] andObj:ship];
+    [ship applyForce:force];
+}
+
 -(CGFloat)getLevelWidth{
     return boundary.size.width;
 }
@@ -101,6 +113,7 @@
     return boundary.size.height;
 }
 
+#ifdef DEBUG_MODE
 -(void) draw
 {
     if(DEBUG_MODE){
@@ -115,5 +128,6 @@
         glEnableClientState(GL_TEXTURE_COORD_ARRAY);	
     }
 }
+#endif
 
 @end
