@@ -17,5 +17,6 @@
 
 -(id)init;
 -(BaseShip*)getShip;
+-(BaseShip*)createShip;
 
 @end

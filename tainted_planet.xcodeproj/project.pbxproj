@@ -1939,7 +1939,7 @@
 		C0D92E6814C6445100BAA888 /* lib/Users/dgrandes/Documents/iOS/build.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = lib/Users/dgrandes/Documents/iOS/build.a;
+			path = libbox2d.a;
 			remoteRef = C0D92E6714C6445100BAA888 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};

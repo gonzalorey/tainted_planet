@@ -17,6 +17,7 @@
     NSString* filename;
     b2Body* body;
     b2Fixture* bodyFixture;
+    CGFloat relativeScale;
     bool need_to_create;
 }
 
@@ -24,6 +25,7 @@
 @property (nonatomic, retain) NSString* filename;
 @property (nonatomic, assign) b2Body* body;
 @property (nonatomic, assign) b2Fixture* bodyFixture;
+@property (nonatomic, assign) CGFloat relativeScale;
 
 -(id)initWithMass:(float)m scale:(float)s pos:(CGPoint)p file:(NSString *)afilename;
 -(id)initPhysics;

@@ -11,7 +11,7 @@
 @interface CoordManager : NSObject
 
 +(CoordManager*)getInstance;
--(CGPoint)getLevelScale;
 -(CGPoint)position:(BaseGameObject *)object inPos:(CGPoint)point;
 -(CGFloat)scale:(BaseGameObject*)object withScale:(CGFloat)scale;
+-(CGFloat)box2Dradius:(BaseGameObject*)object;
 @end

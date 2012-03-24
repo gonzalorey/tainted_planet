@@ -22,10 +22,6 @@
     [myplanets addObject:[[BasePlanetGameObject alloc] initWithMass:11 scale:0.125f pos:CGPointMake(0.25f, 0.75f)                                                               file:@"planet2.png"]];
     
     
-    BaseShip* ship = [[BaseShip alloc]initWithMass:1 scale:0.1f pos:CGPointMake(0.5f, 0.5f) file:@"spaceship.png"];
-    [ship applyLinearImpulse:CGPointMake(0.1, 0.1)];
-    [myplanets addObject:ship];
-    [ship release];
     return [myplanets autorelease];
 }
 

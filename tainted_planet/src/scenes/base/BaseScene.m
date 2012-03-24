@@ -22,7 +22,7 @@
     self.hudLayer = [self getHUDLayer];
     
     if(self.backgroundLayer)
-        [self addChild:backgroundLayer z:0]; 
+        [self addChild:backgroundLayer z:-10]; 
 
     if(self.hudLayer)
         [self addChild:self.hudLayer z:10];

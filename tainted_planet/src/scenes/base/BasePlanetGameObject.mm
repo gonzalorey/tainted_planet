@@ -7,6 +7,7 @@
 //
 
 #import "BasePlanetGameObject.h"
+#import "CoordManager.h"
 
 
 @implementation BasePlanetGameObject
@@ -16,7 +17,8 @@
     // Create circle shape
 
     myshape = new b2CircleShape();
-    myshape->m_radius = 128.0f/PTM_RATIO;
+    CoordManager *coord = [CoordManager getInstance];
+    myshape->m_radius = [coord box2Dradius:self];
     
     fixture->shape = myshape;
     return;

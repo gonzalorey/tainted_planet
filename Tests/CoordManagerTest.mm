@@ -55,11 +55,11 @@
     GHAssertNotEquals(newscale, originalScale, @"Object should have a different scale", nil);
 }
 
-
--(void)testLevelScale{
-    CGPoint scale = [myCoordManager getLevelScale];
-    GHAssertEquals(scale, CGPointMake(1, 1), @"Level scale should be 1,1 by default", nil);
+-(void)testInitGameObjectRadius{
+    BasePlanetGameObject *planet = [[BasePlanetGameObject alloc] initWithMass:1.0f scale:1.0f 
+                                                                          pos:CGPointMake(0,0) file:@"planet1.png"];
+    
+    CGFloat newRadius = [myCoordManager box2Dradius:planet];
+    GHAssertNotEquals(0.0f, newRadius, @"The original radius should not be zero", nil);
 }
-
-
 @end

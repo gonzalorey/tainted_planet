@@ -17,7 +17,7 @@
     self = [super init];
     if(self != nil){
         
-        self.ship = [[BaseShip alloc]initWithMass:1.0 scale:1.0 pos:CGPointMake(0,0) file:@"spaceship.png"];
+        self.ship = [self createShip];
 
         [self addChild:self.ship z:0  tag:0];
         
@@ -26,9 +26,14 @@
     return self;
 }
 
+-(BaseShip*)createShip
+{
+    return nil;
+}
+
 -(BaseShip*)getShip
 {
-    return ship;
+        return ship;
 }
 
 -(void)dealloc

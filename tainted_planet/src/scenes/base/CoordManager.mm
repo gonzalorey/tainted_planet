@@ -37,39 +37,28 @@ static CoordManager* _instance = nil;
     
 }
 
--(CGPoint)getLevelScalePixels{
-    CGPoint scale = [self getLevelScale];
-    CGRect screen = [[UIScreen mainScreen] bounds];
-    CGFloat width = screen.size.width / scale.x;
-    CGFloat height = screen.size.height / scale.y;
-    return CGPointMake(width, height);
-    
-}
-
-
--(CGPoint)getLevelScale
-{
-    BaseWorld*  world = [[GameManager sharedGameManager]getRunningWorld];
-    CGRect boundary = [world boundary];
-    CGRect screen = [[UIScreen mainScreen] bounds];
-    CGPoint scale =CGPointMake(boundary.size.width / screen.size.width, boundary.size.height / screen.size.height);
-    return scale;
-}
-
 -(CGPoint)position:(BaseGameObject *)object inPos:(CGPoint)point
 {
-    CGPoint levelScale = [self getLevelScalePixels];
-    CGPoint transPos = CGPointMake(levelScale.y * point.x, levelScale.x * point.y);
+    CGRect screen = [[UIScreen mainScreen] bounds];
+    CGPoint transPos = CGPointMake(screen.size.height * point.x, screen.size.width * point.y);
     return transPos;
 }
 
 -(CGFloat)scale:(BaseGameObject*)object withScale:(CGFloat)scale
 {
     CGRect textRect = object.textureRect;
-    CGPoint levelScalePix = [self getLevelScalePixels];
-    CGFloat expectedWidth = levelScalePix.x * scale;
+    CGRect screen = [[UIScreen mainScreen] bounds];
+    CGFloat expectedWidth = screen.size.width * scale;
     CGFloat newScale = expectedWidth / textRect.size.width;
     return newScale;
     
+}
+
+-(CGFloat)box2Dradius:(BaseGameObject*)object
+{
+    CGRect screen = [[UIScreen mainScreen] bounds];
+    CGFloat maxMeters = screen.size.height / PTM_RATIO / 2;
+    CGFloat radius = maxMeters * object.relativeScale;
+    return radius;
 }
 @end

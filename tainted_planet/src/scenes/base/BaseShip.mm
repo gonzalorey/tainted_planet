@@ -8,6 +8,7 @@
 
 #import "BaseShip.h"
 #import "Box2D.h"
+#import "CoordManager.h"
 
 @implementation BaseShip
 
@@ -42,7 +43,7 @@
     // Create circle shape
     
     myshape = new b2CircleShape();
-    myshape->m_radius = 26.0/PTM_RATIO;
+    myshape->m_radius = [[CoordManager getInstance] box2Dradius:self];
     
     fixture->shape = myshape;
     return;

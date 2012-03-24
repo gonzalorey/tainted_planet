@@ -11,6 +11,7 @@
 #import "BaseScene.h"
 #import "Box2D.h"
 #import "BaseStarshipLayer.h"
+#import "GLES-Render.h"
 
 #define PTM_RATIO 32
 
@@ -20,6 +21,7 @@
     BasePlanetaryLayer* planetaryLayer;
     BaseStarshipLayer* starshipLayer;
     CGRect boundary;
+    GLESDebugDraw *_debugDraw;
 }
 
 @property (nonatomic, assign) b2World* _world;
@@ -27,6 +29,7 @@
 @property (nonatomic, retain) BasePlanetaryLayer* planetaryLayer;
 @property (nonatomic, retain) BaseStarshipLayer* starshipLayer;
 @property (nonatomic, assign) CGRect boundary;
+@property (nonatomic, assign) GLESDebugDraw *_debugDraw;
 -(void)initGameObjects;
 -(void)start;
 -(void)tick:(ccTime)dt;

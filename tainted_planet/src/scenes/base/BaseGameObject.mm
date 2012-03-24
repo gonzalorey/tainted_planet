@@ -12,13 +12,14 @@
 #import "CoordManager.h"
 
 @implementation BaseGameObject
-@synthesize mass, filename, body, bodyFixture;
+@synthesize mass, filename, body, bodyFixture, relativeScale;
 
 -(id)initWithMass:(float)m scale:(float)s pos:(CGPoint)p file:(NSString *)afilename
 {
     [super initWithFile:afilename];
     CoordManager* coord = [CoordManager getInstance];
     self.mass = m;
+    self.relativeScale = s;
     self.scale = [coord scale:self withScale:s];
     self.position =  [coord position:self inPos:p];
     self = [self initPhysics];
