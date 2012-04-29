@@ -51,6 +51,8 @@
 		C0310DCD151E5473008BAD7B /* Gravity.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DCC151E5473008BAD7B /* Gravity.mm */; };
 		C0310DCE151E5473008BAD7B /* Gravity.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DCC151E5473008BAD7B /* Gravity.mm */; };
 		C0310DD1151E5498008BAD7B /* GravityTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DD0151E5498008BAD7B /* GravityTest.mm */; };
+		C0310DD4151F67ED008BAD7B /* MyContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DD3151F67EC008BAD7B /* MyContactListener.mm */; };
+		C0310DD5151F67ED008BAD7B /* MyContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DD3151F67EC008BAD7B /* MyContactListener.mm */; };
 		C05ADA4C1447ADA200B93C8D /* BaseBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA381447ADA200B93C8D /* BaseBackgroundLayer.m */; };
 		C05ADA4D1447ADA200B93C8D /* BasePlanetaryLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.m */; };
 		C05ADA4E1447ADA200B93C8D /* BasePlanetSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3C1447ADA200B93C8D /* BasePlanetSprite.m */; };
@@ -933,6 +935,8 @@
 		C0310DCB151E5473008BAD7B /* Gravity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gravity.h; sourceTree = "<group>"; };
 		C0310DCC151E5473008BAD7B /* Gravity.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Gravity.mm; sourceTree = "<group>"; };
 		C0310DD0151E5498008BAD7B /* GravityTest.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GravityTest.mm; sourceTree = "<group>"; };
+		C0310DD2151F67EB008BAD7B /* MyContactListener.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyContactListener.h; sourceTree = "<group>"; };
+		C0310DD3151F67EC008BAD7B /* MyContactListener.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = MyContactListener.mm; sourceTree = "<group>"; };
 		C05ADA371447ADA200B93C8D /* BaseBackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBackgroundLayer.h; sourceTree = "<group>"; };
 		C05ADA381447ADA200B93C8D /* BaseBackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBackgroundLayer.m; sourceTree = "<group>"; };
 		C05ADA391447ADA200B93C8D /* BasePlanetaryLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlanetaryLayer.h; sourceTree = "<group>"; };
@@ -1662,6 +1666,8 @@
 				C05ADA561447AF6500B93C8D /* BaseHUDLayer.m */,
 				C08A08A9144A344900978E5C /* BaseShip.h */,
 				C08A08AA144A344A00978E5C /* BaseShip.mm */,
+				C0310DD2151F67EB008BAD7B /* MyContactListener.h */,
+				C0310DD3151F67EC008BAD7B /* MyContactListener.mm */,
 				C0A77ABD1450E18F0005C2B2 /* BaseWorld.h */,
 				C0A77ABE1450E18F0005C2B2 /* BaseWorld.mm */,
 				C0B5F28B145A1058001695ED /* BasePlanetGameObject.h */,
@@ -2485,6 +2491,7 @@
 				C0746A8714D0F62500461441 /* BaseScene.m in Sources */,
 				C0B53001150BC45D00CADF08 /* CoordManager.mm in Sources */,
 				C0310DCD151E5473008BAD7B /* Gravity.mm in Sources */,
+				C0310DD4151F67ED008BAD7B /* MyContactListener.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2522,6 +2529,7 @@
 				C0B53002150BC45D00CADF08 /* CoordManager.mm in Sources */,
 				C0310DCE151E5473008BAD7B /* Gravity.mm in Sources */,
 				C0310DD1151E5498008BAD7B /* GravityTest.mm in Sources */,
+				C0310DD5151F67ED008BAD7B /* MyContactListener.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

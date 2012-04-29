@@ -8,7 +8,7 @@
 
 #import "BasePlanetGameObject.h"
 #import "CoordManager.h"
-
+#import "Constants.h"
 
 @implementation BasePlanetGameObject
 
@@ -23,9 +23,16 @@
     fixture->shape = myshape;
     return;
 }
+
+-(id)initPhysics{
+    [super initPhysics];
+    self.tag = PLANET_TAG;
+    return self;
+}
+
 -(float)getRadius
 {  
-    return 2.0f;
+    return (self.textureRect.size.width*self.scale)/2.0f;
 }
 
 -(void)dealloc

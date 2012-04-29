@@ -15,6 +15,7 @@
 #import "GLES-Render.h"
 
 #import "Gravity.h"
+#import "MyContactListener.h"
 
 
 
@@ -27,6 +28,7 @@
     BaseStarshipLayer* starshipLayer;
     Gravity* gravity;
     CGRect boundary;
+    MyContactListener *_contactListener;
 #ifdef DEBUG_MODE
     GLESDebugDraw *_debugDraw;
 #endif
@@ -45,6 +47,7 @@
 -(void)start;
 -(void)applyGravity;
 -(void)tick:(ccTime)dt;
+-(void)detectCollisionsInTick:(ccTime)dt;
 -(BasePlanetaryLayer*)getPlanetaryLayer;
 -(BaseStarshipLayer*)getStarshipLayer;
 -(CGFloat)getLevelWidth;

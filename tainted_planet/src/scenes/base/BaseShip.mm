@@ -9,6 +9,7 @@
 #import "BaseShip.h"
 #import "Box2D.h"
 #import "CoordManager.h"
+#import "Constants.h"
 
 @implementation BaseShip
 
@@ -24,6 +25,13 @@
 {
     return launched;
 }
+
+-(id)initPhysics{
+    [super initPhysics];
+    self.tag = OBJECT_TAG;
+    return self;
+}
+
 
 -(void)takePlanetPosition: (BasePlanetGameObject*)planet
 {

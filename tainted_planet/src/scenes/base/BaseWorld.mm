@@ -25,6 +25,9 @@
         self._world = new b2World(gravityVec, doSleep);
         self.objectsInitialized = NO;
         boundary = [[UIScreen mainScreen]bounds];
+        // Create contact listener
+        _contactListener = new MyContactListener();
+        _world->SetContactListener(_contactListener);
         
 #ifdef DEBUG_MODE
             // Enable debug draw
@@ -93,9 +96,46 @@
             sprite.rotation = -1 * CC_RADIANS_TO_DEGREES(b->GetAngle());
         }        
     }
-    
+    [self detectCollisionsInTick:dt];
 }
 
+
+-(void)detectCollisionsInTick:(ccTime)dt
+{
+    std::vector<b2Body *>toDestroy; 
+    std::vector<MyContact>::iterator pos;
+    for(pos = _contactListener->_contacts.begin(); 
+        pos != _contactListener->_contacts.end(); ++pos) {
+        MyContact contact = *pos;
+        
+        b2Body *bodyA = contact.fixtureA->GetBody();
+        b2Body *bodyB = contact.fixtureB->GetBody();
+        if (bodyA->GetUserData() != NULL && bodyB->GetUserData() != NULL) {
+            CCSprite *spriteA = (CCSprite *) bodyA->GetUserData();
+            CCSprite *spriteB = (CCSprite *) bodyB->GetUserData();
+            
+            if (spriteA.tag == PLANET_TAG && spriteB.tag == OBJECT_TAG) {
+                toDestroy.push_back(bodyA);
+            } else if (spriteA.tag == OBJECT_TAG && spriteB.tag == PLANET_TAG) {
+                toDestroy.push_back(bodyB);
+            } 
+        }        
+    }
+    
+    std::vector<b2Body *>::iterator pos2;
+    for(pos2 = toDestroy.begin(); pos2 != toDestroy.end(); ++pos2) {
+        b2Body *body = *pos2;     
+        if (body->GetUserData() != NULL) {
+            CCSprite *sprite = (CCSprite *) body->GetUserData();
+            sprite.opacity = 1;
+        }
+        _world->DestroyBody(body);
+    }
+    
+  /*  if (toDestroy.size() > 0) {
+        [[SimpleAudioEngine sharedEngine] playEffect:@"hahaha.caf"];   
+    }*/
+}
 
 -(void)applyGravity{
     BaseGameObject * ship = [[self getStarshipLayer] getShip];

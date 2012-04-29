@@ -9,9 +9,13 @@
 #define kMainMenuTagValue 10
 #define kSceneMenuTagValue 20
 
-#define DEBUG_MODE 1
+//#define DEBUG_MODE 1
 
 #define GRAVITIC_DRIVE 1000.0f
+
+#define PLANET_TAG 1
+#define OBJECT_TAG 2
+#define POWERUP_TAG 3
 
 //Vector goes from a to b
 #define CGPOINT_SUB(a,b) CGPointMake(b.x - a.x, b.y - a.y)

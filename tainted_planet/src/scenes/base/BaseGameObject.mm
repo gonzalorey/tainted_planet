@@ -28,13 +28,6 @@
 
 -(id)initPhysics
 {
-   
-    // Create sprite and add it to the layer
-//    CCSprite *ball = [CCSprite spriteWithFile:@"Ball.jpg" rect:CGRectMake(0, 0, 52, 52)];
-//    ball.position = ccp(100, 100);
-//    ball.tag = 1;
-    
-    // Create the body
     b2BodyDef bodyDef;
     bodyDef.type = b2_dynamicBody;
     bodyDef.position.Set(self.position.x/PTM_RATIO, self.position.y/PTM_RATIO);
@@ -42,14 +35,8 @@
     
     need_to_create = YES;
     
-//    bodyDef.userData = ball;
     b2World* world = [[[GameManager sharedGameManager] getRunningWorld] _world]; 
     body = world->CreateBody(&bodyDef);
-    
-    // Set the body shape
-    //b2CircleShape shape;
-    //shape.m_radius = 26.0/PTM_RATIO;
-
 
     // Create shape definition and add to body
     b2FixtureDef shapeDef;
@@ -58,9 +45,8 @@
     shapeDef.density = 1.0f;
     shapeDef.friction = 0.1f;
     shapeDef.restitution = 1.0f;
+    shapeDef.isSensor = YES;
     bodyFixture = body->CreateFixture(&shapeDef);
-
-
 
     return self;
 }
@@ -96,4 +82,5 @@
     b2Vec2 vel = body->GetLinearVelocity();
     return CGPointMake(vel.x, vel.y);
 }
+
 @end

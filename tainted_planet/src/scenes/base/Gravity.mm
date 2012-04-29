@@ -53,6 +53,11 @@ static Gravity* _instance = nil;
 -(CGPoint)gravBtwnPlanet:(BasePlanetGameObject*) planet andObj:(BaseGameObject*)obj{
     CGPoint force = CGPointMake(0, 0);
     force = CGPOINT_SUB(obj.position, planet.position);
+    float radius = [planet getRadius];
+    if(fabs(force.x) <= radius && fabs(force.y) <= radius)
+    {
+        force = CGPointMake(-radius, -radius);
+    }
     CGFloat power = force.x*force.x + force.y*force.y;
     CGFloat powsqrt = sqrtf(power);
     force = CGPointMake(force.x / powsqrt, force.y / powsqrt);
