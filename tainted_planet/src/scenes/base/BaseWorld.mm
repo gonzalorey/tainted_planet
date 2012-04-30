@@ -111,12 +111,14 @@
         b2Body *bodyA = contact.fixtureA->GetBody();
         b2Body *bodyB = contact.fixtureB->GetBody();
         if (bodyA->GetUserData() != NULL && bodyB->GetUserData() != NULL) {
-            CCSprite *spriteA = (CCSprite *) bodyA->GetUserData();
-            CCSprite *spriteB = (CCSprite *) bodyB->GetUserData();
+            BaseGameObject *objectA = (BaseGameObject *) bodyA->GetUserData();
+            BaseGameObject *objectB = (BaseGameObject *) bodyB->GetUserData();
             
-            if (spriteA.tag == PLANET_TAG && spriteB.tag == OBJECT_TAG) {
+            NSLog(@"tag a %d",objectA.collisionTag);
+            NSLog(@"tag b %d",objectB.collisionTag);
+            if (objectA.collisionTag == PLANET_TAG && objectB.collisionTag == OBJECT_TAG) {
                 toDestroy.push_back(bodyA);
-            } else if (spriteA.tag == OBJECT_TAG && spriteB.tag == PLANET_TAG) {
+            } else if (objectA.collisionTag == OBJECT_TAG && objectB.collisionTag == PLANET_TAG) {
                 toDestroy.push_back(bodyB);
             } 
         }        

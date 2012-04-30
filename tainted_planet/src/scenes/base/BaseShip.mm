@@ -27,8 +27,9 @@
 }
 
 -(id)initPhysics{
+    self.collisionTag = OBJECT_TAG;
     [super initPhysics];
-    self.tag = OBJECT_TAG;
+
     return self;
 }
 
@@ -54,6 +55,8 @@
     myshape->m_radius = [[CoordManager getInstance] box2Dradius:self];
     
     fixture->shape = myshape;
+    
+
     return;
 }
 

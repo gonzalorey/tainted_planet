@@ -21,12 +21,14 @@
     myshape->m_radius = [coord box2Dradius:self];
     
     fixture->shape = myshape;
+    
+    self.collisionTag = PLANET_TAG;
     return;
 }
 
 -(id)initPhysics{
+
     [super initPhysics];
-    self.tag = PLANET_TAG;
     return self;
 }
 

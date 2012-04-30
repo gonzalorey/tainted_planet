@@ -19,6 +19,7 @@
     b2Fixture* bodyFixture;
     CGFloat relativeScale;
     bool need_to_create;
+    NSInteger collisionTag;
 }
 
 @property (nonatomic, assign) float mass;
@@ -26,6 +27,7 @@
 @property (nonatomic, assign) b2Body* body;
 @property (nonatomic, assign) b2Fixture* bodyFixture;
 @property (nonatomic, assign) CGFloat relativeScale;
+@property (nonatomic, assign) NSInteger collisionTag;
 
 -(id)initWithMass:(float)m scale:(float)s pos:(CGPoint)p file:(NSString *)afilename;
 -(id)initPhysics;

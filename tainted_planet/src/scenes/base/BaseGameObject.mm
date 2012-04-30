@@ -12,7 +12,7 @@
 #import "CoordManager.h"
 
 @implementation BaseGameObject
-@synthesize mass, filename, body, bodyFixture, relativeScale;
+@synthesize mass, filename, body, bodyFixture, relativeScale, collisionTag;
 
 -(id)initWithMass:(float)m scale:(float)s pos:(CGPoint)p file:(NSString *)afilename
 {
@@ -47,7 +47,7 @@
     shapeDef.restitution = 1.0f;
     shapeDef.isSensor = YES;
     bodyFixture = body->CreateFixture(&shapeDef);
-
+    bodyFixture->SetUserData(self);
     return self;
 }
 
