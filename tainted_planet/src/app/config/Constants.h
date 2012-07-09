@@ -9,7 +9,11 @@
 #define kMainMenuTagValue 10
 #define kSceneMenuTagValue 20
 
+<<<<<<< HEAD
 //#define DEBUG_MODE 1
+=======
+#define DEBUG_MODE 0
+>>>>>>> Game Center before merging to the new tainted_planet_v2.
 
 #define GRAVITIC_DRIVE 100.0f
 

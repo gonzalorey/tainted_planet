@@ -48,6 +48,8 @@
 		008B7CA6144A3AF100FDA8FE /* Lvl1HUDLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = 008B7CA5144A3AF000FDA8FE /* Lvl1HUDLayer.mm */; };
 		0099F9DC143F44E700C1F499 /* background1.png in Resources */ = {isa = PBXBuildFile; fileRef = 0099F9D8143F44E700C1F499 /* background1.png */; };
 		0099F9F2143F45A800C1F499 /* GameManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0099F9F1143F45A800C1F499 /* GameManager.mm */; };
+		00F9032815AB78B0000F8F5F /* GameCenterManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 00F9032715AB78AF000F8F5F /* GameCenterManager.m */; };
+		00F9032A15AB7CF6000F8F5F /* GameKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00F9032915AB7CF6000F8F5F /* GameKit.framework */; };
 		C0310DCD151E5473008BAD7B /* Gravity.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DCC151E5473008BAD7B /* Gravity.mm */; };
 		C0310DCE151E5473008BAD7B /* Gravity.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DCC151E5473008BAD7B /* Gravity.mm */; };
 		C0310DD1151E5498008BAD7B /* GravityTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DD0151E5498008BAD7B /* GravityTest.mm */; };
@@ -935,6 +937,9 @@
 		0099F9D8143F44E700C1F499 /* background1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background1.png; sourceTree = "<group>"; };
 		0099F9F0143F45A800C1F499 /* GameManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameManager.h; sourceTree = "<group>"; };
 		0099F9F1143F45A800C1F499 /* GameManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = GameManager.mm; sourceTree = "<group>"; };
+		00F9032615AB78AF000F8F5F /* GameCenterManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GameCenterManager.h; sourceTree = "<group>"; };
+		00F9032715AB78AF000F8F5F /* GameCenterManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GameCenterManager.m; sourceTree = "<group>"; };
+		00F9032915AB7CF6000F8F5F /* GameKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameKit.framework; path = System/Library/Frameworks/GameKit.framework; sourceTree = SDKROOT; };
 		C012D1761479A95D007EBA69 /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = Frameworks/GHUnitIOS.framework; sourceTree = "<group>"; };
 		C0310DCB151E5473008BAD7B /* Gravity.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Gravity.h; sourceTree = "<group>"; };
 		C0310DCC151E5473008BAD7B /* Gravity.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = Gravity.mm; sourceTree = "<group>"; };
@@ -1006,6 +1011,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				00F9032A15AB7CF6000F8F5F /* GameKit.framework in Frameworks */,
 				0026A5E414390BD500F2FF6B /* QuartzCore.framework in Frameworks */,
 				0026A5E614390BD500F2FF6B /* OpenGLES.framework in Frameworks */,
 				0026A5E814390BD500F2FF6B /* OpenAL.framework in Frameworks */,
@@ -1068,6 +1074,7 @@
 				C0D92EF014C64A5900BAA888 /* libcocos2d.a */,
 				C0D92EED14C64A4A00BAA888 /* libbox2d.a */,
 				C0DE13C414841EFA0000A5F3 /* libz.dylib */,
+				00F9032915AB7CF6000F8F5F /* GameKit.framework */,
 				C012D1761479A95D007EBA69 /* GHUnitIOS.framework */,
 				0026A5E314390BD500F2FF6B /* QuartzCore.framework */,
 				0026A5E514390BD500F2FF6B /* OpenGLES.framework */,
@@ -1638,6 +1645,8 @@
 			children = (
 				0099F9F0143F45A800C1F499 /* GameManager.h */,
 				0099F9F1143F45A800C1F499 /* GameManager.mm */,
+				00F9032615AB78AF000F8F5F /* GameCenterManager.h */,
+				00F9032715AB78AF000F8F5F /* GameCenterManager.m */,
 			);
 			path = managers;
 			sourceTree = "<group>";
@@ -1756,7 +1765,7 @@
 			isa = PBXGroup;
 			children = (
 				C0D92E6614C6445100BAA888 /* libbuild all tests.a */,
-				C0D92E6814C6445100BAA888 /* lib/Users/dgrandes/Documents/iOS/build.a */,
+				C0D92E6814C6445100BAA888 /* libbox2d.a */,
 				C0D92E6A14C6445100BAA888 /* libChipmunk.a */,
 				C0D92E6C14C6445100BAA888 /* libcocos2d.a */,
 				C0D92E6E14C6445100BAA888 /* libcocos2d-documentation.a */,
@@ -1953,10 +1962,10 @@
 			remoteRef = C0D92E6514C6445100BAA888 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		C0D92E6814C6445100BAA888 /* lib/Users/dgrandes/Documents/iOS/build.a */ = {
+		C0D92E6814C6445100BAA888 /* libbox2d.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
-			path = lib/Users/dgrandes/Documents/iOS/build.a;
+			path = libbox2d.a;
 			remoteRef = C0D92E6714C6445100BAA888 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
@@ -2495,8 +2504,12 @@
 				C0746A8714D0F62500461441 /* BaseScene.m in Sources */,
 				C0B53001150BC45D00CADF08 /* CoordManager.mm in Sources */,
 				C0310DCD151E5473008BAD7B /* Gravity.mm in Sources */,
+<<<<<<< HEAD
 				C0310DD4151F67ED008BAD7B /* MyContactListener.mm in Sources */,
 				C07E4A1515AB668C00418841 /* TrackManager.mm in Sources */,
+=======
+				00F9032815AB78B0000F8F5F /* GameCenterManager.m in Sources */,
+>>>>>>> Game Center before merging to the new tainted_planet_v2.
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
