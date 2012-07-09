@@ -17,10 +17,10 @@
 {
     NSMutableArray* myplanets= [[NSMutableArray alloc]init];
     
-    [myplanets addObject:[[BasePlanetGameObject alloc] initWithMass:100 scale:0.125f pos:CGPointMake(0.75, 0.25f)                                                               file:@"planet1.png"]];
+    [myplanets addObject:[[BasePlanetGameObject alloc] initWithMass:100 scale:0.125f pos:CGPointMake(0.5f, 0.5f)                                                               file:@"planet1.png"]];
      
-    [myplanets addObject:[[BasePlanetGameObject alloc] initWithMass:100 scale:0.125f pos:CGPointMake(0.25f, 0.75f)                                                               file:@"planet2.png"]];
-    
+/*    [myplanets addObject:[[BasePlanetGameObject alloc] initWithMass:100 scale:0.125f pos:CGPointMake(0.25f, 0.75f)                                                               file:@"planet2.png"]];
+ */   
     
     return [myplanets autorelease];
 }

@@ -54,7 +54,7 @@
 		C0310DD4151F67ED008BAD7B /* MyContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DD3151F67EC008BAD7B /* MyContactListener.mm */; };
 		C0310DD5151F67ED008BAD7B /* MyContactListener.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0310DD3151F67EC008BAD7B /* MyContactListener.mm */; };
 		C05ADA4C1447ADA200B93C8D /* BaseBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA381447ADA200B93C8D /* BaseBackgroundLayer.m */; };
-		C05ADA4D1447ADA200B93C8D /* BasePlanetaryLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.m */; };
+		C05ADA4D1447ADA200B93C8D /* BasePlanetaryLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.mm */; };
 		C05ADA4E1447ADA200B93C8D /* BasePlanetSprite.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3C1447ADA200B93C8D /* BasePlanetSprite.m */; };
 		C05ADA501447ADA200B93C8D /* BaseStarshipLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA401447ADA200B93C8D /* BaseStarshipLayer.mm */; };
 		C05ADA511447ADA200B93C8D /* MainMenuLayer_old.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA441447ADA200B93C8D /* MainMenuLayer_old.mm */; };
@@ -73,6 +73,10 @@
 		C07AD86714883CC600E28F42 /* GHUnitCocos2dBase.m in Sources */ = {isa = PBXBuildFile; fileRef = C07AD86514883CC600E28F42 /* GHUnitCocos2dBase.m */; };
 		C07AD89D148842CF00E28F42 /* BaseTestWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */; };
 		C07AD89E148842CF00E28F42 /* BaseTestWorld.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */; };
+		C07E4A1515AB668C00418841 /* TrackManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07E4A1415AB668A00418841 /* TrackManager.mm */; };
+		C07E4A1615AB668C00418841 /* TrackManager.mm in Sources */ = {isa = PBXBuildFile; fileRef = C07E4A1415AB668A00418841 /* TrackManager.mm */; };
+		C07E4A2415AB82D200418841 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = C07E4A2315AB82D200418841 /* ship.png */; };
+		C07E4A2515AB82D200418841 /* ship.png in Resources */ = {isa = PBXBuildFile; fileRef = C07E4A2315AB82D200418841 /* ship.png */; };
 		C08039D4149172BE006C6CE4 /* MainMenuScene.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA591447B14100B93C8D /* MainMenuScene.m */; };
 		C08039D5149172F5006C6CE4 /* MainMenuLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA5C1447B16D00B93C8D /* MainMenuLayer.mm */; };
 		C08A08AB144A344A00978E5C /* BaseShip.mm in Sources */ = {isa = PBXBuildFile; fileRef = C08A08AA144A344A00978E5C /* BaseShip.mm */; };
@@ -106,7 +110,7 @@
 		C0DE143814842A5F0000A5F3 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0026A5F114390BD500F2FF6B /* CoreGraphics.framework */; };
 		C0DE143D14842EA20000A5F3 /* SpaceshipTest.mm in Sources */ = {isa = PBXBuildFile; fileRef = C0DE143B14842E810000A5F3 /* SpaceshipTest.mm */; };
 		C0DE1444148431CB0000A5F3 /* BaseBackgroundLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA381447ADA200B93C8D /* BaseBackgroundLayer.m */; };
-		C0DE1445148431CB0000A5F3 /* BasePlanetaryLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.m */; };
+		C0DE1445148431CB0000A5F3 /* BasePlanetaryLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.mm */; };
 		C0DE1447148431CB0000A5F3 /* BaseStarshipLayer.mm in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA401447ADA200B93C8D /* BaseStarshipLayer.mm */; };
 		C0DE1448148431CB0000A5F3 /* BaseHUDLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = C05ADA561447AF6500B93C8D /* BaseHUDLayer.m */; };
 		C0DE1449148431CB0000A5F3 /* BaseShip.mm in Sources */ = {isa = PBXBuildFile; fileRef = C08A08AA144A344A00978E5C /* BaseShip.mm */; };
@@ -940,7 +944,7 @@
 		C05ADA371447ADA200B93C8D /* BaseBackgroundLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseBackgroundLayer.h; sourceTree = "<group>"; };
 		C05ADA381447ADA200B93C8D /* BaseBackgroundLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseBackgroundLayer.m; sourceTree = "<group>"; };
 		C05ADA391447ADA200B93C8D /* BasePlanetaryLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlanetaryLayer.h; sourceTree = "<group>"; };
-		C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePlanetaryLayer.m; sourceTree = "<group>"; };
+		C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BasePlanetaryLayer.mm; sourceTree = "<group>"; };
 		C05ADA3B1447ADA200B93C8D /* BasePlanetSprite.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasePlanetSprite.h; sourceTree = "<group>"; };
 		C05ADA3C1447ADA200B93C8D /* BasePlanetSprite.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasePlanetSprite.m; sourceTree = "<group>"; };
 		C05ADA3D1447ADA200B93C8D /* BaseScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseScene.h; sourceTree = "<group>"; };
@@ -969,6 +973,9 @@
 		C07AD86614883CC600E28F42 /* GHUnitCocos2dBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHUnitCocos2dBase.h; sourceTree = "<group>"; };
 		C07AD89B148842CD00E28F42 /* BaseTestWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseTestWorld.h; sourceTree = "<group>"; };
 		C07AD89C148842CE00E28F42 /* BaseTestWorld.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseTestWorld.mm; sourceTree = "<group>"; };
+		C07E4A1315AB668900418841 /* TrackManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TrackManager.h; sourceTree = "<group>"; };
+		C07E4A1415AB668A00418841 /* TrackManager.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = TrackManager.mm; sourceTree = "<group>"; };
+		C07E4A2315AB82D200418841 /* ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ship.png; sourceTree = "<group>"; };
 		C08A08A9144A344900978E5C /* BaseShip.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseShip.h; sourceTree = "<group>"; };
 		C08A08AA144A344A00978E5C /* BaseShip.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = BaseShip.mm; sourceTree = "<group>"; };
 		C0A77ABD1450E18F0005C2B2 /* BaseWorld.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseWorld.h; sourceTree = "<group>"; };
@@ -1600,9 +1607,9 @@
 		0099F9D6143F44E700C1F499 /* Graphics */ = {
 			isa = PBXGroup;
 			children = (
+				C07E4A2315AB82D200418841 /* ship.png */,
 				0099F9D7143F44E700C1F499 /* Backgrounds */,
 				0099F9D9143F44E700C1F499 /* Planets */,
-				0099F9DB143F44E700C1F499 /* Ships */,
 			);
 			name = Graphics;
 			path = Resources/Graphics;
@@ -1624,13 +1631,6 @@
 				008B7CA0144A379600FDA8FE /* planet2.png */,
 			);
 			path = Planets;
-			sourceTree = "<group>";
-		};
-		0099F9DB143F44E700C1F499 /* Ships */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = Ships;
 			sourceTree = "<group>";
 		};
 		0099F9EF143F45A800C1F499 /* managers */ = {
@@ -1657,7 +1657,7 @@
 				C05ADA371447ADA200B93C8D /* BaseBackgroundLayer.h */,
 				C05ADA381447ADA200B93C8D /* BaseBackgroundLayer.m */,
 				C05ADA391447ADA200B93C8D /* BasePlanetaryLayer.h */,
-				C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.m */,
+				C05ADA3A1447ADA200B93C8D /* BasePlanetaryLayer.mm */,
 				C05ADA3D1447ADA200B93C8D /* BaseScene.h */,
 				C0746A8614D0F62400461441 /* BaseScene.m */,
 				C05ADA3F1447ADA200B93C8D /* BaseStarshipLayer.h */,
@@ -1682,6 +1682,8 @@
 				C0B53000150BC45D00CADF08 /* CoordManager.mm */,
 				C0310DCB151E5473008BAD7B /* Gravity.h */,
 				C0310DCC151E5473008BAD7B /* Gravity.mm */,
+				C07E4A1315AB668900418841 /* TrackManager.h */,
+				C07E4A1415AB668A00418841 /* TrackManager.mm */,
 			);
 			path = base;
 			sourceTree = "<group>";
@@ -2444,6 +2446,7 @@
 				008B7C99144A2E0200FDA8FE /* background2.png in Resources */,
 				008B7CA1144A379600FDA8FE /* planet2.png in Resources */,
 				008B7CA3144A39C200FDA8FE /* planet1.png in Resources */,
+				C07E4A2415AB82D200418841 /* ship.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2452,6 +2455,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C0DE1295148419410000A5F3 /* InfoPlist.strings in Resources */,
+				C07E4A2515AB82D200418841 /* ship.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2468,7 +2472,7 @@
 				0026A7E91439105D00F2FF6B /* RootViewController.m in Sources */,
 				0099F9F2143F45A800C1F499 /* GameManager.mm in Sources */,
 				C05ADA4C1447ADA200B93C8D /* BaseBackgroundLayer.m in Sources */,
-				C05ADA4D1447ADA200B93C8D /* BasePlanetaryLayer.m in Sources */,
+				C05ADA4D1447ADA200B93C8D /* BasePlanetaryLayer.mm in Sources */,
 				C05ADA4E1447ADA200B93C8D /* BasePlanetSprite.m in Sources */,
 				C05ADA501447ADA200B93C8D /* BaseStarshipLayer.mm in Sources */,
 				C05ADA511447ADA200B93C8D /* MainMenuLayer_old.mm in Sources */,
@@ -2492,6 +2496,7 @@
 				C0B53001150BC45D00CADF08 /* CoordManager.mm in Sources */,
 				C0310DCD151E5473008BAD7B /* Gravity.mm in Sources */,
 				C0310DD4151F67ED008BAD7B /* MyContactListener.mm in Sources */,
+				C07E4A1515AB668C00418841 /* TrackManager.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2503,7 +2508,7 @@
 				C0DE1298148419410000A5F3 /* main.m in Sources */,
 				C08039D5149172F5006C6CE4 /* MainMenuLayer.mm in Sources */,
 				C0DE1444148431CB0000A5F3 /* BaseBackgroundLayer.m in Sources */,
-				C0DE1445148431CB0000A5F3 /* BasePlanetaryLayer.m in Sources */,
+				C0DE1445148431CB0000A5F3 /* BasePlanetaryLayer.mm in Sources */,
 				C0DE1447148431CB0000A5F3 /* BaseStarshipLayer.mm in Sources */,
 				C0DE1448148431CB0000A5F3 /* BaseHUDLayer.m in Sources */,
 				C08039D4149172BE006C6CE4 /* MainMenuScene.m in Sources */,
@@ -2530,6 +2535,7 @@
 				C0310DCE151E5473008BAD7B /* Gravity.mm in Sources */,
 				C0310DD1151E5498008BAD7B /* GravityTest.mm in Sources */,
 				C0310DD5151F67ED008BAD7B /* MyContactListener.mm in Sources */,
+				C07E4A1615AB668C00418841 /* TrackManager.mm in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

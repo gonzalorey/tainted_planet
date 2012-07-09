@@ -26,6 +26,21 @@
     return self;
 }
 
+-(id)initWithMass:(float)m scale:(float)s track:(int)track angle:(float)angle file:(NSString *)afilename{
+    BaseWorld * world = [[GameManager sharedGameManager]getRunningWorld];
+    NSMutableArray* planets = [[world getPlanetaryLayer] getPlanets];
+    [super initWithFile:afilename];
+    TrackManager* trackManager = [TrackManager getInstance];
+    CoordManager* coord = [CoordManager getInstance];
+    self.mass = m;
+    self.relativeScale = s;
+    self.scale = [coord scale:self withScale:s];
+    CGPoint posInTrack = [trackManager getPositionforTrack:track degrees:angle fromPlanet:[planets objectAtIndex:0]];
+    self.position =  posInTrack;
+    self = [self initPhysics];
+    return self;
+}
+
 -(id)initPhysics
 {
     b2BodyDef bodyDef;
@@ -61,6 +76,7 @@
 {
     return self.position;
 }
+
 
 
 -(void)applyLinearImpulse:(CGPoint)impulse

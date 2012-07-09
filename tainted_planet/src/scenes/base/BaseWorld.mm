@@ -9,7 +9,7 @@
 #import "BaseWorld.h"
 
 @implementation BaseWorld
-@synthesize _world, objectsInitialized, planetaryLayer, starshipLayer, boundary;
+@synthesize _world, objectsInitialized, planetaryLayer, starshipLayer, boundary, trackManager;
 #ifdef DEBUG_MODE
     @synthesize _debugDraw;
 #endif
@@ -63,6 +63,7 @@
     self.starshipLayer = [self getStarshipLayer];
     if(self.starshipLayer)
         [self addChild:self.starshipLayer z:10];
+    
 }
 
 -(void)start{
@@ -96,8 +97,12 @@
             sprite.rotation = -1 * CC_RADIANS_TO_DEGREES(b->GetAngle());
         }        
     }
+    
+    
+    
     [self detectCollisionsInTick:dt];
 }
+
 
 
 -(void)detectCollisionsInTick:(ccTime)dt
@@ -140,9 +145,11 @@
 }
 
 -(void)applyGravity{
-    BaseGameObject * ship = [[self getStarshipLayer] getShip];
-    CGPoint force = [gravity gravBtwnLayer:[self getPlanetaryLayer] andObj:ship];
-    [ship applyForce:force];
+    BaseShip * ship = [[self getStarshipLayer] getShip];
+    if([ship hasLaunched]){
+        CGPoint force = [gravity gravBtwnLayer:[self getPlanetaryLayer] andObj:ship];
+        [ship applyForce:force];
+    }
 }
 
 -(CGFloat)getLevelWidth{
@@ -153,6 +160,17 @@
 
 -(CGFloat)getLevelHeight{
     return boundary.size.height;
+}
+
+-(TrackManager*)getTrackManager
+{
+    if(self.trackManager == nil)
+        self.trackManager = [TrackManager node];
+    return self.trackManager;
+}
+
+-(void)draw{
+    [[self getTrackManager] drawTrackLines:[self.planetaryLayer getPlanets]];
 }
 
 #ifdef DEBUG_MODE

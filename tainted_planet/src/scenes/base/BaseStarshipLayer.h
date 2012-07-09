@@ -18,5 +18,5 @@
 -(id)init;
 -(BaseShip*)getShip;
 -(BaseShip*)createShip;
-
+-(void)positionShip:(NSMutableArray*) planets;
 @end

@@ -7,7 +7,9 @@
 //
 
 #import "BasePlanetaryLayer.h"
-#import "BasePlanetSprite.h"
+#import "BasePlanetGameObject.h"
+#import "Constants.h"
+
 
 @implementation BasePlanetaryLayer
 
@@ -18,12 +20,11 @@
     if(self != nil){
         
         self.planets = [self createPlanets];
-        for(BasePlanetSprite* planet in self.planets)
+        for(BasePlanetGameObject* planet in self.planets)
         {
             [self addChild:planet z:0  tag:0];
             
         }
-        
     }
     return self;
 }
@@ -41,4 +42,7 @@
 {
     return nil;
 }
+
+
+
 @end

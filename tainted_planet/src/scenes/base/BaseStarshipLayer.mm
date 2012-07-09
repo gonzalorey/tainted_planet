@@ -36,6 +36,11 @@
         return ship;
 }
 
+-(void)positionShip:(NSMutableArray*) planets
+{
+
+}
+
 -(void)dealloc
 {
     [ship release];

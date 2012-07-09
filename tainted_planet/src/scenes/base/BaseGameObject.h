@@ -30,6 +30,7 @@
 @property (nonatomic, assign) NSInteger collisionTag;
 
 -(id)initWithMass:(float)m scale:(float)s pos:(CGPoint)p file:(NSString *)afilename;
+-(id)initWithMass:(float)m scale:(float)s track:(int)track angle:(float)angle file:(NSString *)afilename;
 -(id)initPhysics;
 -(void)setShape:(b2FixtureDef*)fixture;
 -(CGPoint)getPosition;

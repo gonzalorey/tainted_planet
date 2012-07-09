@@ -16,7 +16,7 @@
 
 #import "Gravity.h"
 #import "MyContactListener.h"
-
+#import "TrackManager.h"
 
 
 #define PTM_RATIO 32
@@ -29,6 +29,7 @@
     Gravity* gravity;
     CGRect boundary;
     MyContactListener *_contactListener;
+    TrackManager* trackManager;
 #ifdef DEBUG_MODE
     GLESDebugDraw *_debugDraw;
 #endif
@@ -39,6 +40,7 @@
 @property (nonatomic, retain) BasePlanetaryLayer* planetaryLayer;
 @property (nonatomic, retain) BaseStarshipLayer* starshipLayer;
 @property (nonatomic, assign) CGRect boundary;
+@property (nonatomic, retain) TrackManager * trackManager;
 #ifdef DEBUG_MODE
     @property (nonatomic, assign) GLESDebugDraw *_debugDraw;
 #endif
@@ -52,4 +54,5 @@
 -(BaseStarshipLayer*)getStarshipLayer;
 -(CGFloat)getLevelWidth;
 -(CGFloat)getLevelHeight;
+-(TrackManager*)getTrackManager;
 @end
